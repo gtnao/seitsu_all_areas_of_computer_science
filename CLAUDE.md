@@ -1,8 +1,16 @@
 # Seitsu: All Areas of Computer Science
 
+## IMPORTANT: Language Rules
+
+- **CRITICAL: All articles MUST be written entirely in Japanese.** This is a Japanese-language technical article repository. Every heading, paragraph, explanation, and description must be in Japanese. The only exceptions are:
+  - Technical terms that are conventionally written in English (e.g., B-Tree, TCP, API, mutex)
+  - Code snippets and their inline comments (English)
+  - Mermaid diagram labels (may use English for technical terms where appropriate)
+- Do NOT write articles in English. Do NOT mix English prose into Japanese articles. When in doubt, write in Japanese.
+
 ## Project Overview
 
-This repository contains in-depth technical articles covering all areas of computer science. Articles are written in Markdown and stored in the `docs/` directory.
+コンピューターサイエンスの全領域をカバーする、深い技術解説記事を収めるリポジトリ。記事はMarkdown形式で `docs/` ディレクトリに配置する。
 
 ## Article Writing Guidelines
 
@@ -12,8 +20,8 @@ This repository contains in-depth technical articles covering all areas of compu
 - **Location**: `docs/` directory
 - **Diagrams**: Use Mermaid diagrams for complex visualizations, ASCII art for simple illustrations
 - **Minimum length**: 10,000 characters (longer is fine)
+- **Language**: **Japanese** (see IMPORTANT section above)
 - **Code comments**: English
-- **Article language**: Japanese
 
 ### Front Matter
 
