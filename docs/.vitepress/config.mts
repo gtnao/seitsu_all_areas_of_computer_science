@@ -141,9 +141,16 @@ export default withMermaid(
           ],
         },
         {
+          text: "クエリ処理",
+          items: [
+            { text: "クエリオプティマイザ", link: "/query-optimizer" },
+          ],
+        },
+        {
           text: "分散システムの理論的基盤",
           items: [
             { text: "CAP定理とPACELC", link: "/cap-theorem" },
+            { text: "論理時計（Lamport Clock, Vector Clock）", link: "/logical-clocks" },
           ],
         },
         {
@@ -291,6 +298,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "プロセスとスレッド",
+          items: [
+            { text: "プロセスの概念とライフサイクル", link: "/process" },
+          ],
+        },
+        {
           text: "メモリ管理",
           items: [
             { text: "仮想メモリとページング", link: "/virtual-memory" },
@@ -387,6 +400,7 @@ export default withMermaid(
         {
           text: "ニューラルネットワークアーキテクチャ",
           items: [
+            { text: "ニューラルネットワーク基礎（パーセプトロンから多層NNへ）", link: "/neural-network-basics" },
             { text: "Transformer と Self-Attention", link: "/transformer" },
           ],
         },
@@ -406,6 +420,12 @@ export default withMermaid(
           text: "UIフレームワークの設計原理",
           items: [
             { text: "仮想DOMと差分アルゴリズム（React Fiber, Reconciliation）", link: "/virtual-dom" },
+          ],
+        },
+        {
+          text: "レンダリング戦略",
+          items: [
+            { text: "SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較", link: "/rendering-strategies" },
           ],
         },
       ],

@@ -120,7 +120,7 @@ operating-systems:
   プロセスとスレッド:
     - title: プロセスの概念とライフサイクル
       file: process.md
-      status: todo
+      status: done
     - title: スレッドとユーザースレッド（グリーンスレッド）
       file: thread.md
       status: todo
@@ -300,7 +300,7 @@ databases:
   クエリ処理:
     - title: クエリオプティマイザ
       file: query-optimizer.md
-      status: todo
+      status: done
     - title: クエリ実行エンジン（Volcano Model, Vectorized）
       file: query-execution.md
       status: todo
@@ -352,7 +352,7 @@ distributed-systems:
       status: todo
     - title: 論理時計（Lamport Clock, Vector Clock）
       file: logical-clocks.md
-      status: todo
+      status: done
     - title: ビザンチン将軍問題
       file: byzantine-generals.md
       status: todo
@@ -915,7 +915,7 @@ machine-learning:
   ニューラルネットワークアーキテクチャ:
     - title: ニューラルネットワーク基礎（パーセプトロンから多層NNへ）
       file: neural-network-basics.md
-      status: todo
+      status: done
     - title: CNN（畳み込みニューラルネットワーク）
       file: cnn.md
       status: todo
@@ -1062,7 +1062,7 @@ frontend:
   レンダリング戦略:
     - title: SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較
       file: rendering-strategies.md
-      status: todo
+      status: done
     - title: Hydration とその課題（Partial Hydration, Resumability）
       file: hydration.md
       status: todo
