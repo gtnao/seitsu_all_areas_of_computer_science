@@ -19,6 +19,7 @@
 - **File format**: Markdown (`.md`)
 - **Location**: `docs/` directory
 - **Diagrams**: Use Mermaid diagrams for complex visualizations, ASCII art for simple illustrations
+- **Math**: Use TeX notation (`$...$` for inline, `$$...$$` for display) for mathematical expressions when the topic involves mathematical concepts (e.g., cryptography, algorithms, information theory)
 - **Minimum length**: 10,000 characters (longer is fine)
 - **Language**: **Japanese** (see IMPORTANT section above)
 - **Code comments**: English
