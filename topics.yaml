@@ -129,7 +129,7 @@ operating-systems:
       status: todo
     - title: コンテキストスイッチ
       file: context-switch.md
-      status: todo
+      status: done
     - title: プロセス間通信（IPC）
       file: ipc.md
       status: todo
@@ -442,7 +442,7 @@ programming-languages:
   言語の実行モデル:
     - title: クロージャとファーストクラス関数
       file: closures.md
-      status: todo
+      status: done
     - title: コルーチンとasync/await
       file: coroutines-async-await.md
       status: done
@@ -733,7 +733,7 @@ algorithms:
       status: done
     - title: B-Tree / B+Tree — ディスク指向のデータ構造
       file: b-tree-data-structure.md
-      status: todo
+      status: done
     - title: 赤黒木とAVL木 — 平衡二分探索木
       file: balanced-bst.md
       status: todo
@@ -927,7 +927,7 @@ machine-learning:
       status: done
     - title: GAN（Generative Adversarial Network）
       file: gan.md
-      status: todo
+      status: done
     - title: 拡散モデル（Diffusion Models）
       file: diffusion-models.md
       status: todo
@@ -978,7 +978,7 @@ information-retrieval:
       status: todo
     - title: PageRank とリンク解析
       file: pagerank.md
-      status: todo
+      status: done
 
   検索エンジンアーキテクチャ:
     - title: 検索エンジンの全体像（クロール、インデックス、ランキング）

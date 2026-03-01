@@ -195,6 +195,7 @@ export default withMermaid(
         {
           text: "言語の実行モデル",
           items: [
+            { text: "クロージャとファーストクラス関数", link: "/closures" },
             { text: "コルーチンとasync/await", link: "/coroutines-async-await" },
           ],
         },
@@ -232,6 +233,7 @@ export default withMermaid(
           text: "基本データ構造",
           items: [
             { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
+            { text: "B-Tree / B+Tree — ディスク指向のデータ構造", link: "/b-tree-data-structure" },
           ],
         },
         {
@@ -314,6 +316,7 @@ export default withMermaid(
           items: [
             { text: "プロセスの概念とライフサイクル", link: "/process" },
             { text: "スレッドとユーザースレッド（グリーンスレッド）", link: "/thread" },
+            { text: "コンテキストスイッチ", link: "/context-switch" },
           ],
         },
         {
@@ -422,12 +425,14 @@ export default withMermaid(
             { text: "ニューラルネットワーク基礎（パーセプトロンから多層NNへ）", link: "/neural-network-basics" },
             { text: "CNN（畳み込みニューラルネットワーク）", link: "/cnn" },
             { text: "Transformer と Self-Attention", link: "/transformer" },
+            { text: "GAN（敵対的生成ネットワーク）", link: "/gan" },
           ],
         },
         {
           text: "情報検索",
           items: [
             { text: "転置インデックス", link: "/inverted-index" },
+            { text: "PageRank とリンク解析", link: "/pagerank" },
           ],
         },
         {
