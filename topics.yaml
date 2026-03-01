@@ -1246,3 +1246,67 @@ dev-tools:
     - title: 静的解析と型チェッカーの仕組み
       file: static-analysis.md
       status: todo
+
+# =============================================================================
+# コンパイラ・言語処理系
+# =============================================================================
+compilers:
+  字句解析・構文解析:
+    - title: 正規表現エンジンと有限オートマトン
+      file: regex-and-automata.md
+      status: todo
+    - title: 文脈自由文法とパーサ（LL法, LR法, PEG）
+      file: parsing-techniques.md
+      status: todo
+    - title: 抽象構文木（AST）の設計と応用
+      file: abstract-syntax-tree.md
+      status: todo
+
+  意味解析・型システム:
+    - title: 名前解決・スコープとシンボルテーブル
+      file: name-resolution-and-scoping.md
+      status: todo
+    - title: 型推論と型検査のアルゴリズム
+      file: type-inference-and-checking.md
+      status: todo
+
+  中間表現と最適化:
+    - title: 中間表現（IR）の設計（SSA形式）
+      file: intermediate-representation.md
+      status: todo
+    - title: データフロー解析
+      file: dataflow-analysis.md
+      status: todo
+    - title: ループ最適化とインライン展開
+      file: compiler-optimizations.md
+      status: todo
+
+  コード生成:
+    - title: レジスタ割り当て
+      file: register-allocation.md
+      status: todo
+    - title: 命令選択とスケジューリング
+      file: instruction-selection.md
+      status: todo
+    - title: リンカとローダの仕組み
+      file: linker-and-loader.md
+      status: todo
+
+  ランタイムシステム:
+    - title: ガベージコレクション
+      file: garbage-collection.md
+      status: todo
+    - title: JITコンパイルの原理と実装
+      file: jit-compilation.md
+      status: todo
+    - title: インタプリタの設計（ASTウォーク, バイトコードVM）
+      file: interpreter-design.md
+      status: todo
+
+  処理系の実例と設計思想:
+    - title: LLVMアーキテクチャ
+      file: llvm-architecture.md
+      status: todo
+    - title: WebAssembly
+      file: webassembly.md
+      status: todo
