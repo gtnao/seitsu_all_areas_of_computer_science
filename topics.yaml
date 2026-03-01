@@ -289,7 +289,7 @@ databases:
       status: done
     - title: トランザクション分離レベル
       file: isolation-levels.md
-      status: todo
+      status: done
     - title: 2PL（Two-Phase Locking）
       file: two-phase-locking.md
       status: todo
@@ -519,7 +519,7 @@ software-engineering:
   デプロイと運用:
     - title: CI/CD パイプライン
       file: ci-cd.md
-      status: todo
+      status: done
     - title: フィーチャーフラグとカナリアリリース
       file: feature-flags.md
       status: done
@@ -551,7 +551,7 @@ concurrency:
   同期プリミティブ:
     - title: Mutex, セマフォ, 条件変数
       file: sync-primitives.md
-      status: todo
+      status: done
     - title: Read-Writeロック
       file: rw-lock.md
       status: todo
@@ -901,7 +901,7 @@ machine-learning:
   基礎理論:
     - title: 勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）
       file: gradient-descent.md
-      status: todo
+      status: done
     - title: 過学習と正則化（L1/L2, Dropout, Early Stopping）
       file: regularization.md
       status: todo
@@ -1257,7 +1257,7 @@ compilers:
       status: todo
     - title: 文脈自由文法とパーサ（LL法, LR法, PEG）
       file: parsing-techniques.md
-      status: todo
+      status: done
     - title: 抽象構文木（AST）の設計と応用
       file: abstract-syntax-tree.md
       status: todo

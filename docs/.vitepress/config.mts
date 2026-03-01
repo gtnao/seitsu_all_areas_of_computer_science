@@ -137,6 +137,7 @@ export default withMermaid(
           items: [
             { text: "ACID特性とトランザクション", link: "/acid-transactions" },
             { text: "MVCC（Multi-Version Concurrency Control）", link: "/mvcc" },
+            { text: "トランザクション分離レベル", link: "/isolation-levels" },
           ],
         },
         {
@@ -181,6 +182,12 @@ export default withMermaid(
           text: "言語の実行モデル",
           items: [
             { text: "コルーチンとasync/await", link: "/coroutines-async-await" },
+          ],
+        },
+        {
+          text: "同期プリミティブ",
+          items: [
+            { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
           ],
         },
         {
@@ -241,6 +248,7 @@ export default withMermaid(
         {
           text: "デプロイと運用",
           items: [
+            { text: "CI/CDパイプライン", link: "/ci-cd" },
             { text: "SRE と SLI/SLO/SLA", link: "/sre" },
             { text: "フィーチャーフラグとカナリアリリース", link: "/feature-flags" },
           ],
@@ -337,6 +345,18 @@ export default withMermaid(
           items: [
             { text: "Linter / Formatter の設計思想（AST変換, ルールエンジン）", link: "/linter-formatter" },
             { text: "静的解析と型チェッカーの仕組み", link: "/static-analysis" },
+          ],
+        },
+        {
+          text: "構文解析",
+          items: [
+            { text: "文脈自由文法とパーサ（LL法, LR法, PEG）", link: "/parsing-techniques" },
+          ],
+        },
+        {
+          text: "基礎理論",
+          items: [
+            { text: "勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）", link: "/gradient-descent" },
           ],
         },
         {
