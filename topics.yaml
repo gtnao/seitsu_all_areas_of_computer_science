@@ -314,7 +314,7 @@ databases:
   レプリケーションと可用性:
     - title: レプリケーション（同期/非同期/半同期）
       file: replication.md
-      status: todo
+      status: done
     - title: シャーディングとパーティショニング
       file: sharding.md
       status: done
@@ -742,7 +742,7 @@ algorithms:
       status: todo
     - title: Bloom Filter と確率的データ構造
       file: bloom-filter.md
-      status: todo
+      status: done
     - title: Trie（Prefix Tree）とRadix Tree
       file: trie.md
       status: todo

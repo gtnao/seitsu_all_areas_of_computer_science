@@ -149,6 +149,7 @@ export default withMermaid(
         {
           text: "レプリケーションと可用性",
           items: [
+            { text: "レプリケーション（同期/非同期/半同期）", link: "/replication" },
             { text: "シャーディングとパーティショニング", link: "/sharding" },
           ],
         },
@@ -235,6 +236,7 @@ export default withMermaid(
           items: [
             { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
             { text: "B-Tree / B+Tree — ディスク指向のデータ構造", link: "/b-tree-data-structure" },
+            { text: "Bloom Filter と確率的データ構造", link: "/bloom-filter" },
           ],
         },
         {
