@@ -158,6 +158,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "プログラミング言語の理論的基盤",
+          items: [
+            { text: "ラムダ計算", link: "/lambda-calculus" },
+          ],
+        },
+        {
           text: "アルゴリズム設計手法",
           items: [
             { text: "動的計画法", link: "/dynamic-programming" },

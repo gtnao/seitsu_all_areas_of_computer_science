@@ -473,7 +473,7 @@ programming-languages:
   理論的基盤:
     - title: ラムダ計算
       file: lambda-calculus.md
-      status: todo
+      status: done
     - title: 形式的意味論（操作的意味論, 表示的意味論）
       file: formal-semantics.md
       status: todo
