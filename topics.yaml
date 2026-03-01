@@ -921,7 +921,7 @@ machine-learning:
       status: done
     - title: RNN, LSTM, GRU — 系列モデリング
       file: rnn-lstm.md
-      status: todo
+      status: done
     - title: Transformer と Self-Attention
       file: transformer.md
       status: done
