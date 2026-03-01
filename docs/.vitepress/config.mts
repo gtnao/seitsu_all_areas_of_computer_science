@@ -227,6 +227,7 @@ export default withMermaid(
           items: [
             { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
             { text: "Read-Writeロック", link: "/rw-lock" },
+            { text: "スピンロックとバックオフ", link: "/spinlock" },
           ],
         },
         {
@@ -320,6 +321,7 @@ export default withMermaid(
             { text: "テスト戦略（ユニット, インテグレーション, E2E）", link: "/testing-strategy" },
             { text: "プロパティベーステスト", link: "/property-based-testing" },
             { text: "形式手法と TLA+", link: "/formal-methods-tla" },
+            { text: "ファジング", link: "/fuzzing" },
           ],
         },
         {
@@ -366,6 +368,12 @@ export default withMermaid(
           text: "I/Oスタックとキャッシュ",
           items: [
             { text: "Linux I/O スタック", link: "/linux-io-stack" },
+          ],
+        },
+        {
+          text: "分散ストレージ",
+          items: [
+            { text: "分散ファイルシステム（HDFS, Ceph, GlusterFS）", link: "/distributed-filesystem" },
           ],
         },
         {
@@ -500,6 +508,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "コンパイラとランタイム",
+          items: [
+            { text: "字句解析と構文解析", link: "/lexing-parsing" },
+          ],
+        },
+        {
           text: "構文解析",
           items: [
             { text: "文脈自由文法とパーサ（LL法, LR法, PEG）", link: "/parsing-techniques" },
@@ -566,6 +580,7 @@ export default withMermaid(
           text: "Web API とブラウザ機能",
           items: [
             { text: "WebRTC — ブラウザ間のリアルタイム通信", link: "/webrtc" },
+            { text: "Web Storage, IndexedDB, Cache API", link: "/browser-storage" },
           ],
         },
         {

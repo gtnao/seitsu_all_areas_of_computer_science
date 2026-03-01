@@ -514,7 +514,7 @@ software-engineering:
       status: done
     - title: ファジング
       file: fuzzing.md
-      status: todo
+      status: done
 
   デプロイと運用:
     - title: CI/CD パイプライン
@@ -560,7 +560,7 @@ concurrency:
       status: todo
     - title: スピンロックとバックオフ
       file: spinlock.md
-      status: todo
+      status: done
 
   ロックフリーと並行データ構造:
     - title: CASとアトミック操作
@@ -633,7 +633,7 @@ storage-io:
   分散ストレージ:
     - title: 分散ファイルシステム（HDFS, Ceph, GlusterFS）
       file: distributed-filesystem.md
-      status: todo
+      status: done
     - title: オブジェクトストレージ（S3, MinIO）
       file: object-storage.md
       status: todo
@@ -1028,7 +1028,7 @@ web-fundamentals:
       status: todo
     - title: Web Storage, IndexedDB, Cache API
       file: browser-storage.md
-      status: todo
+      status: done
     - title: WebRTC — ブラウザ間のリアルタイム通信
       file: webrtc.md
       status: done
