@@ -102,10 +102,11 @@ The following VitePress-specific Markdown syntax is available without additional
 - **`{{` in Markdown**: VitePress treats `{{` as Vue template interpolation. In prose, use `<code v-pre>{{ }}</code>` instead of backtick-quoted `{{ }}`. Code blocks (` ``` `) are normally safe, but inline `{{` outside fences will cause build errors.
 
 ### After writing an article:
-1. **Update the sidebar** in `docs/.vitepress/config.mts` — add the new article to the appropriate category in the `sidebar` array
-2. Run `pnpm docs:build` to verify the build passes
-3. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
-4. Push to remote
+1. **Update the sidebar** in `docs/.vitepress/config.mts` — add the new article to the appropriate category in the `sidebar` array. **Each記事ごとにサイドバーを更新すること**（まとめて後から更新するのではなく、記事の執筆・コミットと同時に行う）
+2. Update `topics.yaml` — set the article's `status` to `done`
+3. Run `pnpm docs:build` to verify the build passes
+4. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
+5. Push to remote
 
 ### Commit Message Format
 ```
