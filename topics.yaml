@@ -388,7 +388,7 @@ distributed-systems:
       status: done
     - title: イベントソーシングとCQRS
       file: event-sourcing-cqrs.md
-      status: todo
+      status: done
     - title: Exactly-Once セマンティクス
       file: exactly-once.md
       status: todo
@@ -991,7 +991,7 @@ information-retrieval:
   セマンティック検索:
     - title: Embedding と セマンティック検索
       file: semantic-search.md
-      status: todo
+      status: done
     - title: RAG（Retrieval-Augmented Generation）
       file: rag.md
       status: todo
@@ -1057,7 +1057,7 @@ frontend:
       status: todo
     - title: サーバー状態管理（React Query, SWR — Stale-While-Revalidate）
       file: server-state.md
-      status: todo
+      status: done
 
   レンダリング戦略:
     - title: SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較
@@ -1076,7 +1076,7 @@ frontend:
       status: done
     - title: Tree Shaking とデッドコード除去
       file: tree-shaking.md
-      status: todo
+      status: done
 
 # =============================================================================
 # バックエンドフレームワークと設計

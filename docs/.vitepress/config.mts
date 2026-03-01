@@ -181,6 +181,7 @@ export default withMermaid(
           text: "分散メッセージングとストリーミング",
           items: [
             { text: "メッセージキュー（Kafka, RabbitMQ, Pulsar）", link: "/message-queue" },
+            { text: "イベントソーシングとCQRS", link: "/event-sourcing-cqrs" },
           ],
         },
         {
@@ -495,6 +496,7 @@ export default withMermaid(
           items: [
             { text: "転置インデックス", link: "/inverted-index" },
             { text: "PageRank とリンク解析", link: "/pagerank" },
+            { text: "Embedding とセマンティック検索", link: "/semantic-search" },
           ],
         },
         {
@@ -511,6 +513,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "状態管理",
+          items: [
+            { text: "サーバー状態管理（React Query, SWR — Stale-While-Revalidate）", link: "/server-state" },
+          ],
+        },
+        {
           text: "レンダリング戦略",
           items: [
             { text: "SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較", link: "/rendering-strategies" },
@@ -521,6 +529,7 @@ export default withMermaid(
           text: "ビルドツールチェーン",
           items: [
             { text: "モジュールシステム（CommonJS, ESM, Import Maps）", link: "/module-systems" },
+            { text: "Tree Shaking とデッドコード除去", link: "/tree-shaking" },
           ],
         },
       ],
