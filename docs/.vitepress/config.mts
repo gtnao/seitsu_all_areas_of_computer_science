@@ -165,6 +165,53 @@ export default withMermaid(
             { text: "データ競合と ThreadSanitizer", link: "/data-race" },
           ],
         },
+        {
+          text: "プロセスとスレッド",
+          items: [
+            { text: "プロセスの概念とライフサイクル", link: "/process" },
+            { text: "スレッドとユーザースレッド（グリーンスレッド）", link: "/thread" },
+            { text: "プロセススケジューリング（CFS, リアルタイム）", link: "/process-scheduling" },
+            { text: "コンテキストスイッチ", link: "/context-switch" },
+            { text: "プロセス間通信（IPC）", link: "/ipc" },
+          ],
+        },
+        {
+          text: "メモリ管理",
+          items: [
+            { text: "仮想メモリとページング", link: "/virtual-memory" },
+            { text: "TLB（Translation Lookaside Buffer）", link: "/tlb" },
+            { text: "メモリアロケータ（malloc, jemalloc, mimalloc）", link: "/memory-allocator" },
+            { text: "ページ置換アルゴリズム", link: "/page-replacement" },
+            { text: "メモリマップドI/O（mmap）", link: "/mmap" },
+          ],
+        },
+        {
+          text: "カーネルと割り込み",
+          items: [
+            { text: "システムコールの仕組み", link: "/system-call" },
+            { text: "割り込みと例外処理", link: "/interrupts" },
+            { text: "カーネルモジュールとデバイスドライバ", link: "/kernel-modules" },
+            { text: "モノリシックカーネル vs マイクロカーネル", link: "/kernel-architecture" },
+            { text: "eBPF", link: "/ebpf" },
+          ],
+        },
+        {
+          text: "ファイルシステム",
+          items: [
+            { text: "VFS（仮想ファイルシステム）", link: "/vfs" },
+            { text: "ext4ファイルシステム", link: "/ext4" },
+            { text: "コピーオンライトファイルシステム（ZFS, Btrfs）", link: "/cow-filesystem" },
+            { text: "ジャーナリング", link: "/journaling" },
+          ],
+        },
+        {
+          text: "I/Oとネットワークスタック",
+          items: [
+            { text: "I/O多重化（epoll, kqueue, io_uring）", link: "/io-multiplexing" },
+            { text: "Linux ネットワークスタック", link: "/linux-network-stack" },
+            { text: "ゼロコピーI/O（sendfile, splice）", link: "/zero-copy-io" },
+          ],
+        },
       ],
 
       outline: {
