@@ -736,7 +736,7 @@ algorithms:
       status: done
     - title: 赤黒木とAVL木 — 平衡二分探索木
       file: balanced-bst.md
-      status: todo
+      status: done
     - title: Skip List
       file: skip-list.md
       status: todo
@@ -904,7 +904,7 @@ machine-learning:
       status: done
     - title: 過学習と正則化（L1/L2, Dropout, Early Stopping）
       file: regularization.md
-      status: todo
+      status: done
     - title: バイアス-バリアンストレードオフ
       file: bias-variance.md
       status: done
@@ -952,7 +952,7 @@ machine-learning:
       status: done
     - title: 特徴量エンジニアリングと特徴量ストア
       file: feature-engineering.md
-      status: todo
+      status: done
     - title: MLOps（実験管理, モデルサービング, A/Bテスト）
       file: mlops.md
       status: todo
@@ -972,7 +972,7 @@ information-retrieval:
       status: done
     - title: TF-IDF と BM25
       file: tf-idf-bm25.md
-      status: todo
+      status: done
     - title: ベクトル検索と近似最近傍探索（HNSW, IVF）
       file: vector-search.md
       status: todo
@@ -1070,7 +1070,7 @@ frontend:
   ビルドツールチェーン:
     - title: JavaScriptバンドラーの進化（webpack → Vite → Turbopack）
       file: js-bundlers.md
-      status: todo
+      status: done
     - title: モジュールシステム（CommonJS, ESM, Import Maps）
       file: module-systems.md
       status: done

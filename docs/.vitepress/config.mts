@@ -281,6 +281,7 @@ export default withMermaid(
           items: [
             { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
             { text: "B-Tree / B+Tree — ディスク指向のデータ構造", link: "/b-tree-data-structure" },
+            { text: "赤黒木とAVL木 — 平衡二分探索木", link: "/balanced-bst" },
             { text: "Bloom Filter と確率的データ構造", link: "/bloom-filter" },
           ],
         },
@@ -536,6 +537,7 @@ export default withMermaid(
           text: "基礎理論",
           items: [
             { text: "勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）", link: "/gradient-descent" },
+            { text: "過学習と正則化（L1/L2, Dropout, Early Stopping）", link: "/regularization" },
             { text: "バイアス-バリアンストレードオフ", link: "/bias-variance" },
           ],
         },
@@ -560,12 +562,14 @@ export default withMermaid(
           text: "MLシステム",
           items: [
             { text: "分散学習（データ並列, モデル並列, パイプライン並列）", link: "/distributed-training" },
+            { text: "特徴量エンジニアリングと特徴量ストア", link: "/feature-engineering" },
           ],
         },
         {
           text: "情報検索",
           items: [
             { text: "転置インデックス", link: "/inverted-index" },
+            { text: "TF-IDF と BM25", link: "/tf-idf-bm25" },
             { text: "PageRank とリンク解析", link: "/pagerank" },
             { text: "Embedding とセマンティック検索", link: "/semantic-search" },
           ],
@@ -614,6 +618,7 @@ export default withMermaid(
         {
           text: "ビルドツールチェーン",
           items: [
+            { text: "JavaScriptバンドラーの進化（webpack → Vite → Turbopack）", link: "/js-bundlers" },
             { text: "モジュールシステム（CommonJS, ESM, Import Maps）", link: "/module-systems" },
             { text: "Tree Shaking とデッドコード除去", link: "/tree-shaking" },
           ],
