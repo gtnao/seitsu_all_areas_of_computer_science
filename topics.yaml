@@ -126,7 +126,7 @@ operating-systems:
       status: done
     - title: プロセススケジューリング（CFS, リアルタイム）
       file: process-scheduling.md
-      status: todo
+      status: done
     - title: コンテキストスイッチ
       file: context-switch.md
       status: done
