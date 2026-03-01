@@ -193,6 +193,7 @@ export default withMermaid(
           text: "型システム",
           items: [
             { text: "型システム入門 — 静的型付けと動的型付け", link: "/type-systems" },
+            { text: "ジェネリクスとパラメトリック多相", link: "/generics" },
             { text: "依存型", link: "/dependent-types" },
           ],
         },
@@ -226,6 +227,12 @@ export default withMermaid(
           text: "並行プログラミングモデル",
           items: [
             { text: "アクターモデル（Erlang/OTP, Akka）", link: "/actor-model" },
+          ],
+        },
+        {
+          text: "並行処理の課題",
+          items: [
+            { text: "データ競合と ThreadSanitizer", link: "/data-race" },
           ],
         },
         {
@@ -357,6 +364,7 @@ export default withMermaid(
           items: [
             { text: "仮想メモリとページング", link: "/virtual-memory" },
             { text: "TLB（Translation Lookaside Buffer）", link: "/tlb" },
+            { text: "ページ置換アルゴリズム", link: "/page-replacement" },
           ],
         },
         {
@@ -477,6 +485,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "MLシステム",
+          items: [
+            { text: "分散学習（データ並列, モデル並列, パイプライン並列）", link: "/distributed-training" },
+          ],
+        },
+        {
           text: "情報検索",
           items: [
             { text: "転置インデックス", link: "/inverted-index" },
@@ -500,6 +514,7 @@ export default withMermaid(
           text: "レンダリング戦略",
           items: [
             { text: "SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較", link: "/rendering-strategies" },
+            { text: "Hydration とその課題（Partial Hydration, Resumability）", link: "/hydration" },
           ],
         },
         {

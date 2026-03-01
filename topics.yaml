@@ -146,7 +146,7 @@ operating-systems:
       status: todo
     - title: ページ置換アルゴリズム
       file: page-replacement.md
-      status: todo
+      status: done
     - title: メモリマップドI/O（mmap）
       file: mmap.md
       status: todo
@@ -417,7 +417,7 @@ programming-languages:
       status: todo
     - title: ジェネリクスとパラメトリック多相
       file: generics.md
-      status: todo
+      status: done
     - title: 代数的データ型とパターンマッチ
       file: algebraic-data-types.md
       status: todo
@@ -596,7 +596,7 @@ concurrency:
       status: todo
     - title: データ競合と ThreadSanitizer
       file: data-race.md
-      status: todo
+      status: done
 
 # =============================================================================
 # ストレージ・I/O
@@ -949,7 +949,7 @@ machine-learning:
   MLシステム:
     - title: 分散学習（データ並列, モデル並列, パイプライン並列）
       file: distributed-training.md
-      status: todo
+      status: done
     - title: 特徴量エンジニアリングと特徴量ストア
       file: feature-engineering.md
       status: todo
@@ -1065,7 +1065,7 @@ frontend:
       status: done
     - title: Hydration とその課題（Partial Hydration, Resumability）
       file: hydration.md
-      status: todo
+      status: done
 
   ビルドツールチェーン:
     - title: JavaScriptバンドラーの進化（webpack → Vite → Turbopack）
