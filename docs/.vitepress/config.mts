@@ -219,6 +219,7 @@ export default withMermaid(
           items: [
             { text: "クロージャとファーストクラス関数", link: "/closures" },
             { text: "コルーチンとasync/await", link: "/coroutines-async-await" },
+            { text: "継続（Continuation）と call/cc", link: "/continuations" },
           ],
         },
         {
@@ -362,6 +363,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "I/Oスタックとキャッシュ",
+          items: [
+            { text: "Linux I/O スタック", link: "/linux-io-stack" },
+          ],
+        },
+        {
           text: "I/Oとネットワークスタック",
           items: [
             { text: "I/O多重化（epoll, kqueue, io_uring）", link: "/io-multiplexing" },
@@ -396,6 +403,7 @@ export default withMermaid(
           items: [
             { text: "VFS（仮想ファイルシステム）", link: "/vfs" },
             { text: "コピーオンライトファイルシステム（ZFS, Btrfs）", link: "/cow-filesystem" },
+            { text: "ジャーナリング", link: "/journaling" },
           ],
         },
         {
@@ -495,6 +503,7 @@ export default withMermaid(
           text: "構文解析",
           items: [
             { text: "文脈自由文法とパーサ（LL法, LR法, PEG）", link: "/parsing-techniques" },
+            { text: "抽象構文木（AST）の設計と応用", link: "/abstract-syntax-tree" },
           ],
         },
         {
@@ -551,6 +560,12 @@ export default withMermaid(
           text: "ブラウザとレンダリング",
           items: [
             { text: "ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）", link: "/browser-rendering" },
+          ],
+        },
+        {
+          text: "Web API とブラウザ機能",
+          items: [
+            { text: "WebRTC — ブラウザ間のリアルタイム通信", link: "/webrtc" },
           ],
         },
         {

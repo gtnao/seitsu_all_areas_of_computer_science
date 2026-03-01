@@ -180,7 +180,7 @@ operating-systems:
       status: done
     - title: ジャーナリング
       file: journaling.md
-      status: todo
+      status: done
 
   I/Oとネットワークスタック:
     - title: I/O多重化（epoll, kqueue, io_uring）
@@ -448,7 +448,7 @@ programming-languages:
       status: done
     - title: 継続（Continuation）と call/cc
       file: continuations.md
-      status: todo
+      status: done
     - title: メタプログラミングとマクロ
       file: metaprogramming.md
       status: todo
@@ -619,7 +619,7 @@ storage-io:
   I/Oスタックとキャッシュ:
     - title: Linux I/O スタック
       file: linux-io-stack.md
-      status: todo
+      status: done
     - title: ページキャッシュとダイレクトI/O
       file: page-cache.md
       status: todo
@@ -1031,7 +1031,7 @@ web-fundamentals:
       status: todo
     - title: WebRTC — ブラウザ間のリアルタイム通信
       file: webrtc.md
-      status: todo
+      status: done
     - title: Web Performance（Core Web Vitals, Critical Rendering Path）
       file: web-performance.md
       status: todo
@@ -1260,7 +1260,7 @@ compilers:
       status: done
     - title: 抽象構文木（AST）の設計と応用
       file: abstract-syntax-tree.md
-      status: todo
+      status: done
 
   意味解析・型システム:
     - title: 名前解決・スコープとシンボルテーブル
