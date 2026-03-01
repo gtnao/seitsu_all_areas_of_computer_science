@@ -428,7 +428,7 @@ programming-languages:
   メモリ管理と所有権:
     - title: ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）
       file: garbage-collection.md
-      status: todo
+      status: done
     - title: 参照カウント（ARC, Pythonの参照カウント+GC）
       file: reference-counting.md
       status: todo
@@ -704,7 +704,7 @@ virtualization:
   コンテナ技術:
     - title: Linuxコンテナの基盤（Namespace, cgroups）
       file: linux-containers.md
-      status: todo
+      status: done
     - title: コンテナランタイム（runc, crun, containerd, CRI-O）
       file: container-runtime.md
       status: todo
@@ -1295,7 +1295,7 @@ compilers:
   ランタイムシステム:
     - title: ガベージコレクション
       file: garbage-collection.md
-      status: todo
+      status: done
     - title: JITコンパイルの原理と実装
       file: jit-compilation.md
       status: todo

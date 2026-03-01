@@ -165,6 +165,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "メモリ管理と所有権",
+          items: [
+            { text: "ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）", link: "/garbage-collection" },
+          ],
+        },
+        {
           text: "プログラミング言語の理論的基盤",
           items: [
             { text: "ラムダ計算", link: "/lambda-calculus" },
@@ -219,6 +225,12 @@ export default withMermaid(
           items: [
             { text: "CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）", link: "/cpu-cache" },
             { text: "NUMAアーキテクチャ", link: "/numa" },
+          ],
+        },
+        {
+          text: "コンテナ技術",
+          items: [
+            { text: "Linuxコンテナの基盤（Namespace, cgroups）", link: "/linux-containers" },
           ],
         },
         {
