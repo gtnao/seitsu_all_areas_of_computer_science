@@ -140,7 +140,7 @@ operating-systems:
       status: done
     - title: TLB（Translation Lookaside Buffer）
       file: tlb.md
-      status: todo
+      status: done
     - title: メモリアロケータ（malloc, jemalloc, mimalloc）
       file: memory-allocator.md
       status: todo
