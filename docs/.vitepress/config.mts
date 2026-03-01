@@ -147,6 +147,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "レプリケーションと可用性",
+          items: [
+            { text: "シャーディングとパーティショニング", link: "/sharding" },
+          ],
+        },
+        {
           text: "分散システムの理論的基盤",
           items: [
             { text: "CAP定理とPACELC", link: "/cap-theorem" },
@@ -235,6 +241,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "グラフアルゴリズム",
+          items: [
+            { text: "グラフ探索（BFS, DFS）と応用", link: "/graph-traversal" },
+          ],
+        },
+        {
           text: "アルゴリズム設計手法",
           items: [
             { text: "動的計画法", link: "/dynamic-programming" },
@@ -301,6 +313,7 @@ export default withMermaid(
           text: "プロセスとスレッド",
           items: [
             { text: "プロセスの概念とライフサイクル", link: "/process" },
+            { text: "スレッドとユーザースレッド（グリーンスレッド）", link: "/thread" },
           ],
         },
         {
@@ -401,6 +414,7 @@ export default withMermaid(
           text: "ニューラルネットワークアーキテクチャ",
           items: [
             { text: "ニューラルネットワーク基礎（パーセプトロンから多層NNへ）", link: "/neural-network-basics" },
+            { text: "CNN（畳み込みニューラルネットワーク）", link: "/cnn" },
             { text: "Transformer と Self-Attention", link: "/transformer" },
           ],
         },

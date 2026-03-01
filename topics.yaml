@@ -123,7 +123,7 @@ operating-systems:
       status: done
     - title: スレッドとユーザースレッド（グリーンスレッド）
       file: thread.md
-      status: todo
+      status: done
     - title: プロセススケジューリング（CFS, リアルタイム）
       file: process-scheduling.md
       status: todo
@@ -317,7 +317,7 @@ databases:
       status: todo
     - title: シャーディングとパーティショニング
       file: sharding.md
-      status: todo
+      status: done
     - title: フェイルオーバーと高可用性構成
       file: database-ha.md
       status: todo
@@ -761,7 +761,7 @@ algorithms:
   グラフアルゴリズム:
     - title: グラフ探索（BFS, DFS）と応用
       file: graph-traversal.md
-      status: todo
+      status: done
     - title: 最短経路（Dijkstra, Bellman-Ford, A*）
       file: shortest-path.md
       status: todo
@@ -918,7 +918,7 @@ machine-learning:
       status: done
     - title: CNN（畳み込みニューラルネットワーク）
       file: cnn.md
-      status: todo
+      status: done
     - title: RNN, LSTM, GRU — 系列モデリング
       file: rnn-lstm.md
       status: todo
