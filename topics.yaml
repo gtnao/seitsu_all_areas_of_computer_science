@@ -722,3 +722,527 @@ virtualization:
     - title: Unikernel
       file: unikernel.md
       status: todo
+
+# =============================================================================
+# アルゴリズムとデータ構造
+# =============================================================================
+algorithms:
+  基本データ構造:
+    - title: ハッシュテーブル — 衝突解決とリサイズ戦略
+      file: hash-table.md
+      status: todo
+    - title: B-Tree / B+Tree — ディスク指向のデータ構造
+      file: b-tree-data-structure.md
+      status: todo
+    - title: 赤黒木とAVL木 — 平衡二分探索木
+      file: balanced-bst.md
+      status: todo
+    - title: Skip List
+      file: skip-list.md
+      status: todo
+    - title: Bloom Filter と確率的データ構造
+      file: bloom-filter.md
+      status: todo
+    - title: Trie（Prefix Tree）とRadix Tree
+      file: trie.md
+      status: todo
+
+  ソートと探索:
+    - title: 比較ソートの理論と実践（QuickSort, MergeSort, TimSort）
+      file: sorting.md
+      status: todo
+    - title: 非比較ソート（Radix Sort, Counting Sort）
+      file: non-comparison-sort.md
+      status: todo
+    - title: 二分探索とその応用
+      file: binary-search.md
+      status: todo
+
+  グラフアルゴリズム:
+    - title: グラフ探索（BFS, DFS）と応用
+      file: graph-traversal.md
+      status: todo
+    - title: 最短経路（Dijkstra, Bellman-Ford, A*）
+      file: shortest-path.md
+      status: todo
+    - title: 最小全域木（Kruskal, Prim）
+      file: minimum-spanning-tree.md
+      status: todo
+    - title: トポロジカルソートと強連結成分
+      file: topological-sort-scc.md
+      status: todo
+    - title: ネットワークフロー（Ford-Fulkerson, 最大二部マッチング）
+      file: network-flow.md
+      status: todo
+
+  アルゴリズム設計手法:
+    - title: 動的計画法
+      file: dynamic-programming.md
+      status: todo
+    - title: 貪欲法と Matroid
+      file: greedy-algorithms.md
+      status: todo
+    - title: 分割統治法
+      file: divide-and-conquer.md
+      status: todo
+    - title: 乱択アルゴリズム
+      file: randomized-algorithms.md
+      status: todo
+    - title: 近似アルゴリズム
+      file: approximation-algorithms.md
+      status: todo
+
+  文字列アルゴリズム:
+    - title: 文字列照合（KMP, Rabin-Karp, Aho-Corasick）
+      file: string-matching.md
+      status: todo
+    - title: Suffix Array と Suffix Tree
+      file: suffix-structures.md
+      status: todo
+
+# =============================================================================
+# コンピュータアーキテクチャ
+# =============================================================================
+computer-architecture:
+  CPU:
+    - title: 命令パイプラインとハザード
+      file: cpu-pipeline.md
+      status: todo
+    - title: アウトオブオーダー実行とスーパースカラ
+      file: out-of-order-execution.md
+      status: todo
+    - title: 分岐予測
+      file: branch-prediction.md
+      status: todo
+    - title: RISC vs CISC — ISAの設計思想
+      file: risc-cisc.md
+      status: todo
+    - title: RISC-V — オープンな命令セットアーキテクチャ
+      file: risc-v.md
+      status: todo
+
+  メモリ階層:
+    - title: CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）
+      file: cpu-cache.md
+      status: todo
+    - title: DRAM とメモリコントローラ
+      file: dram.md
+      status: todo
+    - title: NUMAアーキテクチャ
+      file: numa.md
+      status: todo
+    - title: CXL（Compute Express Link）
+      file: cxl.md
+      status: todo
+
+  並列処理ハードウェア:
+    - title: SIMD / ベクトル演算
+      file: simd.md
+      status: todo
+    - title: GPUアーキテクチャ（CUDA, 計算モデル）
+      file: gpu-architecture.md
+      status: todo
+    - title: FPGA と再構成可能コンピューティング
+      file: fpga.md
+      status: todo
+
+# =============================================================================
+# 計算理論
+# =============================================================================
+theory-of-computation:
+  オートマトンと形式言語:
+    - title: 有限オートマトンと正規言語
+      file: finite-automata.md
+      status: todo
+    - title: 文脈自由文法とプッシュダウンオートマトン
+      file: context-free-grammar.md
+      status: todo
+    - title: チューリングマシンと計算可能性
+      file: turing-machine.md
+      status: todo
+
+  計算量理論:
+    - title: P, NP, NP完全
+      file: p-np.md
+      status: todo
+    - title: NP困難問題と代表例（TSP, SAT, Graph Coloring）
+      file: np-hard-problems.md
+      status: todo
+    - title: 空間計算量（PSPACE, L, NL）
+      file: space-complexity.md
+      status: todo
+    - title: 計算量の下界と情報理論的限界
+      file: lower-bounds.md
+      status: todo
+
+  決定不能性と限界:
+    - title: 停止問題と決定不能性
+      file: halting-problem.md
+      status: todo
+    - title: ゲーデルの不完全性定理
+      file: godel-incompleteness.md
+      status: todo
+
+  情報理論:
+    - title: エントロピーと情報量（Shannon）
+      file: information-entropy.md
+      status: todo
+    - title: データ圧縮（Huffman, LZ77/LZ78, zstd）
+      file: data-compression.md
+      status: todo
+    - title: 誤り訂正符号（Hamming, Reed-Solomon, LDPC）
+      file: error-correcting-codes.md
+      status: todo
+
+# =============================================================================
+# 機械学習
+# =============================================================================
+machine-learning:
+  基礎理論:
+    - title: 勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）
+      file: gradient-descent.md
+      status: todo
+    - title: 過学習と正則化（L1/L2, Dropout, Early Stopping）
+      file: regularization.md
+      status: todo
+    - title: バイアス-バリアンストレードオフ
+      file: bias-variance.md
+      status: todo
+    - title: 損失関数の設計
+      file: loss-functions.md
+      status: todo
+
+  ニューラルネットワークアーキテクチャ:
+    - title: ニューラルネットワーク基礎（パーセプトロンから多層NNへ）
+      file: neural-network-basics.md
+      status: todo
+    - title: CNN（畳み込みニューラルネットワーク）
+      file: cnn.md
+      status: todo
+    - title: RNN, LSTM, GRU — 系列モデリング
+      file: rnn-lstm.md
+      status: todo
+    - title: Transformer と Self-Attention
+      file: transformer.md
+      status: todo
+    - title: GAN（Generative Adversarial Network）
+      file: gan.md
+      status: todo
+    - title: 拡散モデル（Diffusion Models）
+      file: diffusion-models.md
+      status: todo
+
+  大規模言語モデル:
+    - title: 大規模言語モデル（LLM）のアーキテクチャと学習
+      file: llm-architecture.md
+      status: todo
+    - title: トークナイゼーション（BPE, SentencePiece）
+      file: tokenization.md
+      status: todo
+    - title: RLHF と Alignment
+      file: rlhf.md
+      status: todo
+    - title: 推論の効率化（量子化, 蒸留, スペキュレーティブデコーディング）
+      file: inference-optimization.md
+      status: todo
+
+  MLシステム:
+    - title: 分散学習（データ並列, モデル並列, パイプライン並列）
+      file: distributed-training.md
+      status: todo
+    - title: 特徴量エンジニアリングと特徴量ストア
+      file: feature-engineering.md
+      status: todo
+    - title: MLOps（実験管理, モデルサービング, A/Bテスト）
+      file: mlops.md
+      status: todo
+
+  強化学習:
+    - title: 強化学習の基礎（MDP, Q-Learning, Policy Gradient）
+      file: reinforcement-learning.md
+      status: todo
+
+# =============================================================================
+# 情報検索
+# =============================================================================
+information-retrieval:
+  検索の基礎:
+    - title: 転置インデックス
+      file: inverted-index.md
+      status: todo
+    - title: TF-IDF と BM25
+      file: tf-idf-bm25.md
+      status: todo
+    - title: ベクトル検索と近似最近傍探索（HNSW, IVF）
+      file: vector-search.md
+      status: todo
+    - title: PageRank とリンク解析
+      file: pagerank.md
+      status: todo
+
+  検索エンジンアーキテクチャ:
+    - title: 検索エンジンの全体像（クロール、インデックス、ランキング）
+      file: search-engine-architecture.md
+      status: todo
+    - title: Elasticsearch / Lucene の内部構造
+      file: elasticsearch-internals.md
+      status: todo
+
+  セマンティック検索:
+    - title: Embedding と セマンティック検索
+      file: semantic-search.md
+      status: todo
+    - title: RAG（Retrieval-Augmented Generation）
+      file: rag.md
+      status: todo
+
+# =============================================================================
+# Web技術の基礎
+# =============================================================================
+web-fundamentals:
+  ブラウザとレンダリング:
+    - title: ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）
+      file: browser-rendering.md
+      status: todo
+    - title: DOM とイベントモデル
+      file: dom-events.md
+      status: todo
+    - title: V8エンジンの内部（Hidden Class, Inline Cache）
+      file: v8-internals.md
+      status: todo
+
+  HTML/CSSの設計原理:
+    - title: HTMLのセマンティクスとアクセシビリティ
+      file: html-semantics-a11y.md
+      status: todo
+    - title: CSSレイアウトモデル（Box Model, Flexbox, Grid）
+      file: css-layout.md
+      status: todo
+    - title: CSSのカスケードと詳細度
+      file: css-cascade.md
+      status: todo
+
+  Web API とブラウザ機能:
+    - title: Service Worker と PWA
+      file: service-worker-pwa.md
+      status: todo
+    - title: Web Storage, IndexedDB, Cache API
+      file: browser-storage.md
+      status: todo
+    - title: WebRTC — ブラウザ間のリアルタイム通信
+      file: webrtc.md
+      status: todo
+    - title: Web Performance（Core Web Vitals, Critical Rendering Path）
+      file: web-performance.md
+      status: todo
+
+# =============================================================================
+# フロントエンド開発
+# =============================================================================
+frontend:
+  UIフレームワークの設計原理:
+    - title: 仮想DOM と 差分アルゴリズム（React Fiber, Reconciliation）
+      file: virtual-dom.md
+      status: todo
+    - title: リアクティビティシステム（Signals, Fine-Grained Reactivity）
+      file: reactivity.md
+      status: todo
+    - title: コンポーネントモデルの設計思想
+      file: component-model.md
+      status: todo
+
+  状態管理:
+    - title: フロントエンドの状態管理パターン（Flux, Atomic, Proxy）
+      file: state-management.md
+      status: todo
+    - title: サーバー状態管理（React Query, SWR — Stale-While-Revalidate）
+      file: server-state.md
+      status: todo
+
+  レンダリング戦略:
+    - title: SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較
+      file: rendering-strategies.md
+      status: todo
+    - title: Hydration とその課題（Partial Hydration, Resumability）
+      file: hydration.md
+      status: todo
+
+  ビルドツールチェーン:
+    - title: JavaScriptバンドラーの進化（webpack → Vite → Turbopack）
+      file: js-bundlers.md
+      status: todo
+    - title: モジュールシステム（CommonJS, ESM, Import Maps）
+      file: module-systems.md
+      status: todo
+    - title: Tree Shaking とデッドコード除去
+      file: tree-shaking.md
+      status: todo
+
+# =============================================================================
+# バックエンドフレームワークと設計
+# =============================================================================
+backend:
+  リクエスト処理モデル:
+    - title: スレッドプール vs イベントループ vs コルーチン
+      file: request-handling-models.md
+      status: todo
+    - title: ミドルウェアパイプライン設計
+      file: middleware-pipeline.md
+      status: todo
+    - title: コネクションプーリング
+      file: connection-pooling.md
+      status: todo
+
+  ORMとデータアクセス:
+    - title: ORMの仕組みと限界（Active Record, Data Mapper, N+1問題）
+      file: orm.md
+      status: todo
+    - title: マイグレーション戦略（ゼロダウンタイムスキーマ変更）
+      file: schema-migration.md
+      status: todo
+
+  認証・認可の実装:
+    - title: セッション管理（Cookie, Token, Stateless）
+      file: session-management.md
+      status: todo
+    - title: RBAC, ABAC, ReBAC — アクセス制御モデル
+      file: access-control-models.md
+      status: todo
+
+  バックグラウンド処理:
+    - title: ジョブキューとワーカーパターン（Sidekiq, Celery, Bull）
+      file: job-queue.md
+      status: todo
+    - title: Cronとスケジューラ設計
+      file: scheduler-design.md
+      status: todo
+
+  キャッシュ戦略:
+    - title: キャッシュパターン（Cache-Aside, Write-Through, Write-Behind）
+      file: caching-patterns.md
+      status: todo
+    - title: CDNキャッシュとHTTPキャッシュ（ETag, Cache-Control）
+      file: http-caching.md
+      status: todo
+
+# =============================================================================
+# クラウドインフラサービス
+# =============================================================================
+cloud-services:
+  コンピュート:
+    - title: IaaSコンピュートの設計（EC2, GCE — インスタンスタイプ, Spot/Preemptible）
+      file: iaas-compute.md
+      status: todo
+    - title: マネージドコンテナサービス（ECS, Cloud Run, Fargate）
+      file: managed-containers.md
+      status: todo
+
+  ストレージとDB:
+    - title: マネージドデータベースサービス（RDS, Cloud SQL, Aurora）
+      file: managed-database.md
+      status: todo
+    - title: オブジェクトストレージの設計（S3 — 整合性モデル, ライフサイクル, クラス）
+      file: object-storage-design.md
+      status: todo
+
+  メッセージングとイベント:
+    - title: マネージドメッセージング（SQS, SNS, EventBridge, Pub/Sub）
+      file: managed-messaging.md
+      status: todo
+
+  ネットワークとエッジ:
+    - title: クラウドネットワーク設計（VPC, サブネット, Security Group, PrivateLink）
+      file: cloud-networking.md
+      status: todo
+    - title: エッジコンピューティング（CloudFront Functions, Cloudflare Workers）
+      file: edge-computing.md
+      status: todo
+
+  IAMとガバナンス:
+    - title: クラウドIAMの設計原則（ポリシー, ロール, 最小権限）
+      file: cloud-iam.md
+      status: todo
+    - title: マルチアカウント戦略（AWS Organizations, Landing Zone）
+      file: multi-account.md
+      status: todo
+
+  コスト最適化:
+    - title: クラウドコスト最適化の戦略
+      file: cloud-cost-optimization.md
+      status: todo
+
+# =============================================================================
+# データエンジニアリング
+# =============================================================================
+data-engineering:
+  バッチ処理:
+    - title: MapReduce の設計思想
+      file: mapreduce.md
+      status: todo
+    - title: Apache Spark — RDD, DataFrame, 実行モデル
+      file: spark.md
+      status: todo
+    - title: データレイクとレイクハウス（Delta Lake, Apache Iceberg）
+      file: data-lakehouse.md
+      status: todo
+
+  ストリーム処理:
+    - title: ストリーム処理の基礎（ウィンドウ, ウォーターマーク, Exactly-Once）
+      file: stream-processing.md
+      status: todo
+    - title: Apache Flink のアーキテクチャ
+      file: flink.md
+      status: todo
+
+  ワークフローオーケストレーション:
+    - title: データパイプラインとDAG（Airflow, Dagster, Prefect）
+      file: workflow-orchestration.md
+      status: todo
+    - title: dbt — データ変換のソフトウェアエンジニアリング化
+      file: dbt.md
+      status: todo
+
+  データモデリング:
+    - title: ディメンショナルモデリング（Star Schema, Snowflake Schema）
+      file: dimensional-modeling.md
+      status: todo
+    - title: データメッシュ — 分散データアーキテクチャ
+      file: data-mesh.md
+      status: todo
+    - title: データカタログとデータリネージ
+      file: data-catalog.md
+      status: todo
+
+# =============================================================================
+# 開発ツールとインフラ
+# =============================================================================
+dev-tools:
+  バージョン管理:
+    - title: Gitの内部構造（オブジェクトモデル, Packfile, Reflog）
+      file: git-internals.md
+      status: todo
+    - title: マージ戦略（3-way merge, rebase, squash）
+      file: merge-strategies.md
+      status: todo
+    - title: モノレポ管理（Nx, Turborepo, Bazel）
+      file: monorepo.md
+      status: todo
+
+  ビルドとパッケージ:
+    - title: ビルドシステムの設計（Make, Bazel, Gradle）
+      file: build-systems.md
+      status: todo
+    - title: パッケージマネージャの仕組み（依存解決, ロックファイル, レジストリ）
+      file: package-manager.md
+      status: todo
+    - title: コンテナイメージのビルド最適化（マルチステージ, レイヤーキャッシュ）
+      file: container-image-build.md
+      status: todo
+
+  コード品質:
+    - title: Linter / Formatter の設計思想（AST変換, ルールエンジン）
+      file: linter-formatter.md
+      status: todo
+    - title: 静的解析と型チェッカーの仕組み
+      file: static-analysis.md
+      status: todo
