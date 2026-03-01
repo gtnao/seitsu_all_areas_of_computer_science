@@ -456,7 +456,7 @@ programming-languages:
   コンパイラとランタイム:
     - title: 字句解析と構文解析
       file: lexing-parsing.md
-      status: todo
+      status: done
     - title: 中間表現とSSA形式
       file: intermediate-representation.md
       status: todo
