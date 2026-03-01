@@ -134,7 +134,14 @@ export default withMermaid(
         {
           text: "トランザクションと同時実行制御",
           items: [
+            { text: "ACID特性とトランザクション", link: "/acid-transactions" },
             { text: "MVCC（Multi-Version Concurrency Control）", link: "/mvcc" },
+          ],
+        },
+        {
+          text: "分散システムの理論的基盤",
+          items: [
+            { text: "CAP定理とPACELC", link: "/cap-theorem" },
           ],
         },
         {
@@ -210,6 +217,7 @@ export default withMermaid(
         {
           text: "メモリ階層",
           items: [
+            { text: "CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）", link: "/cpu-cache" },
             { text: "NUMAアーキテクチャ", link: "/numa" },
           ],
         },

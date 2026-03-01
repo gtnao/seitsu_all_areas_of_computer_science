@@ -283,7 +283,7 @@ databases:
   トランザクションと同時実行制御:
     - title: ACID特性とトランザクション
       file: acid-transactions.md
-      status: todo
+      status: done
     - title: MVCC（Multi-Version Concurrency Control）
       file: mvcc.md
       status: done
@@ -343,7 +343,7 @@ distributed-systems:
   理論的基盤:
     - title: CAP定理とPACELC
       file: cap-theorem.md
-      status: todo
+      status: done
     - title: FLP不可能性定理
       file: flp-impossibility.md
       status: todo
@@ -824,7 +824,7 @@ computer-architecture:
   メモリ階層:
     - title: CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）
       file: cpu-cache.md
-      status: todo
+      status: done
     - title: DRAM とメモリコントローラ
       file: dram.md
       status: todo
