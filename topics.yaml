@@ -374,7 +374,7 @@ distributed-systems:
       status: done
     - title: 結果整合性とCRDTs
       file: eventual-consistency-crdt.md
-      status: todo
+      status: done
     - title: Consistent Hashing
       file: consistent-hashing.md
       status: done
@@ -593,7 +593,7 @@ concurrency:
   並行処理の課題:
     - title: デッドロック, ライブロック, 優先度逆転
       file: concurrency-hazards.md
-      status: todo
+      status: done
     - title: データ競合と ThreadSanitizer
       file: data-race.md
       status: done
@@ -753,7 +753,7 @@ algorithms:
       status: done
     - title: 非比較ソート（Radix Sort, Counting Sort）
       file: non-comparison-sort.md
-      status: todo
+      status: done
     - title: 二分探索とその応用
       file: binary-search.md
       status: todo
@@ -1054,7 +1054,7 @@ frontend:
   状態管理:
     - title: フロントエンドの状態管理パターン（Flux, Atomic, Proxy）
       file: state-management.md
-      status: todo
+      status: done
     - title: サーバー状態管理（React Query, SWR — Stale-While-Revalidate）
       file: server-state.md
       status: done

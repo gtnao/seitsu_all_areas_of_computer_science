@@ -181,6 +181,7 @@ export default withMermaid(
           text: "分散データ管理",
           items: [
             { text: "分散トランザクション（2PC, 3PC, Saga）", link: "/distributed-transactions" },
+            { text: "結果整合性とCRDTs", link: "/eventual-consistency-crdt" },
             { text: "Consistent Hashing", link: "/consistent-hashing" },
             { text: "Gossipプロトコル", link: "/gossip-protocol" },
           ],
@@ -242,6 +243,7 @@ export default withMermaid(
         {
           text: "並行処理の課題",
           items: [
+            { text: "デッドロック, ライブロック, 優先度逆転", link: "/concurrency-hazards" },
             { text: "データ競合と ThreadSanitizer", link: "/data-race" },
           ],
         },
@@ -284,6 +286,7 @@ export default withMermaid(
           text: "ソートと探索",
           items: [
             { text: "比較ソートの理論と実践（QuickSort, MergeSort, TimSort）", link: "/sorting" },
+            { text: "非比較ソート（Radix Sort, Counting Sort）", link: "/non-comparison-sort" },
           ],
         },
         {
@@ -566,6 +569,7 @@ export default withMermaid(
         {
           text: "状態管理",
           items: [
+            { text: "フロントエンドの状態管理パターン（Flux, Atomic, Proxy）", link: "/state-management" },
             { text: "サーバー状態管理（React Query, SWR — Stale-While-Revalidate）", link: "/server-state" },
           ],
         },
