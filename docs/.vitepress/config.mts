@@ -141,6 +141,7 @@ export default withMermaid(
           text: "コンセンサスアルゴリズム",
           items: [
             { text: "Paxos", link: "/paxos" },
+            { text: "Raftコンセンサス", link: "/raft-consensus" },
           ],
         },
         {
@@ -154,6 +155,12 @@ export default withMermaid(
           items: [
             { text: "型システム入門 — 静的型付けと動的型付け", link: "/type-systems" },
             { text: "依存型", link: "/dependent-types" },
+          ],
+        },
+        {
+          text: "アルゴリズム設計手法",
+          items: [
+            { text: "動的計画法", link: "/dynamic-programming" },
           ],
         },
         {
@@ -241,6 +248,12 @@ export default withMermaid(
           items: [
             { text: "Linter / Formatter の設計思想（AST変換, ルールエンジン）", link: "/linter-formatter" },
             { text: "静的解析と型チェッカーの仕組み", link: "/static-analysis" },
+          ],
+        },
+        {
+          text: "ニューラルネットワークアーキテクチャ",
+          items: [
+            { text: "Transformer と Self-Attention", link: "/transformer" },
           ],
         },
       ],

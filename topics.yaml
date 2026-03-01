@@ -360,7 +360,7 @@ distributed-systems:
   コンセンサスアルゴリズム:
     - title: Raftコンセンサス
       file: raft-consensus.md
-      status: todo
+      status: done
     - title: Paxos
       file: paxos.md
       status: done
@@ -778,7 +778,7 @@ algorithms:
   アルゴリズム設計手法:
     - title: 動的計画法
       file: dynamic-programming.md
-      status: todo
+      status: done
     - title: 貪欲法と Matroid
       file: greedy-algorithms.md
       status: todo
@@ -924,7 +924,7 @@ machine-learning:
       status: todo
     - title: Transformer と Self-Attention
       file: transformer.md
-      status: todo
+      status: done
     - title: GAN（Generative Adversarial Network）
       file: gan.md
       status: todo
