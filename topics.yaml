@@ -200,7 +200,7 @@ networking:
   インターネットプロトコル基盤:
     - title: TCP — 信頼性のある通信の仕組み
       file: tcp.md
-      status: todo
+      status: done
     - title: TCP輻輳制御（Reno, CUBIC, BBR）
       file: tcp-congestion-control.md
       status: todo
@@ -411,7 +411,7 @@ programming-languages:
   型システム:
     - title: 型システム入門 — 静的型付けと動的型付け
       file: type-systems.md
-      status: todo
+      status: done
     - title: 型推論（Hindley-Milner）
       file: type-inference.md
       status: todo
@@ -485,10 +485,10 @@ software-engineering:
   設計とアーキテクチャ:
     - title: クリーンアーキテクチャ
       file: clean-architecture.md
-      status: todo
+      status: done
     - title: ドメイン駆動設計（DDD）
       file: ddd.md
-      status: todo
+      status: done
     - title: マイクロサービスアーキテクチャ
       file: microservices.md
       status: todo
@@ -497,10 +497,10 @@ software-engineering:
       status: todo
     - title: デザインパターン（GoF）
       file: design-patterns.md
-      status: todo
+      status: done
     - title: SOLID原則
       file: solid-principles.md
-      status: todo
+      status: done
 
   テストと品質:
     - title: テスト戦略（ユニット, インテグレーション, E2E）
@@ -508,7 +508,7 @@ software-engineering:
       status: todo
     - title: プロパティベーステスト
       file: property-based-testing.md
-      status: todo
+      status: done
     - title: 形式手法と TLA+
       file: formal-methods-tla.md
       status: todo
@@ -830,7 +830,7 @@ computer-architecture:
       status: todo
     - title: NUMAアーキテクチャ
       file: numa.md
-      status: todo
+      status: done
     - title: CXL（Compute Express Link）
       file: cxl.md
       status: todo
