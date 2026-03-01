@@ -426,6 +426,7 @@ export default withMermaid(
           items: [
             { text: "ニューラルネットワーク基礎（パーセプトロンから多層NNへ）", link: "/neural-network-basics" },
             { text: "CNN（畳み込みニューラルネットワーク）", link: "/cnn" },
+            { text: "RNN, LSTM, GRU — 系列モデリング", link: "/rnn-lstm" },
             { text: "Transformer と Self-Attention", link: "/transformer" },
             { text: "GAN（敵対的生成ネットワーク）", link: "/gan" },
           ],
