@@ -275,7 +275,7 @@ databases:
       status: done
     - title: ページ構造とバッファプール
       file: buffer-pool.md
-      status: todo
+      status: done
     - title: カラムナストア（列指向DB）
       file: columnar-store.md
       status: todo
@@ -380,7 +380,7 @@ distributed-systems:
       status: done
     - title: Gossipプロトコル
       file: gossip-protocol.md
-      status: todo
+      status: done
 
   分散メッセージングとストリーミング:
     - title: メッセージキュー（Kafka, RabbitMQ, Pulsar）
@@ -568,7 +568,7 @@ concurrency:
       status: todo
     - title: ロックフリーデータ構造（キュー, スタック, リスト）
       file: lock-free-data-structures.md
-      status: todo
+      status: done
     - title: メモリオーダリングとメモリモデル
       file: memory-ordering.md
       status: todo
@@ -841,7 +841,7 @@ computer-architecture:
       status: todo
     - title: GPUアーキテクチャ（CUDA, 計算モデル）
       file: gpu-architecture.md
-      status: todo
+      status: done
     - title: FPGA と再構成可能コンピューティング
       file: fpga.md
       status: todo
@@ -853,7 +853,7 @@ theory-of-computation:
   オートマトンと形式言語:
     - title: 有限オートマトンと正規言語
       file: finite-automata.md
-      status: todo
+      status: done
     - title: 文脈自由文法とプッシュダウンオートマトン
       file: context-free-grammar.md
       status: todo

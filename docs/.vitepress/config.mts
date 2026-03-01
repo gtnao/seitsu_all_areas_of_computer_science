@@ -130,6 +130,7 @@ export default withMermaid(
             { text: "B-Treeインデックス", link: "/b-tree" },
             { text: "LSM-Tree と Write-Optimized ストレージ", link: "/lsm-tree" },
             { text: "Write-Ahead Logging（WAL）", link: "/wal" },
+            { text: "バッファプール", link: "/buffer-pool" },
           ],
         },
         {
@@ -173,6 +174,7 @@ export default withMermaid(
           items: [
             { text: "分散トランザクション（2PC, 3PC, Saga）", link: "/distributed-transactions" },
             { text: "Consistent Hashing", link: "/consistent-hashing" },
+            { text: "Gossipプロトコル", link: "/gossip-protocol" },
           ],
         },
         {
@@ -209,6 +211,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "ロックフリーと並行データ構造",
+          items: [
+            { text: "ロックフリーデータ構造（キュー, スタック, リスト）", link: "/lock-free-data-structures" },
+          ],
+        },
+        {
           text: "並行プログラミングモデル",
           items: [
             { text: "アクターモデル（Erlang/OTP, Akka）", link: "/actor-model" },
@@ -218,6 +226,12 @@ export default withMermaid(
           text: "プログラミング言語の理論的基盤",
           items: [
             { text: "ラムダ計算", link: "/lambda-calculus" },
+          ],
+        },
+        {
+          text: "オートマトンと形式言語",
+          items: [
+            { text: "有限オートマトンと正規言語", link: "/finite-automata" },
           ],
         },
         {
@@ -348,6 +362,12 @@ export default withMermaid(
           items: [
             { text: "CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）", link: "/cpu-cache" },
             { text: "NUMAアーキテクチャ", link: "/numa" },
+          ],
+        },
+        {
+          text: "並列処理ハードウェア",
+          items: [
+            { text: "GPUアーキテクチャ（CUDA, 計算モデル）", link: "/gpu-architecture" },
           ],
         },
         {
