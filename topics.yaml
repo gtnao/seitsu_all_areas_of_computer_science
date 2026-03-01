@@ -434,7 +434,7 @@ programming-languages:
       status: todo
     - title: 所有権と借用（Rustの所有権モデル）
       file: ownership-borrowing.md
-      status: todo
+      status: done
     - title: リージョンベースメモリ管理
       file: region-based-memory.md
       status: todo

@@ -190,6 +190,7 @@ export default withMermaid(
           text: "メモリ管理と所有権",
           items: [
             { text: "ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）", link: "/garbage-collection" },
+            { text: "所有権と借用（Rustの所有権モデル）", link: "/ownership-borrowing" },
           ],
         },
         {
@@ -316,6 +317,7 @@ export default withMermaid(
           items: [
             { text: "プロセスの概念とライフサイクル", link: "/process" },
             { text: "スレッドとユーザースレッド（グリーンスレッド）", link: "/thread" },
+            { text: "プロセススケジューリング（CFS, リアルタイム）", link: "/process-scheduling" },
             { text: "コンテキストスイッチ", link: "/context-switch" },
           ],
         },
