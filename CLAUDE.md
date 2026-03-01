@@ -88,10 +88,15 @@ docs/garbage-collection.md
 
 This repository includes a VitePress site for publishing articles. The configuration is at `docs/.vitepress/config.mts`.
 
+### VitePress Caveats
+
+- **`{{` in Markdown**: VitePress treats `{{` as Vue template interpolation. In prose, use `<code v-pre>{{ }}</code>` instead of backtick-quoted `{{ }}`. Code blocks (` ``` `) are normally safe, but inline `{{` outside fences will cause build errors.
+
 ### After writing an article:
 1. **Update the sidebar** in `docs/.vitepress/config.mts` — add the new article to the appropriate category in the `sidebar` array
-2. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
-3. Push to remote
+2. Run `pnpm docs:build` to verify the build passes
+3. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
+4. Push to remote
 
 ### Commit Message Format
 ```
