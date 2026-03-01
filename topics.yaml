@@ -784,7 +784,7 @@ algorithms:
       status: todo
     - title: 分割統治法
       file: divide-and-conquer.md
-      status: done
+      status: todo
     - title: 乱択アルゴリズム
       file: randomized-algorithms.md
       status: todo

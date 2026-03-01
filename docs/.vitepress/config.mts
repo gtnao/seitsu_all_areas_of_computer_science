@@ -304,7 +304,6 @@ export default withMermaid(
           text: "アルゴリズム設計手法",
           items: [
             { text: "動的計画法", link: "/dynamic-programming" },
-            { text: "分割統治法", link: "/divide-and-conquer" },
           ],
         },
         {
