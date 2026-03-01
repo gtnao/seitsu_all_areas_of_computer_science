@@ -184,6 +184,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "分散システムの実践",
+          items: [
+            { text: "分散システムにおける障害モデル", link: "/failure-models" },
+          ],
+        },
+        {
           text: "型システム",
           items: [
             { text: "型システム入門 — 静的型付けと動的型付け", link: "/type-systems" },
@@ -316,6 +322,7 @@ export default withMermaid(
           text: "ORMとデータアクセス",
           items: [
             { text: "ORMの仕組みと限界（Active Record, Data Mapper, N+1問題）", link: "/orm" },
+            { text: "マイグレーション戦略（ゼロダウンタイムスキーマ変更）", link: "/schema-migration" },
           ],
         },
         {
@@ -349,6 +356,13 @@ export default withMermaid(
           text: "メモリ管理",
           items: [
             { text: "仮想メモリとページング", link: "/virtual-memory" },
+            { text: "TLB（Translation Lookaside Buffer）", link: "/tlb" },
+          ],
+        },
+        {
+          text: "ファイルシステム",
+          items: [
+            { text: "VFS（仮想ファイルシステム）", link: "/vfs" },
           ],
         },
         {
@@ -486,6 +500,12 @@ export default withMermaid(
           text: "レンダリング戦略",
           items: [
             { text: "SSR, SSG, ISR, Streaming SSR — レンダリング手法の比較", link: "/rendering-strategies" },
+          ],
+        },
+        {
+          text: "ビルドツールチェーン",
+          items: [
+            { text: "モジュールシステム（CommonJS, ESM, Import Maps）", link: "/module-systems" },
           ],
         },
       ],

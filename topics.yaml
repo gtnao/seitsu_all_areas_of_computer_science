@@ -171,7 +171,7 @@ operating-systems:
   ファイルシステム:
     - title: VFS（仮想ファイルシステム）
       file: vfs.md
-      status: todo
+      status: done
     - title: ext4ファイルシステム
       file: ext4.md
       status: todo
@@ -396,7 +396,7 @@ distributed-systems:
   分散システムの実践:
     - title: 分散システムにおける障害モデル
       file: failure-models.md
-      status: todo
+      status: done
     - title: サーキットブレーカーとリトライ戦略
       file: circuit-breaker.md
       status: todo
@@ -1073,7 +1073,7 @@ frontend:
       status: todo
     - title: モジュールシステム（CommonJS, ESM, Import Maps）
       file: module-systems.md
-      status: todo
+      status: done
     - title: Tree Shaking とデッドコード除去
       file: tree-shaking.md
       status: todo
@@ -1099,7 +1099,7 @@ backend:
       status: done
     - title: マイグレーション戦略（ゼロダウンタイムスキーマ変更）
       file: schema-migration.md
-      status: todo
+      status: done
 
   認証・認可の実装:
     - title: セッション管理（Cookie, Token, Stateless）
