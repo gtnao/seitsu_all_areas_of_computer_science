@@ -579,7 +579,7 @@ concurrency:
   並行プログラミングモデル:
     - title: アクターモデル（Erlang/OTP, Akka）
       file: actor-model.md
-      status: todo
+      status: done
     - title: CSP（Communicating Sequential Processes）とGoのgoroutine
       file: csp.md
       status: todo
@@ -864,7 +864,7 @@ theory-of-computation:
   計算量理論:
     - title: P, NP, NP完全
       file: p-np.md
-      status: todo
+      status: done
     - title: NP困難問題と代表例（TSP, SAT, Graph Coloring）
       file: np-hard-problems.md
       status: todo

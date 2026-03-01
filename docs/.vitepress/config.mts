@@ -196,6 +196,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "計算量理論",
+          items: [
+            { text: "P, NP, NP完全", link: "/p-np" },
+          ],
+        },
+        {
           text: "基本データ構造",
           items: [
             { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
