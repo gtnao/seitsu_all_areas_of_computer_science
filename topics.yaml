@@ -185,7 +185,7 @@ operating-systems:
   I/Oとネットワークスタック:
     - title: I/O多重化（epoll, kqueue, io_uring）
       file: io-multiplexing.md
-      status: todo
+      status: done
     - title: Linux ネットワークスタック
       file: linux-network-stack.md
       status: todo
@@ -377,7 +377,7 @@ distributed-systems:
       status: todo
     - title: Consistent Hashing
       file: consistent-hashing.md
-      status: todo
+      status: done
     - title: Gossipプロトコル
       file: gossip-protocol.md
       status: todo
@@ -445,7 +445,7 @@ programming-languages:
       status: todo
     - title: コルーチンとasync/await
       file: coroutines-async-await.md
-      status: todo
+      status: done
     - title: 継続（Continuation）と call/cc
       file: continuations.md
       status: todo
@@ -730,7 +730,7 @@ algorithms:
   基本データ構造:
     - title: ハッシュテーブル — 衝突解決とリサイズ戦略
       file: hash-table.md
-      status: todo
+      status: done
     - title: B-Tree / B+Tree — ディスク指向のデータ構造
       file: b-tree-data-structure.md
       status: todo
@@ -1003,7 +1003,7 @@ web-fundamentals:
   ブラウザとレンダリング:
     - title: ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）
       file: browser-rendering.md
-      status: todo
+      status: done
     - title: DOM とイベントモデル
       file: dom-events.md
       status: todo

@@ -152,6 +152,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "分散データ管理",
+          items: [
+            { text: "Consistent Hashing", link: "/consistent-hashing" },
+          ],
+        },
+        {
           text: "分散メッセージングとストリーミング",
           items: [
             { text: "メッセージキュー（Kafka, RabbitMQ, Pulsar）", link: "/message-queue" },
@@ -171,9 +177,21 @@ export default withMermaid(
           ],
         },
         {
+          text: "言語の実行モデル",
+          items: [
+            { text: "コルーチンとasync/await", link: "/coroutines-async-await" },
+          ],
+        },
+        {
           text: "プログラミング言語の理論的基盤",
           items: [
             { text: "ラムダ計算", link: "/lambda-calculus" },
+          ],
+        },
+        {
+          text: "基本データ構造",
+          items: [
+            { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
           ],
         },
         {
@@ -212,6 +230,12 @@ export default withMermaid(
           text: "API設計",
           items: [
             { text: "API バージョニング戦略", link: "/api-versioning" },
+          ],
+        },
+        {
+          text: "I/Oとネットワークスタック",
+          items: [
+            { text: "I/O多重化（epoll, kqueue, io_uring）", link: "/io-multiplexing" },
           ],
         },
         {
@@ -286,6 +310,12 @@ export default withMermaid(
           text: "ニューラルネットワークアーキテクチャ",
           items: [
             { text: "Transformer と Self-Attention", link: "/transformer" },
+          ],
+        },
+        {
+          text: "ブラウザとレンダリング",
+          items: [
+            { text: "ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）", link: "/browser-rendering" },
           ],
         },
       ],
