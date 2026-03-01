@@ -203,61 +203,61 @@ networking:
       status: done
     - title: TCP輻輳制御（Reno, CUBIC, BBR）
       file: tcp-congestion-control.md
-      status: todo
+      status: done
     - title: UDP とリアルタイム通信
       file: udp.md
-      status: todo
+      status: done
     - title: IPとルーティング（BGP, OSPF）
       file: ip-routing.md
-      status: todo
+      status: done
     - title: DNS — 名前解決の仕組み
       file: dns.md
-      status: todo
+      status: done
     - title: NAT とポートフォワーディング
       file: nat.md
-      status: todo
+      status: done
 
   アプリケーション層プロトコル:
     - title: HTTP/1.1 から HTTP/2 への進化
       file: http-evolution.md
-      status: todo
+      status: done
     - title: HTTP/3 と QUIC
       file: http3-quic.md
-      status: todo
+      status: done
     - title: WebSocket
       file: websocket.md
-      status: todo
+      status: done
     - title: gRPC と Protocol Buffers
       file: grpc.md
-      status: todo
+      status: done
     - title: GraphQL
       file: graphql.md
-      status: todo
+      status: done
 
   ネットワーク設計とインフラ:
     - title: CDN（Content Delivery Network）
       file: cdn.md
-      status: todo
+      status: done
     - title: ロードバランシング（L4/L7）
       file: load-balancing.md
-      status: todo
+      status: done
     - title: リバースプロキシ（Nginx, Envoy）
       file: reverse-proxy.md
-      status: todo
+      status: done
     - title: サービスメッシュ（Istio, Linkerd）
       file: service-mesh.md
-      status: todo
+      status: done
 
   低レイヤーネットワーク:
     - title: Ethernet と ARP
       file: ethernet-arp.md
-      status: todo
+      status: done
     - title: VLAN と ネットワークセグメンテーション
       file: vlan.md
-      status: todo
+      status: done
     - title: SDN（Software-Defined Networking）
       file: sdn.md
-      status: todo
+      status: done
 
 # =============================================================================
 # データベース
@@ -266,10 +266,10 @@ databases:
   ストレージエンジン:
     - title: B-Treeインデックス
       file: b-tree.md
-      status: todo
+      status: done
     - title: LSM-Tree と Write-Optimized ストレージ
       file: lsm-tree.md
-      status: todo
+      status: done
     - title: Write-Ahead Logging（WAL）
       file: wal.md
       status: todo
@@ -286,7 +286,7 @@ databases:
       status: todo
     - title: MVCC（Multi-Version Concurrency Control）
       file: mvcc.md
-      status: todo
+      status: done
     - title: トランザクション分離レベル
       file: isolation-levels.md
       status: todo
@@ -363,7 +363,7 @@ distributed-systems:
       status: todo
     - title: Paxos
       file: paxos.md
-      status: todo
+      status: done
     - title: ZAB（ZooKeeper Atomic Broadcast）
       file: zab.md
       status: todo
@@ -385,7 +385,7 @@ distributed-systems:
   分散メッセージングとストリーミング:
     - title: メッセージキュー（Kafka, RabbitMQ, Pulsar）
       file: message-queue.md
-      status: todo
+      status: done
     - title: イベントソーシングとCQRS
       file: event-sourcing-cqrs.md
       status: todo
@@ -423,7 +423,7 @@ programming-languages:
       status: todo
     - title: 依存型
       file: dependent-types.md
-      status: todo
+      status: done
 
   メモリ管理と所有権:
     - title: ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）
@@ -491,10 +491,10 @@ software-engineering:
       status: done
     - title: マイクロサービスアーキテクチャ
       file: microservices.md
-      status: todo
+      status: done
     - title: イベント駆動アーキテクチャ
       file: event-driven-architecture.md
-      status: todo
+      status: done
     - title: デザインパターン（GoF）
       file: design-patterns.md
       status: done
@@ -505,13 +505,13 @@ software-engineering:
   テストと品質:
     - title: テスト戦略（ユニット, インテグレーション, E2E）
       file: testing-strategy.md
-      status: todo
+      status: done
     - title: プロパティベーステスト
       file: property-based-testing.md
       status: done
     - title: 形式手法と TLA+
       file: formal-methods-tla.md
-      status: todo
+      status: done
     - title: ファジング
       file: fuzzing.md
       status: todo
@@ -522,13 +522,13 @@ software-engineering:
       status: todo
     - title: フィーチャーフラグとカナリアリリース
       file: feature-flags.md
-      status: todo
+      status: done
     - title: オブザーバビリティ（メトリクス, ログ, トレース）
       file: observability.md
       status: todo
     - title: SRE と SLI/SLO/SLA
       file: sre.md
-      status: todo
+      status: done
     - title: カオスエンジニアリング
       file: chaos-engineering.md
       status: todo
@@ -539,7 +539,7 @@ software-engineering:
       status: todo
     - title: API バージョニング戦略
       file: api-versioning.md
-      status: todo
+      status: done
     - title: 冪等性の設計
       file: idempotency.md
       status: todo
@@ -662,7 +662,7 @@ cloud-computing:
       status: todo
     - title: Kubernetes スケジューリング
       file: kubernetes-scheduling.md
-      status: todo
+      status: done
     - title: Helmとマニフェスト管理
       file: helm.md
       status: todo
@@ -1132,39 +1132,39 @@ cloud-services:
   コンピュート:
     - title: IaaSコンピュートの設計（EC2, GCE — インスタンスタイプ, Spot/Preemptible）
       file: iaas-compute.md
-      status: todo
+      status: done
     - title: マネージドコンテナサービス（ECS, Cloud Run, Fargate）
       file: managed-containers.md
-      status: todo
+      status: done
 
   ストレージとDB:
     - title: マネージドデータベースサービス（RDS, Cloud SQL, Aurora）
       file: managed-database.md
-      status: todo
+      status: done
     - title: オブジェクトストレージの設計（S3 — 整合性モデル, ライフサイクル, クラス）
       file: object-storage-design.md
-      status: todo
+      status: done
 
   メッセージングとイベント:
     - title: マネージドメッセージング（SQS, SNS, EventBridge, Pub/Sub）
       file: managed-messaging.md
-      status: todo
+      status: done
 
   ネットワークとエッジ:
     - title: クラウドネットワーク設計（VPC, サブネット, Security Group, PrivateLink）
       file: cloud-networking.md
-      status: todo
+      status: done
     - title: エッジコンピューティング（CloudFront Functions, Cloudflare Workers）
       file: edge-computing.md
-      status: todo
+      status: done
 
   IAMとガバナンス:
     - title: クラウドIAMの設計原則（ポリシー, ロール, 最小権限）
       file: cloud-iam.md
-      status: todo
+      status: done
     - title: マルチアカウント戦略（AWS Organizations, Landing Zone）
       file: multi-account.md
-      status: todo
+      status: done
 
   コスト最適化:
     - title: クラウドコスト最適化の戦略
@@ -1200,7 +1200,7 @@ data-engineering:
       status: todo
     - title: dbt — データ変換のソフトウェアエンジニアリング化
       file: dbt.md
-      status: todo
+      status: done
 
   データモデリング:
     - title: ディメンショナルモデリング（Star Schema, Snowflake Schema）
@@ -1220,32 +1220,32 @@ dev-tools:
   バージョン管理:
     - title: Gitの内部構造（オブジェクトモデル, Packfile, Reflog）
       file: git-internals.md
-      status: todo
+      status: done
     - title: マージ戦略（3-way merge, rebase, squash）
       file: merge-strategies.md
-      status: todo
+      status: done
     - title: モノレポ管理（Nx, Turborepo, Bazel）
       file: monorepo.md
-      status: todo
+      status: done
 
   ビルドとパッケージ:
     - title: ビルドシステムの設計（Make, Bazel, Gradle）
       file: build-systems.md
-      status: todo
+      status: done
     - title: パッケージマネージャの仕組み（依存解決, ロックファイル, レジストリ）
       file: package-manager.md
-      status: todo
+      status: done
     - title: コンテナイメージのビルド最適化（マルチステージ, レイヤーキャッシュ）
       file: container-image-build.md
-      status: todo
+      status: done
 
   コード品質:
     - title: Linter / Formatter の設計思想（AST変換, ルールエンジン）
       file: linter-formatter.md
-      status: todo
+      status: done
     - title: 静的解析と型チェッカーの仕組み
       file: static-analysis.md
-      status: todo
+      status: done
 
 # =============================================================================
 # コンパイラ・言語処理系
