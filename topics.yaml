@@ -272,7 +272,7 @@ databases:
       status: done
     - title: Write-Ahead Logging（WAL）
       file: wal.md
-      status: todo
+      status: done
     - title: ページ構造とバッファプール
       file: buffer-pool.md
       status: todo
@@ -659,7 +659,7 @@ cloud-computing:
   コンテナオーケストレーション:
     - title: Kubernetesアーキテクチャ
       file: kubernetes-architecture.md
-      status: todo
+      status: done
     - title: Kubernetes スケジューリング
       file: kubernetes-scheduling.md
       status: done
@@ -750,7 +750,7 @@ algorithms:
   ソートと探索:
     - title: 比較ソートの理論と実践（QuickSort, MergeSort, TimSort）
       file: sorting.md
-      status: todo
+      status: done
     - title: 非比較ソート（Radix Sort, Counting Sort）
       file: non-comparison-sort.md
       status: todo

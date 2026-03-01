@@ -129,6 +129,7 @@ export default withMermaid(
           items: [
             { text: "B-Treeインデックス", link: "/b-tree" },
             { text: "LSM-Tree と Write-Optimized ストレージ", link: "/lsm-tree" },
+            { text: "Write-Ahead Logging（WAL）", link: "/wal" },
           ],
         },
         {
@@ -183,6 +184,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "並行プログラミングモデル",
+          items: [
+            { text: "アクターモデル（Erlang/OTP, Akka）", link: "/actor-model" },
+          ],
+        },
+        {
           text: "プログラミング言語の理論的基盤",
           items: [
             { text: "ラムダ計算", link: "/lambda-calculus" },
@@ -192,6 +199,12 @@ export default withMermaid(
           text: "基本データ構造",
           items: [
             { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
+          ],
+        },
+        {
+          text: "ソートと探索",
+          items: [
+            { text: "比較ソートの理論と実践（QuickSort, MergeSort, TimSort）", link: "/sorting" },
           ],
         },
         {
@@ -260,6 +273,7 @@ export default withMermaid(
         {
           text: "コンテナオーケストレーション",
           items: [
+            { text: "Kubernetesアーキテクチャ", link: "/kubernetes-architecture" },
             { text: "Kubernetes スケジューリング", link: "/kubernetes-scheduling" },
           ],
         },
