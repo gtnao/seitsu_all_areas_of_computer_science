@@ -690,7 +690,7 @@ virtualization:
   ハードウェア仮想化:
     - title: ハイパーバイザ（Type 1/Type 2, KVM, Xen）
       file: hypervisor.md
-      status: todo
+      status: done
     - title: ハードウェア支援仮想化（VT-x, AMD-V）
       file: hardware-virtualization.md
       status: todo
