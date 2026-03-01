@@ -15,20 +15,65 @@ export default withMermaid(
     themeConfig: {
       sidebar: [
         {
-          text: "記事一覧",
+          text: "暗号技術の基礎",
           items: [
             { text: "共通鍵暗号（AES）", link: "/aes" },
-            { text: "Diffie-Hellman鍵交換", link: "/diffie-hellman" },
+            { text: "公開鍵暗号（RSA）", link: "/rsa" },
             { text: "楕円曲線暗号（ECC）", link: "/elliptic-curve-cryptography" },
             { text: "暗号学的ハッシュ関数（SHA-2/SHA-3）", link: "/hash-functions" },
             { text: "HMAC", link: "/hmac" },
-            { text: "JWT（JSON Web Token）", link: "/jwt" },
             { text: "鍵導出関数（PBKDF2, bcrypt, Argon2）", link: "/key-derivation-functions" },
-            { text: "パスキー（Passkeys）", link: "/passkeys" },
-            { text: "PKIと証明書", link: "/pki-certificates" },
+            { text: "Diffie-Hellman鍵交換", link: "/diffie-hellman" },
             { text: "ポスト量子暗号", link: "/post-quantum-cryptography" },
-            { text: "公開鍵暗号（RSA）", link: "/rsa" },
+          ],
+        },
+        {
+          text: "プロトコル・通信セキュリティ",
+          items: [
             { text: "TLS 1.3ハンドシェイク", link: "/tls-1-3" },
+            { text: "PKIと証明書", link: "/pki-certificates" },
+            { text: "OAuth 2.0", link: "/oauth2" },
+            { text: "OpenID Connect（OIDC）", link: "/openid-connect" },
+            { text: "SAML", link: "/saml" },
+            { text: "Kerberos", link: "/kerberos" },
+            { text: "DNSSEC", link: "/dnssec" },
+            { text: "JWT（JSON Web Token）", link: "/jwt" },
+            { text: "パスキー（Passkeys）", link: "/passkeys" },
+          ],
+        },
+        {
+          text: "Webセキュリティ",
+          items: [
+            { text: "XSS（クロスサイトスクリプティング）", link: "/xss" },
+            { text: "CSRF（クロスサイトリクエストフォージェリ）", link: "/csrf" },
+            { text: "SQLインジェクション", link: "/sql-injection" },
+            { text: "Content Security Policy（CSP）", link: "/content-security-policy" },
+            { text: "CORS", link: "/cors" },
+          ],
+        },
+        {
+          text: "システム・インフラセキュリティ",
+          items: [
+            { text: "ゼロトラストアーキテクチャ", link: "/zero-trust-architecture" },
+            { text: "サンドボックス", link: "/sandbox" },
+            { text: "強制アクセス制御（SELinux/AppArmor）", link: "/mandatory-access-control" },
+            { text: "コンテナセキュリティ", link: "/container-security" },
+          ],
+        },
+        {
+          text: "攻撃手法と防御",
+          items: [
+            { text: "バッファオーバーフロー", link: "/buffer-overflow" },
+            { text: "サイドチャネル攻撃（Spectre/Meltdown）", link: "/side-channel-attacks" },
+            { text: "サプライチェーン攻撃", link: "/supply-chain-attacks" },
+            { text: "中間者攻撃（MITM）", link: "/mitm-attacks" },
+          ],
+        },
+        {
+          text: "応用・先端トピック",
+          items: [
+            { text: "秘密計算（準同型暗号・MPC）", link: "/secure-computation" },
+            { text: "ブロックチェーンのセキュリティ", link: "/blockchain-security" },
           ],
         },
       ],

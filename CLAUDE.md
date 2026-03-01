@@ -84,11 +84,14 @@ docs/raft-consensus.md
 docs/garbage-collection.md
 ```
 
-## Workflow
+## VitePress Site
+
+This repository includes a VitePress site for publishing articles. The configuration is at `docs/.vitepress/config.mts`.
 
 ### After writing an article:
-1. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
-2. Push to remote
+1. **Update the sidebar** in `docs/.vitepress/config.mts` — add the new article to the appropriate category in the `sidebar` array
+2. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
+3. Push to remote
 
 ### Commit Message Format
 ```
