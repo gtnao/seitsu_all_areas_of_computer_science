@@ -240,6 +240,7 @@ export default withMermaid(
           text: "並行プログラミングモデル",
           items: [
             { text: "アクターモデル（Erlang/OTP, Akka）", link: "/actor-model" },
+            { text: "Fork-Joinモデルとワークスティーリング", link: "/fork-join" },
           ],
         },
         {
@@ -303,6 +304,7 @@ export default withMermaid(
           text: "アルゴリズム設計手法",
           items: [
             { text: "動的計画法", link: "/dynamic-programming" },
+            { text: "分割統治法", link: "/divide-and-conquer" },
           ],
         },
         {
@@ -512,6 +514,7 @@ export default withMermaid(
           text: "コンパイラとランタイム",
           items: [
             { text: "字句解析と構文解析", link: "/lexing-parsing" },
+            { text: "WebAssembly", link: "/webassembly" },
           ],
         },
         {
@@ -539,6 +542,7 @@ export default withMermaid(
             { text: "勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）", link: "/gradient-descent" },
             { text: "過学習と正則化（L1/L2, Dropout, Early Stopping）", link: "/regularization" },
             { text: "バイアス-バリアンストレードオフ", link: "/bias-variance" },
+            { text: "損失関数の設計", link: "/loss-functions" },
           ],
         },
         {
@@ -570,6 +574,7 @@ export default withMermaid(
           items: [
             { text: "転置インデックス", link: "/inverted-index" },
             { text: "TF-IDF と BM25", link: "/tf-idf-bm25" },
+            { text: "ベクトル検索と近似最近傍探索（HNSW, IVF）", link: "/vector-search" },
             { text: "PageRank とリンク解析", link: "/pagerank" },
             { text: "Embedding とセマンティック検索", link: "/semantic-search" },
           ],

@@ -468,7 +468,7 @@ programming-languages:
       status: todo
     - title: WebAssembly
       file: webassembly.md
-      status: todo
+      status: done
 
   理論的基盤:
     - title: ラムダ計算
@@ -588,7 +588,7 @@ concurrency:
       status: todo
     - title: Fork-Join モデルとワークスティーリング
       file: fork-join.md
-      status: todo
+      status: done
 
   並行処理の課題:
     - title: デッドロック, ライブロック, 優先度逆転
@@ -784,7 +784,7 @@ algorithms:
       status: todo
     - title: 分割統治法
       file: divide-and-conquer.md
-      status: todo
+      status: done
     - title: 乱択アルゴリズム
       file: randomized-algorithms.md
       status: todo
@@ -910,7 +910,7 @@ machine-learning:
       status: done
     - title: 損失関数の設計
       file: loss-functions.md
-      status: todo
+      status: done
 
   ニューラルネットワークアーキテクチャ:
     - title: ニューラルネットワーク基礎（パーセプトロンから多層NNへ）
@@ -975,7 +975,7 @@ information-retrieval:
       status: done
     - title: ベクトル検索と近似最近傍探索（HNSW, IVF）
       file: vector-search.md
-      status: todo
+      status: done
     - title: PageRank とリンク解析
       file: pagerank.md
       status: done
@@ -1309,4 +1309,4 @@ compilers:
       status: done
     - title: WebAssembly
       file: webassembly.md
-      status: todo
+      status: done
