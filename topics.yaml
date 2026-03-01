@@ -137,7 +137,7 @@ operating-systems:
   メモリ管理:
     - title: 仮想メモリとページング
       file: virtual-memory.md
-      status: todo
+      status: done
     - title: TLB（Translation Lookaside Buffer）
       file: tlb.md
       status: todo

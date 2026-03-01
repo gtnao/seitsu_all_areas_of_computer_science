@@ -202,6 +202,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "メモリ管理",
+          items: [
+            { text: "仮想メモリとページング", link: "/virtual-memory" },
+          ],
+        },
+        {
           text: "メモリ階層",
           items: [
             { text: "NUMAアーキテクチャ", link: "/numa" },
