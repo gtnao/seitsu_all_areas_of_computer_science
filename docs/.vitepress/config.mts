@@ -223,6 +223,7 @@ export default withMermaid(
           text: "同期プリミティブ",
           items: [
             { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
+            { text: "Read-Writeロック", link: "/rw-lock" },
           ],
         },
         {
@@ -363,6 +364,7 @@ export default withMermaid(
         {
           text: "カーネルと割り込み",
           items: [
+            { text: "カーネルモジュールとデバイスドライバ", link: "/kernel-modules" },
             { text: "eBPF", link: "/ebpf" },
           ],
         },
@@ -407,6 +409,7 @@ export default withMermaid(
           text: "並列処理ハードウェア",
           items: [
             { text: "GPUアーキテクチャ（CUDA, 計算モデル）", link: "/gpu-architecture" },
+            { text: "FPGA と再構成可能コンピューティング", link: "/fpga" },
           ],
         },
         {
@@ -453,6 +456,7 @@ export default withMermaid(
           items: [
             { text: "MapReduce — 大規模データ処理の設計思想", link: "/mapreduce" },
             { text: "ストリーム処理の基礎（ウィンドウ, ウォーターマーク, Exactly-Once）", link: "/stream-processing" },
+            { text: "データパイプラインとDAG（Airflow, Dagster, Prefect）", link: "/workflow-orchestration" },
             { text: "dbt — データ変換のソフトウェアエンジニアリング化", link: "/dbt" },
           ],
         },
@@ -501,6 +505,7 @@ export default withMermaid(
           text: "基礎理論",
           items: [
             { text: "勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）", link: "/gradient-descent" },
+            { text: "バイアス-バリアンストレードオフ", link: "/bias-variance" },
           ],
         },
         {

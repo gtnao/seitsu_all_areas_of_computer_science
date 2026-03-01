@@ -160,7 +160,7 @@ operating-systems:
       status: todo
     - title: カーネルモジュールとデバイスドライバ
       file: kernel-modules.md
-      status: todo
+      status: done
     - title: モノリシックカーネル vs マイクロカーネル
       file: kernel-architecture.md
       status: todo
@@ -554,7 +554,7 @@ concurrency:
       status: done
     - title: Read-Writeロック
       file: rw-lock.md
-      status: todo
+      status: done
     - title: Futex — ユーザー空間の高速同期
       file: futex.md
       status: todo
@@ -844,7 +844,7 @@ computer-architecture:
       status: done
     - title: FPGA と再構成可能コンピューティング
       file: fpga.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 計算理論
@@ -907,7 +907,7 @@ machine-learning:
       status: todo
     - title: バイアス-バリアンストレードオフ
       file: bias-variance.md
-      status: todo
+      status: done
     - title: 損失関数の設計
       file: loss-functions.md
       status: todo
@@ -1197,7 +1197,7 @@ data-engineering:
   ワークフローオーケストレーション:
     - title: データパイプラインとDAG（Airflow, Dagster, Prefect）
       file: workflow-orchestration.md
-      status: todo
+      status: done
     - title: dbt — データ変換のソフトウェアエンジニアリング化
       file: dbt.md
       status: done
