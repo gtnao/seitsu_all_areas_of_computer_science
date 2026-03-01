@@ -146,6 +146,7 @@ export default withMermaid(
           text: "クエリ処理",
           items: [
             { text: "クエリオプティマイザ", link: "/query-optimizer" },
+            { text: "インデックス設計戦略", link: "/index-design" },
           ],
         },
         {
@@ -261,6 +262,7 @@ export default withMermaid(
           text: "計算量理論",
           items: [
             { text: "P, NP, NP完全", link: "/p-np" },
+            { text: "NP困難問題と代表例（TSP, SAT, Graph Coloring）", link: "/np-hard-problems" },
           ],
         },
         {
@@ -327,6 +329,7 @@ export default withMermaid(
         {
           text: "API設計",
           items: [
+            { text: "REST API設計原則", link: "/rest-api-design" },
             { text: "API バージョニング戦略", link: "/api-versioning" },
           ],
         },
@@ -422,6 +425,7 @@ export default withMermaid(
           text: "コンテナ技術",
           items: [
             { text: "Linuxコンテナの基盤（Namespace, cgroups）", link: "/linux-containers" },
+            { text: "コンテナランタイム（runc, crun, containerd, CRI-O）", link: "/container-runtime" },
           ],
         },
         {
@@ -549,6 +553,7 @@ export default withMermaid(
           text: "HTML/CSSの設計原理",
           items: [
             { text: "HTMLのセマンティクスとアクセシビリティ", link: "/html-semantics-a11y" },
+            { text: "CSSレイアウトモデル（Box Model, Flexbox, Grid）", link: "/css-layout" },
           ],
         },
         {

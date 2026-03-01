@@ -306,7 +306,7 @@ databases:
       status: todo
     - title: インデックス設計戦略
       file: index-design.md
-      status: todo
+      status: done
     - title: 結合アルゴリズム（Nested Loop, Hash Join, Sort-Merge）
       file: join-algorithms.md
       status: todo
@@ -536,7 +536,7 @@ software-engineering:
   API設計:
     - title: REST API設計原則
       file: rest-api-design.md
-      status: todo
+      status: done
     - title: API バージョニング戦略
       file: api-versioning.md
       status: done
@@ -707,7 +707,7 @@ virtualization:
       status: done
     - title: コンテナランタイム（runc, crun, containerd, CRI-O）
       file: container-runtime.md
-      status: todo
+      status: done
     - title: OCIイメージ仕様
       file: oci-image.md
       status: todo
@@ -867,7 +867,7 @@ theory-of-computation:
       status: done
     - title: NP困難問題と代表例（TSP, SAT, Graph Coloring）
       file: np-hard-problems.md
-      status: todo
+      status: done
     - title: 空間計算量（PSPACE, L, NL）
       file: space-complexity.md
       status: todo
@@ -1017,7 +1017,7 @@ web-fundamentals:
       status: done
     - title: CSSレイアウトモデル（Box Model, Flexbox, Grid）
       file: css-layout.md
-      status: todo
+      status: done
     - title: CSSのカスケードと詳細度
       file: css-cascade.md
       status: todo
