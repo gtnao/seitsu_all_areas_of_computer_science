@@ -88,6 +88,15 @@ docs/garbage-collection.md
 
 This repository includes a VitePress site for publishing articles. The configuration is at `docs/.vitepress/config.mts`.
 
+### VitePress Markdown Extensions
+
+The following VitePress-specific Markdown syntax is available without additional configuration:
+
+- **Custom containers**: `::: tip`, `::: warning`, `::: danger`, `::: details`
+- **Code groups**: Tab-switchable code blocks with `::: code-group`
+- **Code line annotations**: `// [!code highlight]`, `// [!code focus]`, `// [!code ++]`, `// [!code --]`
+- **GitHub-style alerts**: `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`, `> [!CAUTION]`
+
 ### VitePress Caveats
 
 - **`{{` in Markdown**: VitePress treats `{{` as Vue template interpolation. In prose, use `<code v-pre>{{ }}</code>` instead of backtick-quoted `{{ }}`. Code blocks (` ``` `) are normally safe, but inline `{{` outside fences will cause build errors.
