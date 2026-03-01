@@ -252,6 +252,18 @@ export default withMermaid(
           ],
         },
         {
+          text: "キャッシュ戦略",
+          items: [
+            { text: "キャッシュパターン（Cache-Aside, Write-Through, Write-Behind）", link: "/caching-patterns" },
+          ],
+        },
+        {
+          text: "ストレージデバイス",
+          items: [
+            { text: "SSD内部（FTL, ウェアレベリング, TRIM）", link: "/ssd-internals" },
+          ],
+        },
+        {
           text: "I/Oとネットワークスタック",
           items: [
             { text: "I/O多重化（epoll, kqueue, io_uring）", link: "/io-multiplexing" },
@@ -300,6 +312,7 @@ export default withMermaid(
         {
           text: "データエンジニアリング",
           items: [
+            { text: "MapReduce — 大規模データ処理の設計思想", link: "/mapreduce" },
             { text: "dbt — データ変換のソフトウェアエンジニアリング化", link: "/dbt" },
           ],
         },
@@ -333,9 +346,21 @@ export default withMermaid(
           ],
         },
         {
+          text: "情報検索",
+          items: [
+            { text: "転置インデックス", link: "/inverted-index" },
+          ],
+        },
+        {
           text: "ブラウザとレンダリング",
           items: [
             { text: "ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）", link: "/browser-rendering" },
+          ],
+        },
+        {
+          text: "UIフレームワークの設計原理",
+          items: [
+            { text: "仮想DOMと差分アルゴリズム（React Fiber, Reconciliation）", link: "/virtual-dom" },
           ],
         },
       ],
