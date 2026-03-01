@@ -693,7 +693,7 @@ virtualization:
       status: done
     - title: ハードウェア支援仮想化（VT-x, AMD-V）
       file: hardware-virtualization.md
-      status: todo
+      status: done
     - title: 仮想マシンのメモリ管理（EPT, バルーニング）
       file: vm-memory.md
       status: todo

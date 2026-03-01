@@ -422,6 +422,7 @@ export default withMermaid(
           text: "ハードウェア仮想化",
           items: [
             { text: "ハイパーバイザ（Type 1/Type 2, KVM, Xen）", link: "/hypervisor" },
+            { text: "ハードウェア支援仮想化（VT-x, AMD-V）", link: "/hardware-virtualization" },
           ],
         },
         {
