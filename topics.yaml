@@ -476,7 +476,7 @@ programming-languages:
       status: done
     - title: 形式的意味論（操作的意味論, 表示的意味論）
       file: formal-semantics.md
-      status: todo
+      status: done
 
 # =============================================================================
 # ソフトウェアエンジニアリング

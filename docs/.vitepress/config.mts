@@ -240,6 +240,7 @@ export default withMermaid(
           text: "プログラミング言語の理論的基盤",
           items: [
             { text: "ラムダ計算", link: "/lambda-calculus" },
+            { text: "形式的意味論（操作的意味論, 表示的意味論）", link: "/formal-semantics" },
           ],
         },
         {
