@@ -86,6 +86,51 @@ export default withMermaid(
             { text: "ブロックチェーンのセキュリティ", link: "/blockchain-security" },
           ],
         },
+        {
+          text: "型システム",
+          items: [
+            { text: "型システム入門 — 静的型付けと動的型付け", link: "/type-systems" },
+            { text: "型推論（Hindley-Milner）", link: "/type-inference" },
+            { text: "ジェネリクスとパラメトリック多相", link: "/generics" },
+            { text: "代数的データ型とパターンマッチ", link: "/algebraic-data-types" },
+            { text: "依存型", link: "/dependent-types" },
+          ],
+        },
+        {
+          text: "メモリ管理と所有権",
+          items: [
+            { text: "ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）", link: "/garbage-collection" },
+            { text: "参照カウント（ARC, Pythonの参照カウント+GC）", link: "/reference-counting" },
+            { text: "所有権と借用（Rustの所有権モデル）", link: "/ownership-borrowing" },
+            { text: "リージョンベースメモリ管理", link: "/region-based-memory" },
+          ],
+        },
+        {
+          text: "言語の実行モデル",
+          items: [
+            { text: "クロージャとファーストクラス関数", link: "/closures" },
+            { text: "コルーチンとasync/await", link: "/coroutines-async-await" },
+            { text: "継続（Continuation）と call/cc", link: "/continuations" },
+            { text: "メタプログラミングとマクロ", link: "/metaprogramming" },
+          ],
+        },
+        {
+          text: "コンパイラとランタイム",
+          items: [
+            { text: "字句解析と構文解析", link: "/lexing-parsing" },
+            { text: "中間表現とSSA形式", link: "/intermediate-representation" },
+            { text: "JITコンパイル（V8, HotSpot, LuaJIT）", link: "/jit-compilation" },
+            { text: "LLVM アーキテクチャ", link: "/llvm" },
+            { text: "WebAssembly", link: "/webassembly" },
+          ],
+        },
+        {
+          text: "理論的基盤（プログラミング言語）",
+          items: [
+            { text: "ラムダ計算", link: "/lambda-calculus" },
+            { text: "形式的意味論（操作的意味論, 表示的意味論）", link: "/formal-semantics" },
+          ],
+        },
       ],
 
       outline: {
