@@ -177,7 +177,7 @@ operating-systems:
       status: todo
     - title: コピーオンライトファイルシステム（ZFS, Btrfs）
       file: cow-filesystem.md
-      status: todo
+      status: done
     - title: ジャーナリング
       file: journaling.md
       status: todo
@@ -278,7 +278,7 @@ databases:
       status: done
     - title: カラムナストア（列指向DB）
       file: columnar-store.md
-      status: todo
+      status: done
 
   トランザクションと同時実行制御:
     - title: ACID特性とトランザクション
@@ -1014,7 +1014,7 @@ web-fundamentals:
   HTML/CSSの設計原理:
     - title: HTMLのセマンティクスとアクセシビリティ
       file: html-semantics-a11y.md
-      status: todo
+      status: done
     - title: CSSレイアウトモデル（Box Model, Flexbox, Grid）
       file: css-layout.md
       status: todo
@@ -1268,7 +1268,7 @@ compilers:
       status: todo
     - title: 型推論と型検査のアルゴリズム
       file: type-inference-and-checking.md
-      status: todo
+      status: done
 
   中間表現と最適化:
     - title: 中間表現（IR）の設計（SSA形式）
@@ -1306,7 +1306,7 @@ compilers:
   処理系の実例と設計思想:
     - title: LLVMアーキテクチャ
       file: llvm-architecture.md
-      status: todo
+      status: done
     - title: WebAssembly
       file: webassembly.md
       status: todo

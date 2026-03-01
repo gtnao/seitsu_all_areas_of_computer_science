@@ -131,6 +131,7 @@ export default withMermaid(
             { text: "LSM-Tree と Write-Optimized ストレージ", link: "/lsm-tree" },
             { text: "Write-Ahead Logging（WAL）", link: "/wal" },
             { text: "バッファプール", link: "/buffer-pool" },
+            { text: "カラムナストア（列指向DB）", link: "/columnar-store" },
           ],
         },
         {
@@ -373,6 +374,7 @@ export default withMermaid(
           text: "ファイルシステム",
           items: [
             { text: "VFS（仮想ファイルシステム）", link: "/vfs" },
+            { text: "コピーオンライトファイルシステム（ZFS, Btrfs）", link: "/cow-filesystem" },
           ],
         },
         {
@@ -470,6 +472,18 @@ export default withMermaid(
           ],
         },
         {
+          text: "意味解析・型システム",
+          items: [
+            { text: "型推論と型検査のアルゴリズム", link: "/type-inference-and-checking" },
+          ],
+        },
+        {
+          text: "処理系の実例と設計思想",
+          items: [
+            { text: "LLVMアーキテクチャ", link: "/llvm-architecture" },
+          ],
+        },
+        {
           text: "基礎理論",
           items: [
             { text: "勾配降下法と最適化（SGD, Adam, 学習率スケジューリング）", link: "/gradient-descent" },
@@ -504,6 +518,12 @@ export default withMermaid(
           text: "ブラウザとレンダリング",
           items: [
             { text: "ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）", link: "/browser-rendering" },
+          ],
+        },
+        {
+          text: "HTML/CSSの設計原理",
+          items: [
+            { text: "HTMLのセマンティクスとアクセシビリティ", link: "/html-semantics-a11y" },
           ],
         },
         {
