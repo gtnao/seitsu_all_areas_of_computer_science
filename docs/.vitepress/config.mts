@@ -156,6 +156,7 @@ export default withMermaid(
         {
           text: "分散データ管理",
           items: [
+            { text: "分散トランザクション（2PC, 3PC, Saga）", link: "/distributed-transactions" },
             { text: "Consistent Hashing", link: "/consistent-hashing" },
           ],
         },
@@ -206,6 +207,12 @@ export default withMermaid(
           text: "計算量理論",
           items: [
             { text: "P, NP, NP完全", link: "/p-np" },
+          ],
+        },
+        {
+          text: "情報理論",
+          items: [
+            { text: "エントロピーと情報量（Shannon）", link: "/information-entropy" },
           ],
         },
         {
@@ -266,6 +273,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "ORMとデータアクセス",
+          items: [
+            { text: "ORMの仕組みと限界（Active Record, Data Mapper, N+1問題）", link: "/orm" },
+          ],
+        },
+        {
           text: "ストレージデバイス",
           items: [
             { text: "SSD内部（FTL, ウェアレベリング, TRIM）", link: "/ssd-internals" },
@@ -281,6 +294,12 @@ export default withMermaid(
           text: "メモリ管理",
           items: [
             { text: "仮想メモリとページング", link: "/virtual-memory" },
+          ],
+        },
+        {
+          text: "CPUパイプライン",
+          items: [
+            { text: "命令パイプラインとハザード", link: "/cpu-pipeline" },
           ],
         },
         {
@@ -301,6 +320,12 @@ export default withMermaid(
           items: [
             { text: "Kubernetesアーキテクチャ", link: "/kubernetes-architecture" },
             { text: "Kubernetes スケジューリング", link: "/kubernetes-scheduling" },
+          ],
+        },
+        {
+          text: "サーバーレスとFaaS",
+          items: [
+            { text: "サーバーレスアーキテクチャ（Lambda, Cloud Functions）", link: "/serverless" },
           ],
         },
         {

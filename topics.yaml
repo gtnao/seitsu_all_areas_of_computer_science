@@ -371,7 +371,7 @@ distributed-systems:
   分散データ管理:
     - title: 分散トランザクション（2PC, 3PC, Saga）
       file: distributed-transactions.md
-      status: todo
+      status: done
     - title: 結果整合性とCRDTs
       file: eventual-consistency-crdt.md
       status: todo
@@ -670,7 +670,7 @@ cloud-computing:
   サーバーレスとFaaS:
     - title: サーバーレスアーキテクチャ（Lambda, Cloud Functions）
       file: serverless.md
-      status: todo
+      status: done
     - title: コールドスタート問題と最適化
       file: cold-start.md
       status: todo
@@ -807,7 +807,7 @@ computer-architecture:
   CPU:
     - title: 命令パイプラインとハザード
       file: cpu-pipeline.md
-      status: todo
+      status: done
     - title: アウトオブオーダー実行とスーパースカラ
       file: out-of-order-execution.md
       status: todo
@@ -886,7 +886,7 @@ theory-of-computation:
   情報理論:
     - title: エントロピーと情報量（Shannon）
       file: information-entropy.md
-      status: todo
+      status: done
     - title: データ圧縮（Huffman, LZ77/LZ78, zstd）
       file: data-compression.md
       status: todo
@@ -1096,7 +1096,7 @@ backend:
   ORMとデータアクセス:
     - title: ORMの仕組みと限界（Active Record, Data Mapper, N+1問題）
       file: orm.md
-      status: todo
+      status: done
     - title: マイグレーション戦略（ゼロダウンタイムスキーマ変更）
       file: schema-migration.md
       status: todo
