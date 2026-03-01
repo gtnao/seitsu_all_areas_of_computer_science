@@ -131,6 +131,40 @@ export default withMermaid(
             { text: "形式的意味論（操作的意味論, 表示的意味論）", link: "/formal-semantics" },
           ],
         },
+        {
+          text: "同期プリミティブ",
+          items: [
+            { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
+            { text: "Read-Writeロック", link: "/rw-lock" },
+            { text: "Futex — ユーザー空間の高速同期", link: "/futex" },
+            { text: "スピンロックとバックオフ", link: "/spinlock" },
+          ],
+        },
+        {
+          text: "ロックフリーと並行データ構造",
+          items: [
+            { text: "CASとアトミック操作", link: "/cas-atomics" },
+            { text: "ロックフリーデータ構造（キュー, スタック, リスト）", link: "/lock-free-data-structures" },
+            { text: "メモリオーダリングとメモリモデル", link: "/memory-ordering" },
+            { text: "Hazard Pointer と EBR", link: "/hazard-pointer-ebr" },
+          ],
+        },
+        {
+          text: "並行プログラミングモデル",
+          items: [
+            { text: "アクターモデル（Erlang/OTP, Akka）", link: "/actor-model" },
+            { text: "CSP とGoのgoroutine", link: "/csp" },
+            { text: "データ並列処理（SIMD, GPU, MapReduce）", link: "/data-parallelism" },
+            { text: "Fork-Join モデルとワークスティーリング", link: "/fork-join" },
+          ],
+        },
+        {
+          text: "並行処理の課題",
+          items: [
+            { text: "デッドロック, ライブロック, 優先度逆転", link: "/concurrency-hazards" },
+            { text: "データ競合と ThreadSanitizer", link: "/data-race" },
+          ],
+        },
       ],
 
       outline: {
