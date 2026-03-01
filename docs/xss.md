@@ -712,7 +712,7 @@ function SafeRichContent({ htmlContent }) {
 
 ### 6.2 Angular
 
-AngularもReactと同様に、テンプレートバインディング（`{{ }}` 構文）においてデフォルトでHTMLエスケープを行う。
+AngularもReactと同様に、テンプレートバインディング（<code v-pre>{{ }}</code> 構文）においてデフォルトでHTMLエスケープを行う。
 
 ```typescript
 // Angular component
@@ -748,7 +748,7 @@ getTrustedHtml(untrustedHtml: string) {
 
 ### 6.3 Vue.js
 
-Vue.jsも二重中括弧（`{{ }}`）によるテキスト補間でHTMLエスケープを自動適用する。
+Vue.jsも二重中括弧（<code v-pre>{{ }}</code>）によるテキスト補間でHTMLエスケープを自動適用する。
 
 ```html
 <template>
@@ -780,11 +780,11 @@ export default {
 
 | テンプレートエンジン | 自動エスケープ構文 | エスケープなし構文 |
 |-------------------|-----------------|-----------------|
-| Jinja2（Python） | `{{ value }}` | `{{ value\|safe }}` |
+| Jinja2（Python） | <code v-pre>{{ value }}</code> | <code v-pre>{{ value\|safe }}</code> |
 | ERB（Ruby） | `<%= value %>` | `<%== value %>` |
-| Blade（PHP/Laravel） | `{{ $value }}` | `{!! $value !!}` |
+| Blade（PHP/Laravel） | <code v-pre>{{ $value }}</code> | `{!! $value !!}` |
 | Thymeleaf（Java） | `th:text` | `th:utext` |
-| Go html/template | `{{ .Value }}` | `template.HTML()` |
+| Go html/template | <code v-pre>{{ .Value }}</code> | `template.HTML()` |
 
 ### 6.5 フレームワーク保護の落とし穴
 

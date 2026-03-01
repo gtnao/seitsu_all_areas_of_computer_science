@@ -8,11 +8,21 @@ export default withMermaid(
     description: "コンピュータサイエンスのすべての分野に精通していること",
     base: "/seitsu_all_areas_of_computer_science/",
 
+    lastUpdated: true,
+
     markdown: {
       math: true,
     },
 
     themeConfig: {
+      search: {
+        provider: "local",
+      },
+
+      lastUpdated: {
+        text: "最終更新日",
+      },
+
       sidebar: [
         {
           text: "暗号技術の基礎",
