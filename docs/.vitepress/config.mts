@@ -336,6 +336,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "ハードウェア仮想化",
+          items: [
+            { text: "ハイパーバイザ（Type 1/Type 2, KVM, Xen）", link: "/hypervisor" },
+          ],
+        },
+        {
           text: "コンテナ技術",
           items: [
             { text: "Linuxコンテナの基盤（Namespace, cgroups）", link: "/linux-containers" },
