@@ -325,7 +325,7 @@ databases:
   NoSQLとNewSQL:
     - title: キーバリューストア（Redis, DynamoDB）
       file: key-value-store.md
-      status: todo
+      status: done
     - title: ドキュメントDB（MongoDB）
       file: document-db.md
       status: todo
@@ -892,7 +892,7 @@ theory-of-computation:
       status: todo
     - title: 誤り訂正符号（Hamming, Reed-Solomon, LDPC）
       file: error-correcting-codes.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 機械学習
@@ -935,7 +935,7 @@ machine-learning:
   大規模言語モデル:
     - title: 大規模言語モデル（LLM）のアーキテクチャと学習
       file: llm-architecture.md
-      status: todo
+      status: done
     - title: トークナイゼーション（BPE, SentencePiece）
       file: tokenization.md
       status: todo
@@ -1088,7 +1088,7 @@ backend:
       status: todo
     - title: ミドルウェアパイプライン設計
       file: middleware-pipeline.md
-      status: todo
+      status: done
     - title: コネクションプーリング
       file: connection-pooling.md
       status: todo
@@ -1189,7 +1189,7 @@ data-engineering:
   ストリーム処理:
     - title: ストリーム処理の基礎（ウィンドウ, ウォーターマーク, Exactly-Once）
       file: stream-processing.md
-      status: todo
+      status: done
     - title: Apache Flink のアーキテクチャ
       file: flink.md
       status: todo

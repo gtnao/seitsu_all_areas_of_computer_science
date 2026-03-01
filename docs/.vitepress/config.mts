@@ -156,6 +156,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "NoSQLとNewSQL",
+          items: [
+            { text: "キーバリューストア（Redis, DynamoDB）", link: "/key-value-store" },
+          ],
+        },
+        {
           text: "分散システムの理論的基盤",
           items: [
             { text: "CAP定理とPACELC", link: "/cap-theorem" },
@@ -260,6 +266,7 @@ export default withMermaid(
           text: "情報理論",
           items: [
             { text: "エントロピーと情報量（Shannon）", link: "/information-entropy" },
+            { text: "誤り訂正符号（Hamming, Reed-Solomon, LDPC）", link: "/error-correcting-codes" },
           ],
         },
         {
@@ -320,6 +327,12 @@ export default withMermaid(
           text: "API設計",
           items: [
             { text: "API バージョニング戦略", link: "/api-versioning" },
+          ],
+        },
+        {
+          text: "リクエスト処理モデル",
+          items: [
+            { text: "ミドルウェアパイプライン設計", link: "/middleware-pipeline" },
           ],
         },
         {
@@ -439,6 +452,7 @@ export default withMermaid(
           text: "データエンジニアリング",
           items: [
             { text: "MapReduce — 大規模データ処理の設計思想", link: "/mapreduce" },
+            { text: "ストリーム処理の基礎（ウィンドウ, ウォーターマーク, Exactly-Once）", link: "/stream-processing" },
             { text: "dbt — データ変換のソフトウェアエンジニアリング化", link: "/dbt" },
           ],
         },
@@ -498,6 +512,12 @@ export default withMermaid(
             { text: "Transformer と Self-Attention", link: "/transformer" },
             { text: "GAN（敵対的生成ネットワーク）", link: "/gan" },
             { text: "拡散モデル（Diffusion Models）", link: "/diffusion-models" },
+          ],
+        },
+        {
+          text: "大規模言語モデル",
+          items: [
+            { text: "大規模言語モデル（LLM）のアーキテクチャと学習", link: "/llm-architecture" },
           ],
         },
         {
