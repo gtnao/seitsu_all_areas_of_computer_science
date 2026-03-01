@@ -157,6 +157,7 @@ export default withMermaid(
           text: "分散システムの理論的基盤",
           items: [
             { text: "CAP定理とPACELC", link: "/cap-theorem" },
+            { text: "一貫性モデル（Linearizability, Sequential, Causal, Eventual）", link: "/consistency-models" },
             { text: "論理時計（Lamport Clock, Vector Clock）", link: "/logical-clocks" },
           ],
         },
@@ -249,6 +250,7 @@ export default withMermaid(
           text: "グラフアルゴリズム",
           items: [
             { text: "グラフ探索（BFS, DFS）と応用", link: "/graph-traversal" },
+            { text: "最短経路（Dijkstra, Bellman-Ford, A*）", link: "/shortest-path" },
           ],
         },
         {
@@ -312,6 +314,12 @@ export default withMermaid(
           text: "I/Oとネットワークスタック",
           items: [
             { text: "I/O多重化（epoll, kqueue, io_uring）", link: "/io-multiplexing" },
+          ],
+        },
+        {
+          text: "カーネルと割り込み",
+          items: [
+            { text: "eBPF", link: "/ebpf" },
           ],
         },
         {
@@ -431,6 +439,7 @@ export default withMermaid(
             { text: "RNN, LSTM, GRU — 系列モデリング", link: "/rnn-lstm" },
             { text: "Transformer と Self-Attention", link: "/transformer" },
             { text: "GAN（敵対的生成ネットワーク）", link: "/gan" },
+            { text: "拡散モデル（Diffusion Models）", link: "/diffusion-models" },
           ],
         },
         {
@@ -450,6 +459,7 @@ export default withMermaid(
           text: "UIフレームワークの設計原理",
           items: [
             { text: "仮想DOMと差分アルゴリズム（React Fiber, Reconciliation）", link: "/virtual-dom" },
+            { text: "リアクティビティシステム（Signals, Fine-Grained Reactivity）", link: "/reactivity" },
           ],
         },
         {

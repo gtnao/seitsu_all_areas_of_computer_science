@@ -166,7 +166,7 @@ operating-systems:
       status: todo
     - title: eBPF
       file: ebpf.md
-      status: todo
+      status: done
 
   ファイルシステム:
     - title: VFS（仮想ファイルシステム）
@@ -349,7 +349,7 @@ distributed-systems:
       status: todo
     - title: Linearizability と Sequential Consistency
       file: consistency-models.md
-      status: todo
+      status: done
     - title: 論理時計（Lamport Clock, Vector Clock）
       file: logical-clocks.md
       status: done
@@ -764,7 +764,7 @@ algorithms:
       status: done
     - title: 最短経路（Dijkstra, Bellman-Ford, A*）
       file: shortest-path.md
-      status: todo
+      status: done
     - title: 最小全域木（Kruskal, Prim）
       file: minimum-spanning-tree.md
       status: todo
@@ -930,7 +930,7 @@ machine-learning:
       status: done
     - title: 拡散モデル（Diffusion Models）
       file: diffusion-models.md
-      status: todo
+      status: done
 
   大規模言語モデル:
     - title: 大規模言語モデル（LLM）のアーキテクチャと学習
@@ -1046,7 +1046,7 @@ frontend:
       status: done
     - title: リアクティビティシステム（Signals, Fine-Grained Reactivity）
       file: reactivity.md
-      status: todo
+      status: done
     - title: コンポーネントモデルの設計思想
       file: component-model.md
       status: todo
