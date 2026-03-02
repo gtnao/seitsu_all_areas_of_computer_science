@@ -1410,7 +1410,7 @@ backend:
       status: done
     - title: Nginx のアーキテクチャ（master-worker, イベント駆動I/O, 設定解析）
       file: nginx-architecture.md
-      status: todo
+      status: done
 
   通知・外部連携:
     - title: 通知システムの設計（Push, Email, In-App, Fan-out）

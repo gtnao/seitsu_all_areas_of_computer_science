@@ -166,6 +166,7 @@ export default withMermaid(
           text: "ミドルウェア内部",
           items: [
             { text: "Redis の内部設計", link: "/redis-internals" },
+            { text: "Nginx のアーキテクチャ", link: "/nginx-architecture" },
           ],
         },
         {
