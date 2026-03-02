@@ -568,7 +568,7 @@ programming-languages:
   ランタイム内部:
     - title: Go のランタイム内部（goroutine スケジューラ, GC, channel）
       file: go-runtime-internals.md
-      status: todo
+      status: done
     - title: JVM の内部構造（クラスローダ, JIT階層コンパイル, GCチューニング）
       file: jvm-internals.md
       status: todo

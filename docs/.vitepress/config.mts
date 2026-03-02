@@ -257,6 +257,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "言語ランタイムの内部",
+          items: [
+            { text: "Go のランタイム内部", link: "/go-runtime-internals" },
+          ],
+        },
+        {
           text: "同期プリミティブ",
           items: [
             { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
