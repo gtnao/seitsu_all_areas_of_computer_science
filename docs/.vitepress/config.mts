@@ -228,6 +228,7 @@ export default withMermaid(
             { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
             { text: "Read-Writeロック", link: "/rw-lock" },
             { text: "スピンロックとバックオフ", link: "/spinlock" },
+            { text: "メモリオーダリングとメモリモデル", link: "/memory-ordering" },
           ],
         },
         {
@@ -271,6 +272,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "決定不能性と限界",
+          items: [
+            { text: "ゲーデルの不完全性定理", link: "/godel-incompleteness" },
+          ],
+        },
+        {
           text: "情報理論",
           items: [
             { text: "エントロピーと情報量（Shannon）", link: "/information-entropy" },
@@ -304,6 +311,7 @@ export default withMermaid(
           text: "アルゴリズム設計手法",
           items: [
             { text: "動的計画法", link: "/dynamic-programming" },
+            { text: "分割統治法", link: "/divide-and-conquer" },
           ],
         },
         {
@@ -339,6 +347,7 @@ export default withMermaid(
           items: [
             { text: "REST API設計原則", link: "/rest-api-design" },
             { text: "API バージョニング戦略", link: "/api-versioning" },
+            { text: "冪等性の設計", link: "/idempotency" },
           ],
         },
         {
@@ -455,6 +464,12 @@ export default withMermaid(
           items: [
             { text: "Kubernetesアーキテクチャ", link: "/kubernetes-architecture" },
             { text: "Kubernetes スケジューリング", link: "/kubernetes-scheduling" },
+          ],
+        },
+        {
+          text: "軽量仮想化",
+          items: [
+            { text: "マイクロVM（Firecracker, Cloud Hypervisor）", link: "/microvm" },
           ],
         },
         {
@@ -582,6 +597,7 @@ export default withMermaid(
           text: "ブラウザとレンダリング",
           items: [
             { text: "ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）", link: "/browser-rendering" },
+            { text: "V8エンジンの内部（Hidden Class, Inline Cache）", link: "/v8-internals" },
           ],
         },
         {

@@ -542,7 +542,7 @@ software-engineering:
       status: done
     - title: 冪等性の設計
       file: idempotency.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 並行・並列処理
@@ -571,7 +571,7 @@ concurrency:
       status: done
     - title: メモリオーダリングとメモリモデル
       file: memory-ordering.md
-      status: todo
+      status: done
     - title: Hazard Pointer と EBR（Epoch-Based Reclamation）
       file: hazard-pointer-ebr.md
       status: todo
@@ -715,7 +715,7 @@ virtualization:
   軽量仮想化:
     - title: マイクロVM（Firecracker, Cloud Hypervisor）
       file: microvm.md
-      status: todo
+      status: done
     - title: gVisor — ユーザー空間カーネルによる隔離
       file: gvisor.md
       status: todo
@@ -784,7 +784,7 @@ algorithms:
       status: todo
     - title: 分割統治法
       file: divide-and-conquer.md
-      status: todo
+      status: done
     - title: 乱択アルゴリズム
       file: randomized-algorithms.md
       status: todo
@@ -881,7 +881,7 @@ theory-of-computation:
       status: todo
     - title: ゲーデルの不完全性定理
       file: godel-incompleteness.md
-      status: todo
+      status: done
 
   情報理論:
     - title: エントロピーと情報量（Shannon）
@@ -1009,7 +1009,7 @@ web-fundamentals:
       status: todo
     - title: V8エンジンの内部（Hidden Class, Inline Cache）
       file: v8-internals.md
-      status: todo
+      status: done
 
   HTML/CSSの設計原理:
     - title: HTMLのセマンティクスとアクセシビリティ
