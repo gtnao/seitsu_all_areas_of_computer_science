@@ -361,6 +361,7 @@ export default withMermaid(
             { text: "浮動小数点数の落とし穴", link: "/floating-point" },
             { text: "HyperLogLog — 基数推定の仕組み", link: "/hyperloglog" },
             { text: "Count-Min Sketch と頻度推定", link: "/count-min-sketch" },
+            { text: "空間インデックスの設計", link: "/spatial-index" },
           ],
         },
         {

@@ -969,7 +969,7 @@ algorithms:
   空間データ構造:
     - title: k-d Tree と R-Tree — 空間インデックスの設計
       file: spatial-index.md
-      status: todo
+      status: done
 
 # =============================================================================
 # コンピュータアーキテクチャ
