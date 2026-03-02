@@ -353,6 +353,7 @@ export default withMermaid(
           text: "数値計算と確率的データ構造",
           items: [
             { text: "浮動小数点数の落とし穴", link: "/floating-point" },
+            { text: "HyperLogLog — 基数推定の仕組み", link: "/hyperloglog" },
           ],
         },
         {

@@ -961,7 +961,7 @@ algorithms:
   確率的データ構造と近似アルゴリズム:
     - title: HyperLogLog — 基数推定の仕組み（Redis, BigQuery での活用）
       file: hyperloglog.md
-      status: todo
+      status: done
     - title: Count-Min Sketch と頻度推定
       file: count-min-sketch.md
       status: todo
