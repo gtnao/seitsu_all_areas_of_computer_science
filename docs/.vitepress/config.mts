@@ -384,6 +384,7 @@ export default withMermaid(
             { text: "APIゲートウェイパターン", link: "/api-gateway" },
             { text: "OpenAPI とスキーマ駆動開発", link: "/openapi-schema-driven" },
             { text: "非同期リクエスト処理", link: "/async-request-processing" },
+            { text: "BFF（Backend for Frontend）", link: "/bff" },
           ],
         },
         {
