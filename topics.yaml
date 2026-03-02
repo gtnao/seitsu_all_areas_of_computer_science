@@ -482,7 +482,7 @@ distributed-systems:
       status: done
     - title: 分散ID生成（Snowflake, ULID, UUIDv7）
       file: distributed-id-generation.md
-      status: todo
+      status: done
     - title: Outbox パターン（Transactional Outbox）
       file: outbox-pattern.md
       status: todo

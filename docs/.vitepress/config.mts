@@ -200,6 +200,7 @@ export default withMermaid(
             { text: "分散システムにおける障害モデル", link: "/failure-models" },
             { text: "サーキットブレーカーとリトライ戦略", link: "/circuit-breaker" },
             { text: "分散ロック", link: "/distributed-lock" },
+            { text: "分散ID生成", link: "/distributed-id-generation" },
           ],
         },
         {
