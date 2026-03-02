@@ -1216,7 +1216,7 @@ web-fundamentals:
       status: todo
     - title: 動画ストリーミング配信の仕組み（HLS, DASH, MSE）
       file: video-streaming.md
-      status: todo
+      status: done
 
   テキストとエンコーディング:
     - title: Unicode とテキスト処理の基礎（UTF-8, 正規化, 書記素クラスタ）
