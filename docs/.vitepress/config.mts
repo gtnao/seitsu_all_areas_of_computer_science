@@ -381,6 +381,7 @@ export default withMermaid(
             { text: "Webhook の設計と信頼性", link: "/webhook-design" },
             { text: "バルク処理・バッチAPI設計", link: "/bulk-api-design" },
             { text: "APIエラーレスポンス設計", link: "/api-error-response" },
+            { text: "APIゲートウェイパターン", link: "/api-gateway" },
           ],
         },
         {

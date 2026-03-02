@@ -1385,7 +1385,7 @@ backend:
       status: done
     - title: APIゲートウェイパターン（認証, ルーティング, 変換）
       file: api-gateway.md
-      status: todo
+      status: done
     - title: BFF（Backend for Frontend）
       file: bff.md
       status: todo
