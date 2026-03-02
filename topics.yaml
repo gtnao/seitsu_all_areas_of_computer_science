@@ -1402,7 +1402,7 @@ backend:
       status: done
     - title: 画像・ファイル配信パターン（リサイズ, CDN連携, 署名付きURL）
       file: image-file-delivery.md
-      status: todo
+      status: done
 
   ミドルウェア内部:
     - title: Redis の内部設計（データ構造実装, シングルスレッドモデル, 永続化, Cluster）

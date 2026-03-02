@@ -764,6 +764,7 @@ export default withMermaid(
           items: [
             { text: "動画ストリーミング配信の仕組み", link: "/video-streaming" },
             { text: "Same-Origin Policy の全体像", link: "/same-origin-policy" },
+            { text: "画像・ファイル配信の最適化", link: "/image-file-delivery" },
           ],
         },
         {
