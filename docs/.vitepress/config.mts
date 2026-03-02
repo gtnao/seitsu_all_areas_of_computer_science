@@ -387,6 +387,7 @@ export default withMermaid(
             { text: "プロパティベーステスト", link: "/property-based-testing" },
             { text: "形式手法と TLA+", link: "/formal-methods-tla" },
             { text: "ファジング", link: "/fuzzing" },
+            { text: "負荷テストの設計と実施", link: "/load-testing" },
           ],
         },
         {

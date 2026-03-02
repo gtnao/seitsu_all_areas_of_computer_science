@@ -618,7 +618,7 @@ software-engineering:
       status: done
     - title: 負荷テストの設計と実施（k6, Locust, シナリオ設計）
       file: load-testing.md
-      status: todo
+      status: done
 
   デプロイと運用:
     - title: CI/CD パイプライン
