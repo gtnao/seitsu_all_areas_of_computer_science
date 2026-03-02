@@ -87,6 +87,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "セキュリティの実装と運用",
+          items: [
+            { text: "Webアプリケーションの認証実装パターン", link: "/web-auth-implementation" },
+          ],
+        },
+        {
           text: "インターネットプロトコル基盤",
           items: [
             { text: "TCP — 信頼性のある通信の仕組み", link: "/tcp" },

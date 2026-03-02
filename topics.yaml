@@ -77,7 +77,7 @@ security:
       status: done
     - title: Webアプリケーションの認証実装パターン（Cookie/Token, Refresh Token Rotation）
       file: web-auth-implementation.md
-      status: todo
+      status: done
     - title: APIセキュリティの実践（API Key管理, Abuse Prevention, Bot対策）
       file: api-security.md
       status: todo
