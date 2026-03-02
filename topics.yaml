@@ -1415,7 +1415,7 @@ backend:
   通知・外部連携:
     - title: 通知システムの設計（Push, Email, In-App, Fan-out）
       file: notification-system.md
-      status: todo
+      status: done
     - title: メール送信の設計と到達性（SMTP, SPF, DKIM, DMARC）
       file: email-delivery.md
       status: todo

@@ -465,6 +465,7 @@ export default withMermaid(
           text: "システム設計パターン",
           items: [
             { text: "ファイルアップロード設計", link: "/file-upload-design" },
+            { text: "通知システムの設計", link: "/notification-system" },
           ],
         },
         {
