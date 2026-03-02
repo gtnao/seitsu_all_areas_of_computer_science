@@ -158,7 +158,7 @@ operating-systems:
       status: done
     - title: ファイルディスクリプタの仕組みと上限設計
       file: file-descriptors.md
-      status: todo
+      status: done
 
   メモリ管理:
     - title: 仮想メモリとページング

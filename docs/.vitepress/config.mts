@@ -506,6 +506,7 @@ export default withMermaid(
           items: [
             { text: "Linux の cgroups v2 とリソース制御", link: "/cgroups" },
             { text: "OOM Killer の仕組みとメモリオーバーコミット", link: "/oom-killer" },
+            { text: "ファイルディスクリプタの仕組みと上限設計", link: "/file-descriptors" },
           ],
         },
         {
