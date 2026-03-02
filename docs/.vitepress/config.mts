@@ -826,6 +826,7 @@ export default withMermaid(
             { text: "Micro Frontends", link: "/micro-frontends" },
             { text: "デザインシステムの設計と実装", link: "/design-system" },
             { text: "i18n/l10n の設計パターン", link: "/i18n-l10n" },
+            { text: "フォーム設計とバリデーション", link: "/form-validation" },
           ],
         },
       ],

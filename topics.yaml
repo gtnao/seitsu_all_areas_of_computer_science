@@ -1285,7 +1285,7 @@ frontend:
       status: done
     - title: フォーム設計とバリデーション
       file: form-validation.md
-      status: todo
+      status: done
     - title: Web Workers と Off-Main-Thread アーキテクチャ
       file: web-workers.md
       status: todo
