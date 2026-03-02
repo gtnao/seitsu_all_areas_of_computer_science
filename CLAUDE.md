@@ -104,11 +104,22 @@ The following VitePress-specific Markdown syntax is available without additional
 ### After writing an article:
 1. **Update the sidebar** in `docs/.vitepress/config.mts` — add the new article to the appropriate category in the `sidebar` array
 2. Update `topics.yaml` — set the article's `status` to `done`
-3. Run `pnpm docs:build` to verify the build passes
+3. Run `NODE_OPTIONS="--max-old-space-size=8192" pnpm docs:build` to verify the build passes
 4. Commit with a descriptive message (e.g., `docs: add article on B-tree indexing`)
 5. Push to remote
 
 **重要**: 上記の手順は**記事ごとに**すべて行うこと。まとめて後から更新・コミット・Pushするのではなく、1記事ごとにサイドバー更新・topics.yaml更新・ビルド確認・コミット・Pushまで完了させる。
+
+### サブエージェントを使った記事執筆の分担
+
+サブエージェントに記事執筆を委託する場合、以下の分担を厳守すること：
+
+- **サブエージェントの責務**: `docs/` ディレクトリに記事の `.md` ファイルを**書くだけ**。`config.mts` や `topics.yaml` の更新、ビルド、コミット、プッシュは**一切行わない**。
+- **親エージェントの責務**: サブエージェントが記事ファイルを書き終えるごとに、以下を**1記事ずつ**実行する:
+  1. `docs/.vitepress/config.mts` のサイドバーに記事を追加
+  2. `topics.yaml` のステータスを `done` に更新
+  3. ビルド確認
+  4. コミット＆プッシュ
 
 ### Commit Message Format
 ```
