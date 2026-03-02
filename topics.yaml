@@ -1291,7 +1291,7 @@ frontend:
       status: done
     - title: フロントエンドのエラー監視（Sentry, Error Boundary, RUM）
       file: frontend-error-monitoring.md
-      status: todo
+      status: done
     - title: パフォーマンスバジェットと計測自動化
       file: performance-budget.md
       status: todo

@@ -828,6 +828,7 @@ export default withMermaid(
             { text: "i18n/l10n の設計パターン", link: "/i18n-l10n" },
             { text: "フォーム設計とバリデーション", link: "/form-validation" },
             { text: "Web Workers と並列処理", link: "/web-workers" },
+            { text: "フロントエンドエラー監視", link: "/frontend-error-monitoring" },
           ],
         },
       ],
