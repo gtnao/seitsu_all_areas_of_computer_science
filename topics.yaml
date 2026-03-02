@@ -1365,7 +1365,7 @@ backend:
       status: todo
     - title: キャッシュとDBの一貫性問題（Double-Write, Race Condition, 分散環境）
       file: cache-db-consistency.md
-      status: todo
+      status: done
 
   API実装パターン:
     - title: Rate Limiting の設計と実装（Token Bucket, Sliding Window）

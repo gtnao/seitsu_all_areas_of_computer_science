@@ -376,6 +376,7 @@ export default withMermaid(
           text: "キャッシュ戦略",
           items: [
             { text: "キャッシュパターン（Cache-Aside, Write-Through, Write-Behind）", link: "/caching-patterns" },
+            { text: "キャッシュとDBの一貫性問題", link: "/cache-db-consistency" },
           ],
         },
         {
