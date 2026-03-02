@@ -1376,7 +1376,7 @@ backend:
       status: todo
     - title: ページネーション設計（Offset vs Cursor vs Keyset）
       file: pagination-design.md
-      status: todo
+      status: done
     - title: バルク処理・バッチAPI設計
       file: bulk-api-design.md
       status: todo

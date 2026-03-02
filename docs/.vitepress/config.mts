@@ -370,6 +370,7 @@ export default withMermaid(
           text: "API実装パターン",
           items: [
             { text: "Rate Limiting の設計と実装", link: "/rate-limiting" },
+            { text: "ページネーション設計", link: "/pagination-design" },
           ],
         },
         {
