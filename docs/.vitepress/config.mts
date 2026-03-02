@@ -91,6 +91,7 @@ export default withMermaid(
           items: [
             { text: "Webアプリケーションの認証実装パターン", link: "/web-auth-implementation" },
             { text: "APIセキュリティの実践", link: "/api-security" },
+            { text: "Let's Encrypt と ACMEプロトコル", link: "/lets-encrypt-acme" },
           ],
         },
         {

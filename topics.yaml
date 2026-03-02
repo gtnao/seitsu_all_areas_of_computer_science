@@ -83,7 +83,7 @@ security:
       status: done
     - title: Let's Encrypt と ACMEプロトコル
       file: lets-encrypt-acme.md
-      status: todo
+      status: done
     - title: WAF（Web Application Firewall）の仕組みと設計
       file: waf.md
       status: todo
