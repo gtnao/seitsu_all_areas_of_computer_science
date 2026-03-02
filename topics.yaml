@@ -294,7 +294,7 @@ networking:
   セキュアリモートアクセス:
     - title: SSH の仕組みと応用
       file: ssh.md
-      status: todo
+      status: done
     - title: WireGuard と現代のVPN設計
       file: wireguard-vpn.md
       status: todo

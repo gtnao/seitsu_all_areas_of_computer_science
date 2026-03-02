@@ -125,6 +125,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "高レイヤーネットワーク",
+          items: [
+            { text: "SSH の仕組みと応用", link: "/ssh" },
+          ],
+        },
+        {
           text: "ストレージエンジン",
           items: [
             { text: "B-Treeインデックス", link: "/b-tree" },
