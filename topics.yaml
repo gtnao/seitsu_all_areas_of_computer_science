@@ -1426,7 +1426,7 @@ backend:
   ドメイン固有設計:
     - title: 決済システム設計（冪等性, 二重課金防止, レコンシリエーション）
       file: payment-system-design.md
-      status: todo
+      status: done
     - title: マルチテナントデータベース設計（RLS, スキーマ分離, DB分離）
       file: multi-tenant-db.md
       status: todo
