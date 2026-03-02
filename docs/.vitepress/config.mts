@@ -201,6 +201,7 @@ export default withMermaid(
             { text: "サーキットブレーカーとリトライ戦略", link: "/circuit-breaker" },
             { text: "分散ロック", link: "/distributed-lock" },
             { text: "分散ID生成", link: "/distributed-id-generation" },
+            { text: "Outbox パターン", link: "/outbox-pattern" },
           ],
         },
         {

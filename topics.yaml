@@ -485,7 +485,7 @@ distributed-systems:
       status: done
     - title: Outbox パターン（Transactional Outbox）
       file: outbox-pattern.md
-      status: todo
+      status: done
     - title: Raft の実装における実務的課題（ログコンパクション, スナップショット, Pre-Vote）
       file: raft-implementation-challenges.md
       status: todo
