@@ -613,6 +613,7 @@ export default withMermaid(
             { text: "CDC（Change Data Capture）の設計と実装", link: "/change-data-capture" },
             { text: "シリアライゼーション形式の設計思想", link: "/serialization-formats" },
             { text: "データ品質とデータ契約", link: "/data-quality-contracts" },
+            { text: "Apache Arrow と列指向インメモリフォーマット", link: "/apache-arrow" },
           ],
         },
         {
