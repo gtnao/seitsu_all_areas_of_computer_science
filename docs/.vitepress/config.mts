@@ -166,6 +166,7 @@ export default withMermaid(
           text: "データベースの運用と最適化",
           items: [
             { text: "PostgreSQL の実践的機能", link: "/postgresql-practical" },
+            { text: "スロークエリ分析と最適化の実践", link: "/slow-query-optimization" },
           ],
         },
         {

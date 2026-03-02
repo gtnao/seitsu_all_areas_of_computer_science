@@ -387,7 +387,7 @@ databases:
   運用と最適化:
     - title: スロークエリ分析と最適化の実践
       file: slow-query-optimization.md
-      status: todo
+      status: done
     - title: PostgreSQL の実践的機能（JSONB, パーティショニング, LISTEN/NOTIFY, RLS）
       file: postgresql-practical.md
       status: done
