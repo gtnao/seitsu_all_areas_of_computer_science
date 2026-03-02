@@ -1543,7 +1543,7 @@ data-engineering:
       status: todo
     - title: シリアライゼーション形式の設計思想（Protocol Buffers, Avro, MessagePack）
       file: serialization-formats.md
-      status: todo
+      status: done
     - title: Apache Arrow と列指向インメモリフォーマット
       file: apache-arrow.md
       status: todo
