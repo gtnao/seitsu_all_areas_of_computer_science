@@ -363,6 +363,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "API実装パターン",
+          items: [
+            { text: "Rate Limiting の設計と実装", link: "/rate-limiting" },
+          ],
+        },
+        {
           text: "キャッシュ戦略",
           items: [
             { text: "キャッシュパターン（Cache-Aside, Write-Through, Write-Behind）", link: "/caching-patterns" },
