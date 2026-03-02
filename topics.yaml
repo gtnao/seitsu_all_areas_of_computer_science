@@ -672,7 +672,7 @@ software-engineering:
   開発プラクティス:
     - title: トランクベース開発 vs GitFlow
       file: trunk-based-development.md
-      status: todo
+      status: done
     - title: 依存関係の脆弱性管理（Dependabot, Renovate, SBOM）
       file: dependency-vulnerability-management.md
       status: todo

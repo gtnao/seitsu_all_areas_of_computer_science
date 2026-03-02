@@ -406,6 +406,7 @@ export default withMermaid(
             { text: "インシデント管理とポストモーテム", link: "/incident-management" },
             { text: "オンコール設計とアラート戦略", link: "/oncall-alerting" },
             { text: "メトリクス設計", link: "/metrics-design" },
+            { text: "トランクベース開発", link: "/trunk-based-development" },
           ],
         },
         {
