@@ -361,6 +361,7 @@ export default withMermaid(
           items: [
             { text: "ミドルウェアパイプライン設計", link: "/middleware-pipeline" },
             { text: "グレースフルシャットダウンとヘルスチェック", link: "/graceful-shutdown" },
+            { text: "タイムアウトとデッドライン伝播", link: "/timeout-deadline-propagation" },
           ],
         },
         {

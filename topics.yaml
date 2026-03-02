@@ -1324,7 +1324,7 @@ backend:
       status: done
     - title: タイムアウトとデッドライン伝播
       file: timeout-deadline-propagation.md
-      status: todo
+      status: done
     - title: バックプレッシャー制御
       file: backpressure.md
       status: todo
