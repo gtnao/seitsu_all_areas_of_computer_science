@@ -1373,7 +1373,7 @@ backend:
       status: done
     - title: Webhook の設計と信頼性（配信保証, リトライ, 署名検証）
       file: webhook-design.md
-      status: todo
+      status: done
     - title: ページネーション設計（Offset vs Cursor vs Keyset）
       file: pagination-design.md
       status: done
