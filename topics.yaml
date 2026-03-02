@@ -1382,7 +1382,7 @@ backend:
       status: done
     - title: APIエラーレスポンス設計（RFC 7807 Problem Details）
       file: api-error-response.md
-      status: todo
+      status: done
     - title: APIゲートウェイパターン（認証, ルーティング, 変換）
       file: api-gateway.md
       status: todo
