@@ -964,7 +964,7 @@ algorithms:
       status: done
     - title: Count-Min Sketch と頻度推定
       file: count-min-sketch.md
-      status: todo
+      status: done
 
   空間データ構造:
     - title: k-d Tree と R-Tree — 空間インデックスの設計
