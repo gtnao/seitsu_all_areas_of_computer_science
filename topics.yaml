@@ -155,7 +155,7 @@ operating-systems:
       status: done
     - title: OOM Killer の仕組みとメモリオーバーコミット
       file: oom-killer.md
-      status: todo
+      status: done
     - title: ファイルディスクリプタの仕組みと上限設計
       file: file-descriptors.md
       status: todo

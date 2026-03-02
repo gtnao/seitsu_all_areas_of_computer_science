@@ -504,6 +504,7 @@ export default withMermaid(
           text: "リソース制御",
           items: [
             { text: "Linux の cgroups v2 とリソース制御", link: "/cgroups" },
+            { text: "OOM Killer の仕組みとメモリオーバーコミット", link: "/oom-killer" },
           ],
         },
         {
