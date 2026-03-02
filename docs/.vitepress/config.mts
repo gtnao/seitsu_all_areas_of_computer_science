@@ -396,6 +396,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "依存関係とセキュリティ",
+          items: [
+            { text: "依存関係と脆弱性の管理", link: "/dependency-vulnerability-management" },
+          ],
+        },
+        {
           text: "デプロイと運用",
           items: [
             { text: "CI/CDパイプライン", link: "/ci-cd" },
