@@ -1297,7 +1297,7 @@ frontend:
       status: done
     - title: SPA のルーティング設計（History API, 遅延ロード, ガード）
       file: spa-routing.md
-      status: todo
+      status: done
     - title: CSS設計手法の比較（BEM, CSS Modules, CSS-in-JS, Utility-first）
       file: css-architecture.md
       status: todo

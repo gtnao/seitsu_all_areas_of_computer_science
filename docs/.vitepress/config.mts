@@ -830,6 +830,7 @@ export default withMermaid(
             { text: "Web Workers と並列処理", link: "/web-workers" },
             { text: "フロントエンドエラー監視", link: "/frontend-error-monitoring" },
             { text: "パフォーマンスバジェット", link: "/performance-budget" },
+            { text: "SPA ルーティング設計", link: "/spa-routing" },
           ],
         },
       ],
