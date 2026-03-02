@@ -393,7 +393,7 @@ databases:
       status: done
     - title: データベースのバックアップとリカバリ戦略
       file: database-backup-recovery.md
-      status: todo
+      status: done
     - title: Read Replica のルーティング設計
       file: read-replica-routing.md
       status: todo
