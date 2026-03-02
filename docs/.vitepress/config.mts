@@ -753,6 +753,7 @@ export default withMermaid(
           text: "Webの基盤技術",
           items: [
             { text: "動画ストリーミング配信の仕組み", link: "/video-streaming" },
+            { text: "Same-Origin Policy の全体像", link: "/same-origin-policy" },
           ],
         },
         {

@@ -1226,7 +1226,7 @@ web-fundamentals:
   ブラウザセキュリティモデル:
     - title: Same-Origin Policy の全体像（CORS/CSP/COOP/COEP の統合理解）
       file: same-origin-policy.md
-      status: todo
+      status: done
     - title: セキュリティヘッダー総合ガイド（HSTS, Permissions-Policy）
       file: security-headers.md
       status: todo
