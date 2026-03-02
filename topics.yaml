@@ -1591,7 +1591,7 @@ dev-tools:
       status: done
     - title: プロファイラの仕組み（サンプリング vs 計装, フレームグラフ）
       file: profiler-internals.md
-      status: todo
+      status: done
 
 # =============================================================================
 # コンパイラ・言語処理系
