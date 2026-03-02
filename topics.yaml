@@ -152,7 +152,7 @@ operating-systems:
       status: todo
     - title: Linux の cgroups v2 とリソース制御
       file: cgroups.md
-      status: todo
+      status: done
     - title: OOM Killer の仕組みとメモリオーバーコミット
       file: oom-killer.md
       status: todo
