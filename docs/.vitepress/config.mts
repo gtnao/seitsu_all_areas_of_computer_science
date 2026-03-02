@@ -345,6 +345,7 @@ export default withMermaid(
             { text: "SRE と SLI/SLO/SLA", link: "/sre" },
             { text: "フィーチャーフラグとカナリアリリース", link: "/feature-flags" },
             { text: "カオスエンジニアリング", link: "/chaos-engineering" },
+            { text: "構造化ログ設計", link: "/structured-logging" },
           ],
         },
         {

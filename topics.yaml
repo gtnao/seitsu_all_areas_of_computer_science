@@ -638,7 +638,7 @@ software-engineering:
       status: done
     - title: 構造化ログ設計（JSON, トレースID伝播, Fluentd/Loki）
       file: structured-logging.md
-      status: todo
+      status: done
     - title: インシデント管理とポストモーテム
       file: incident-management.md
       status: todo
