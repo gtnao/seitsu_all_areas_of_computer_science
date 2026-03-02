@@ -1432,7 +1432,7 @@ backend:
       status: done
     - title: 全文検索の実装設計（PostgreSQL GIN, Elasticsearch, 形態素解析）
       file: full-text-search-implementation.md
-      status: todo
+      status: done
     - title: タイムラインフィード設計（Fan-out on Write/Read）
       file: timeline-feed-design.md
       status: todo

@@ -192,6 +192,7 @@ export default withMermaid(
             { text: "Read Replica のルーティング設計", link: "/read-replica-routing" },
             { text: "楽観的ロック vs 悲観的ロック", link: "/optimistic-pessimistic-locking" },
             { text: "マルチテナントデータベース設計", link: "/multi-tenant-db" },
+            { text: "全文検索の実装戦略", link: "/full-text-search-implementation" },
           ],
         },
         {
