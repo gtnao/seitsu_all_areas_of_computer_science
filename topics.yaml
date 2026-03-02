@@ -1276,7 +1276,7 @@ frontend:
   実装パターン:
     - title: Micro Frontends
       file: micro-frontends.md
-      status: todo
+      status: done
     - title: デザインシステムの設計と実装
       file: design-system.md
       status: todo

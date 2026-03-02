@@ -783,6 +783,12 @@ export default withMermaid(
             { text: "Tree Shaking とデッドコード除去", link: "/tree-shaking" },
           ],
         },
+        {
+          text: "フロントエンドの実践",
+          items: [
+            { text: "Micro Frontends", link: "/micro-frontends" },
+          ],
+        },
       ],
 
       outline: {
