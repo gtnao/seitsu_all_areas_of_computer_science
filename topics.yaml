@@ -647,7 +647,7 @@ software-engineering:
       status: done
     - title: 秘密情報管理（Vault, SOPS, Secrets Manager）
       file: secret-management.md
-      status: todo
+      status: done
     - title: オンコール設計とアラート戦略
       file: oncall-alerting.md
       status: todo
