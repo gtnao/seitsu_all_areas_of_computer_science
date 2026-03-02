@@ -602,6 +602,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "クラウドインフラ運用",
+          items: [
+            { text: "イミュータブルインフラストラクチャ", link: "/immutable-infrastructure" },
+          ],
+        },
+        {
           text: "データエンジニアリング",
           items: [
             { text: "MapReduce — 大規模データ処理の設計思想", link: "/mapreduce" },

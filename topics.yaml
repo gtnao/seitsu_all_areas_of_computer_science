@@ -829,7 +829,7 @@ cloud-computing:
       status: todo
     - title: Immutable Infrastructure
       file: immutable-infrastructure.md
-      status: todo
+      status: done
 
   可観測性基盤:
     - title: コンテナのログ・メトリクス収集パイプライン（Prometheus, Grafana, Loki）
