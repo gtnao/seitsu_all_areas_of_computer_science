@@ -363,6 +363,7 @@ export default withMermaid(
             { text: "グレースフルシャットダウンとヘルスチェック", link: "/graceful-shutdown" },
             { text: "タイムアウトとデッドライン伝播", link: "/timeout-deadline-propagation" },
             { text: "バックプレッシャー制御", link: "/backpressure" },
+            { text: "イベントループの内部設計", link: "/event-loop-internals" },
           ],
         },
         {

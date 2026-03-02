@@ -1330,7 +1330,7 @@ backend:
       status: done
     - title: イベントループの内部設計（libuv, tokio, Netty）
       file: event-loop-internals.md
-      status: todo
+      status: done
 
   ORMとデータアクセス:
     - title: ORMの仕組みと限界（Active Record, Data Mapper, N+1問題）
