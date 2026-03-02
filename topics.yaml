@@ -426,7 +426,7 @@ distributed-systems:
       status: done
     - title: 分散システムにおける時刻と順序（NTP, TrueTime, HLC）
       file: distributed-time.md
-      status: todo
+      status: done
     - title: ビザンチン将軍問題
       file: byzantine-generals.md
       status: todo

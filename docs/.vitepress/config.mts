@@ -196,6 +196,7 @@ export default withMermaid(
             { text: "FLP不可能性定理", link: "/flp-impossibility" },
             { text: "一貫性モデル（Linearizability, Sequential, Causal, Eventual）", link: "/consistency-models" },
             { text: "論理時計（Lamport Clock, Vector Clock）", link: "/logical-clocks" },
+            { text: "分散システムにおける時刻と順序", link: "/distributed-time" },
           ],
         },
         {
