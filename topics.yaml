@@ -1421,7 +1421,7 @@ backend:
       status: done
     - title: SSE（Server-Sent Events）とリアルタイム配信
       file: server-sent-events.md
-      status: todo
+      status: done
 
   ドメイン固有設計:
     - title: 決済システム設計（冪等性, 二重課金防止, レコンシリエーション）
