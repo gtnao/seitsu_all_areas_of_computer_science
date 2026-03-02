@@ -346,6 +346,7 @@ export default withMermaid(
             { text: "フィーチャーフラグとカナリアリリース", link: "/feature-flags" },
             { text: "カオスエンジニアリング", link: "/chaos-engineering" },
             { text: "構造化ログ設計", link: "/structured-logging" },
+            { text: "ゼロダウンタイムデプロイメント", link: "/zero-downtime-deployment" },
           ],
         },
         {
