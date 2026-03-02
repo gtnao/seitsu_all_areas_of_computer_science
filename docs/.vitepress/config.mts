@@ -426,6 +426,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "システム設計パターン",
+          items: [
+            { text: "ファイルアップロード設計", link: "/file-upload-design" },
+          ],
+        },
+        {
           text: "ストレージデバイス",
           items: [
             { text: "SSD内部（FTL, ウェアレベリング, TRIM）", link: "/ssd-internals" },

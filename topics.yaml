@@ -1399,7 +1399,7 @@ backend:
   ファイル・メディア処理:
     - title: ファイルアップロード設計（マルチパート, チャンク, Resumable）
       file: file-upload-design.md
-      status: todo
+      status: done
     - title: 画像・ファイル配信パターン（リサイズ, CDN連携, 署名付きURL）
       file: image-file-delivery.md
       status: todo
