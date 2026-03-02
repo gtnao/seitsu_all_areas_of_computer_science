@@ -491,7 +491,7 @@ distributed-systems:
       status: todo
     - title: Kafka の内部設計（ログセグメント, ISR, Consumer Groupリバランシング）
       file: kafka-internals.md
-      status: todo
+      status: done
 
 # =============================================================================
 # プログラミング言語理論

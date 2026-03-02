@@ -192,6 +192,7 @@ export default withMermaid(
           items: [
             { text: "メッセージキュー（Kafka, RabbitMQ, Pulsar）", link: "/message-queue" },
             { text: "イベントソーシングとCQRS", link: "/event-sourcing-cqrs" },
+            { text: "Kafka の内部設計", link: "/kafka-internals" },
           ],
         },
         {
