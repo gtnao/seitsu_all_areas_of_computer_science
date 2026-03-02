@@ -321,6 +321,7 @@ export default withMermaid(
         {
           text: "設計とアーキテクチャ",
           items: [
+            { text: "Twelve-Factor App の設計原則", link: "/twelve-factor-app" },
             { text: "クリーンアーキテクチャ", link: "/clean-architecture" },
             { text: "ドメイン駆動設計（DDD）", link: "/ddd" },
             { text: "デザインパターン（GoF）", link: "/design-patterns" },

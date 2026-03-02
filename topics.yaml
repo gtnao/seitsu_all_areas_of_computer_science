@@ -601,7 +601,7 @@ software-engineering:
       status: done
     - title: Twelve-Factor App の設計原則
       file: twelve-factor-app.md
-      status: todo
+      status: done
 
   テストと品質:
     - title: テスト戦略（ユニット, インテグレーション, E2E）
