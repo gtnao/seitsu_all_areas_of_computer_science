@@ -667,7 +667,7 @@ software-engineering:
       status: done
     - title: スキーマエボリューション（前方/後方互換, DB/API/メッセージ）
       file: schema-evolution.md
-      status: todo
+      status: done
 
   開発プラクティス:
     - title: トランクベース開発 vs GitFlow

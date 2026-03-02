@@ -360,6 +360,7 @@ export default withMermaid(
             { text: "REST API設計原則", link: "/rest-api-design" },
             { text: "API バージョニング戦略", link: "/api-versioning" },
             { text: "冪等性の設計", link: "/idempotency" },
+            { text: "スキーマエボリューション", link: "/schema-evolution" },
           ],
         },
         {
