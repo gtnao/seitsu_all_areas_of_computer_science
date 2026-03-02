@@ -1537,7 +1537,7 @@ data-engineering:
   データ統合:
     - title: CDC（Change Data Capture）の設計と実装
       file: change-data-capture.md
-      status: todo
+      status: done
     - title: データ品質とデータ契約（Data Contracts）
       file: data-quality-contracts.md
       status: todo

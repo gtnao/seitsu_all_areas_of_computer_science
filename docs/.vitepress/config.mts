@@ -577,6 +577,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "データ統合とフォーマット",
+          items: [
+            { text: "CDC（Change Data Capture）の設計と実装", link: "/change-data-capture" },
+          ],
+        },
+        {
           text: "バージョン管理",
           items: [
             { text: "Gitの内部構造（オブジェクトモデル, Packfile, Reflog）", link: "/git-internals" },
