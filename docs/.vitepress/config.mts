@@ -382,6 +382,7 @@ export default withMermaid(
             { text: "バルク処理・バッチAPI設計", link: "/bulk-api-design" },
             { text: "APIエラーレスポンス設計", link: "/api-error-response" },
             { text: "APIゲートウェイパターン", link: "/api-gateway" },
+            { text: "OpenAPI とスキーマ駆動開発", link: "/openapi-schema-driven" },
           ],
         },
         {

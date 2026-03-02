@@ -1391,7 +1391,7 @@ backend:
       status: todo
     - title: OpenAPI とスキーマ駆動開発
       file: openapi-schema-driven.md
-      status: todo
+      status: done
     - title: 非同期リクエスト処理（Long-Running Operations, ポーリング, コールバック）
       file: async-request-processing.md
       status: todo
