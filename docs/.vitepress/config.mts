@@ -781,6 +781,7 @@ export default withMermaid(
             { text: "Same-Origin Policy の全体像", link: "/same-origin-policy" },
             { text: "画像・ファイル配信の最適化", link: "/image-file-delivery" },
             { text: "Server-Sent Events（SSE）", link: "/server-sent-events" },
+            { text: "セキュリティヘッダー総合ガイド", link: "/security-headers" },
           ],
         },
         {

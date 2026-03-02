@@ -1229,7 +1229,7 @@ web-fundamentals:
       status: done
     - title: セキュリティヘッダー総合ガイド（HSTS, Permissions-Policy）
       file: security-headers.md
-      status: todo
+      status: done
 
 # =============================================================================
 # フロントエンド開発
