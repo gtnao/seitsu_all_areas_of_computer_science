@@ -1441,7 +1441,7 @@ backend:
       status: done
     - title: リーダーボード・ランキング設計（Redis Sorted Set, 近似カウント）
       file: leaderboard-design.md
-      status: todo
+      status: done
     - title: ファイル変換パイプライン設計（PDF生成, 画像変換, 非同期処理）
       file: file-conversion-pipeline.md
       status: todo

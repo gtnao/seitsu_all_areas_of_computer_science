@@ -473,6 +473,7 @@ export default withMermaid(
             { text: "決済システムの設計", link: "/payment-system-design" },
             { text: "タイムライン・フィード設計", link: "/timeline-feed-design" },
             { text: "URL短縮サービスの設計", link: "/url-shortener-design" },
+            { text: "リーダーボード設計", link: "/leaderboard-design" },
           ],
         },
         {
