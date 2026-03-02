@@ -474,6 +474,7 @@ export default withMermaid(
             { text: "タイムライン・フィード設計", link: "/timeline-feed-design" },
             { text: "URL短縮サービスの設計", link: "/url-shortener-design" },
             { text: "リーダーボード設計", link: "/leaderboard-design" },
+            { text: "ファイル変換パイプライン設計", link: "/file-conversion-pipeline" },
           ],
         },
         {
