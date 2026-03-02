@@ -1418,7 +1418,7 @@ backend:
       status: done
     - title: メール送信の設計と到達性（SMTP, SPF, DKIM, DMARC）
       file: email-delivery.md
-      status: todo
+      status: done
     - title: SSE（Server-Sent Events）とリアルタイム配信
       file: server-sent-events.md
       status: todo

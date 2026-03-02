@@ -467,6 +467,7 @@ export default withMermaid(
           items: [
             { text: "ファイルアップロード設計", link: "/file-upload-design" },
             { text: "通知システムの設計", link: "/notification-system" },
+            { text: "メール配信の仕組み", link: "/email-delivery" },
           ],
         },
         {
