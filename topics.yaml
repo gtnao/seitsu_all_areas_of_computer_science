@@ -1279,7 +1279,7 @@ frontend:
       status: done
     - title: デザインシステムの設計と実装
       file: design-system.md
-      status: todo
+      status: done
     - title: i18n/l10n の設計パターン
       file: i18n-l10n.md
       status: todo

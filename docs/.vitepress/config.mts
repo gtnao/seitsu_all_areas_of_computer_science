@@ -824,6 +824,7 @@ export default withMermaid(
           text: "フロントエンドの実践",
           items: [
             { text: "Micro Frontends", link: "/micro-frontends" },
+            { text: "デザインシステムの設計と実装", link: "/design-system" },
           ],
         },
       ],
