@@ -956,7 +956,7 @@ algorithms:
   数値表現:
     - title: 浮動小数点数の落とし穴（IEEE 754, 丸め誤差, 金額計算）
       file: floating-point.md
-      status: todo
+      status: done
 
   確率的データ構造と近似アルゴリズム:
     - title: HyperLogLog — 基数推定の仕組み（Redis, BigQuery での活用）

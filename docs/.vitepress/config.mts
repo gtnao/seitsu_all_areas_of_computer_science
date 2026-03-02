@@ -350,6 +350,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "数値計算と確率的データ構造",
+          items: [
+            { text: "浮動小数点数の落とし穴", link: "/floating-point" },
+          ],
+        },
+        {
           text: "設計とアーキテクチャ",
           items: [
             { text: "Twelve-Factor App の設計原則", link: "/twelve-factor-app" },
