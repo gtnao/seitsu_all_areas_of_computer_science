@@ -1300,7 +1300,7 @@ frontend:
       status: done
     - title: CSS設計手法の比較（BEM, CSS Modules, CSS-in-JS, Utility-first）
       file: css-architecture.md
-      status: todo
+      status: done
     - title: アクセシビリティテストの自動化（axe-core, WCAG準拠チェック）
       file: accessibility-testing.md
       status: todo
