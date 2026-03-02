@@ -260,6 +260,7 @@ export default withMermaid(
           text: "言語ランタイムの内部",
           items: [
             { text: "Go のランタイム内部", link: "/go-runtime-internals" },
+            { text: "JVM の内部構造", link: "/jvm-internals" },
           ],
         },
         {

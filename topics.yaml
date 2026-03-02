@@ -571,7 +571,7 @@ programming-languages:
       status: done
     - title: JVM の内部構造（クラスローダ, JIT階層コンパイル, GCチューニング）
       file: jvm-internals.md
-      status: todo
+      status: done
     - title: CPython の内部（GIL, 参照カウント, バイトコード実行）
       file: cpython-internals.md
       status: todo
