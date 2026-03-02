@@ -479,7 +479,7 @@ distributed-systems:
       status: todo
     - title: 分散ロック（Redlock, etcd, ZooKeeper）
       file: distributed-lock.md
-      status: todo
+      status: done
     - title: 分散ID生成（Snowflake, ULID, UUIDv7）
       file: distributed-id-generation.md
       status: todo
