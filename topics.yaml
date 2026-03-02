@@ -1321,7 +1321,7 @@ backend:
       status: todo
     - title: グレースフルシャットダウンとヘルスチェック
       file: graceful-shutdown.md
-      status: todo
+      status: done
     - title: タイムアウトとデッドライン伝播
       file: timeout-deadline-propagation.md
       status: todo

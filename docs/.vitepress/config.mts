@@ -359,6 +359,7 @@ export default withMermaid(
           text: "リクエスト処理モデル",
           items: [
             { text: "ミドルウェアパイプライン設計", link: "/middleware-pipeline" },
+            { text: "グレースフルシャットダウンとヘルスチェック", link: "/graceful-shutdown" },
           ],
         },
         {
