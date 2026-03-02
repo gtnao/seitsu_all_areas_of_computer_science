@@ -166,6 +166,7 @@ export default withMermaid(
           text: "分散システムの理論的基盤",
           items: [
             { text: "CAP定理とPACELC", link: "/cap-theorem" },
+            { text: "FLP不可能性定理", link: "/flp-impossibility" },
             { text: "一貫性モデル（Linearizability, Sequential, Causal, Eventual）", link: "/consistency-models" },
             { text: "論理時計（Lamport Clock, Vector Clock）", link: "/logical-clocks" },
           ],
@@ -227,6 +228,7 @@ export default withMermaid(
           items: [
             { text: "Mutex, セマフォ, 条件変数", link: "/sync-primitives" },
             { text: "Read-Writeロック", link: "/rw-lock" },
+            { text: "Futex — ユーザー空間の高速同期", link: "/futex" },
             { text: "スピンロックとバックオフ", link: "/spinlock" },
             { text: "メモリオーダリングとメモリモデル", link: "/memory-ordering" },
           ],
@@ -340,6 +342,7 @@ export default withMermaid(
             { text: "CI/CDパイプライン", link: "/ci-cd" },
             { text: "SRE と SLI/SLO/SLA", link: "/sre" },
             { text: "フィーチャーフラグとカナリアリリース", link: "/feature-flags" },
+            { text: "カオスエンジニアリング", link: "/chaos-engineering" },
           ],
         },
         {
@@ -367,6 +370,12 @@ export default withMermaid(
           items: [
             { text: "ORMの仕組みと限界（Active Record, Data Mapper, N+1問題）", link: "/orm" },
             { text: "マイグレーション戦略（ゼロダウンタイムスキーマ変更）", link: "/schema-migration" },
+          ],
+        },
+        {
+          text: "認証・認可の実装",
+          items: [
+            { text: "RBAC, ABAC, ReBAC — アクセス制御モデル", link: "/access-control-models" },
           ],
         },
         {
@@ -612,6 +621,7 @@ export default withMermaid(
           items: [
             { text: "HTMLのセマンティクスとアクセシビリティ", link: "/html-semantics-a11y" },
             { text: "CSSレイアウトモデル（Box Model, Flexbox, Grid）", link: "/css-layout" },
+            { text: "CSSのカスケードと詳細度", link: "/css-cascade" },
           ],
         },
         {

@@ -346,7 +346,7 @@ distributed-systems:
       status: done
     - title: FLP不可能性定理
       file: flp-impossibility.md
-      status: todo
+      status: done
     - title: Linearizability と Sequential Consistency
       file: consistency-models.md
       status: done
@@ -531,7 +531,7 @@ software-engineering:
       status: done
     - title: カオスエンジニアリング
       file: chaos-engineering.md
-      status: todo
+      status: done
 
   API設計:
     - title: REST API設計原則
@@ -557,7 +557,7 @@ concurrency:
       status: done
     - title: Futex — ユーザー空間の高速同期
       file: futex.md
-      status: todo
+      status: done
     - title: スピンロックとバックオフ
       file: spinlock.md
       status: done
@@ -1020,7 +1020,7 @@ web-fundamentals:
       status: done
     - title: CSSのカスケードと詳細度
       file: css-cascade.md
-      status: todo
+      status: done
 
   Web API とブラウザ機能:
     - title: Service Worker と PWA
@@ -1107,7 +1107,7 @@ backend:
       status: todo
     - title: RBAC, ABAC, ReBAC — アクセス制御モデル
       file: access-control-models.md
-      status: todo
+      status: done
 
   バックグラウンド処理:
     - title: ジョブキューとワーカーパターン（Sidekiq, Celery, Bull）
