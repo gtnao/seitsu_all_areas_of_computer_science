@@ -1407,7 +1407,7 @@ backend:
   ミドルウェア内部:
     - title: Redis の内部設計（データ構造実装, シングルスレッドモデル, 永続化, Cluster）
       file: redis-internals.md
-      status: todo
+      status: done
     - title: Nginx のアーキテクチャ（master-worker, イベント駆動I/O, 設定解析）
       file: nginx-architecture.md
       status: todo

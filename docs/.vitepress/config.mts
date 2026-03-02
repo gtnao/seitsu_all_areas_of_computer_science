@@ -163,6 +163,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "ミドルウェア内部",
+          items: [
+            { text: "Redis の内部設計", link: "/redis-internals" },
+          ],
+        },
+        {
           text: "データベースの運用と最適化",
           items: [
             { text: "PostgreSQL の実践的機能", link: "/postgresql-practical" },
