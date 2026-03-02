@@ -1221,7 +1221,7 @@ web-fundamentals:
   テキストとエンコーディング:
     - title: Unicode とテキスト処理の基礎（UTF-8, 正規化, 書記素クラスタ）
       file: unicode-text-processing.md
-      status: todo
+      status: done
 
   ブラウザセキュリティモデル:
     - title: Same-Origin Policy の全体像（CORS/CSP/COOP/COEP の統合理解）

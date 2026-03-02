@@ -782,6 +782,7 @@ export default withMermaid(
             { text: "画像・ファイル配信の最適化", link: "/image-file-delivery" },
             { text: "Server-Sent Events（SSE）", link: "/server-sent-events" },
             { text: "セキュリティヘッダー総合ガイド", link: "/security-headers" },
+            { text: "Unicodeとテキスト処理", link: "/unicode-text-processing" },
           ],
         },
         {
