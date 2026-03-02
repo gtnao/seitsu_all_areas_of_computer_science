@@ -402,7 +402,7 @@ databases:
       status: todo
     - title: 楽観的ロック vs 悲観的ロック
       file: optimistic-pessimistic-locking.md
-      status: todo
+      status: done
     - title: データの正規化と非正規化のトレードオフ
       file: normalization-denormalization.md
       status: todo

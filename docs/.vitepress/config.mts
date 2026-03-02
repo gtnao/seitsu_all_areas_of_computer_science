@@ -189,6 +189,7 @@ export default withMermaid(
             { text: "スロークエリ分析と最適化の実践", link: "/slow-query-optimization" },
             { text: "データベースのバックアップとリカバリ戦略", link: "/database-backup-recovery" },
             { text: "Read Replica のルーティング設計", link: "/read-replica-routing" },
+            { text: "楽観的ロック vs 悲観的ロック", link: "/optimistic-pessimistic-locking" },
           ],
         },
         {
