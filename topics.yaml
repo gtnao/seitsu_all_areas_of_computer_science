@@ -1588,7 +1588,7 @@ dev-tools:
       status: done
     - title: デバッガの仕組み（ptrace, ブレークポイント, DWARF）
       file: debugger-internals.md
-      status: todo
+      status: done
     - title: プロファイラの仕組み（サンプリング vs 計装, フレームグラフ）
       file: profiler-internals.md
       status: todo

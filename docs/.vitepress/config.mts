@@ -634,6 +634,7 @@ export default withMermaid(
           text: "エディタ・IDE",
           items: [
             { text: "Language Server Protocol（LSP）の仕組み", link: "/language-server-protocol" },
+            { text: "デバッガの仕組み", link: "/debugger-internals" },
           ],
         },
         {
