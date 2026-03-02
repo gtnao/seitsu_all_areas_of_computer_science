@@ -690,6 +690,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "MLの最適化手法",
+          items: [
+            { text: "Attention の最適化", link: "/attention-optimization" },
+          ],
+        },
+        {
           text: "MLシステム",
           items: [
             { text: "分散学習（データ並列, モデル並列, パイプライン並列）", link: "/distributed-training" },

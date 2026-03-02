@@ -1117,7 +1117,7 @@ machine-learning:
       status: todo
     - title: Attention の最適化（Flash Attention, Multi-Query/Grouped-Query, KV Cache）
       file: attention-optimization.md
-      status: todo
+      status: done
 
   MLシステム:
     - title: 分散学習（データ並列, モデル並列, パイプライン並列）
