@@ -1540,7 +1540,7 @@ data-engineering:
       status: done
     - title: データ品質とデータ契約（Data Contracts）
       file: data-quality-contracts.md
-      status: todo
+      status: done
     - title: シリアライゼーション形式の設計思想（Protocol Buffers, Avro, MessagePack）
       file: serialization-formats.md
       status: done

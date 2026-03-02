@@ -609,6 +609,7 @@ export default withMermaid(
           items: [
             { text: "CDC（Change Data Capture）の設計と実装", link: "/change-data-capture" },
             { text: "シリアライゼーション形式の設計思想", link: "/serialization-formats" },
+            { text: "データ品質とデータ契約", link: "/data-quality-contracts" },
           ],
         },
         {
