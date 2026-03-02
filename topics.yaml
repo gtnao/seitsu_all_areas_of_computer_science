@@ -396,7 +396,7 @@ databases:
       status: done
     - title: Read Replica のルーティング設計
       file: read-replica-routing.md
-      status: todo
+      status: done
     - title: データベースプロキシの仕組み（PgBouncer, ProxySQL, Vitess）
       file: database-proxy.md
       status: todo
