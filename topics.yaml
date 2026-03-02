@@ -678,7 +678,7 @@ software-engineering:
       status: done
     - title: 技術的負債の管理と計測
       file: technical-debt.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 並行・並列処理

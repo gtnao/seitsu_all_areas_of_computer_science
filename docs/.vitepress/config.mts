@@ -399,6 +399,7 @@ export default withMermaid(
           text: "依存関係とセキュリティ",
           items: [
             { text: "依存関係と脆弱性の管理", link: "/dependency-vulnerability-management" },
+            { text: "技術的負債の定量化と返済戦略", link: "/technical-debt" },
           ],
         },
         {
