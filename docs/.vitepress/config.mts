@@ -383,6 +383,7 @@ export default withMermaid(
             { text: "APIエラーレスポンス設計", link: "/api-error-response" },
             { text: "APIゲートウェイパターン", link: "/api-gateway" },
             { text: "OpenAPI とスキーマ駆動開発", link: "/openapi-schema-driven" },
+            { text: "非同期リクエスト処理", link: "/async-request-processing" },
           ],
         },
         {

@@ -1394,7 +1394,7 @@ backend:
       status: done
     - title: 非同期リクエスト処理（Long-Running Operations, ポーリング, コールバック）
       file: async-request-processing.md
-      status: todo
+      status: done
 
   ファイル・メディア処理:
     - title: ファイルアップロード設計（マルチパート, チャンク, Resumable）
