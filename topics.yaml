@@ -574,7 +574,7 @@ programming-languages:
       status: done
     - title: CPython の内部（GIL, 参照カウント, バイトコード実行）
       file: cpython-internals.md
-      status: todo
+      status: done
 
 # =============================================================================
 # ソフトウェアエンジニアリング
