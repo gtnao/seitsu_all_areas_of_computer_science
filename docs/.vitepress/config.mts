@@ -600,6 +600,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "エディタ・IDE",
+          items: [
+            { text: "Language Server Protocol（LSP）の仕組み", link: "/language-server-protocol" },
+          ],
+        },
+        {
           text: "コンパイラとランタイム",
           items: [
             { text: "字句解析と構文解析", link: "/lexing-parsing" },

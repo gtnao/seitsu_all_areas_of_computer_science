@@ -1585,7 +1585,7 @@ dev-tools:
   開発支援ツールの仕組み:
     - title: Language Server Protocol（LSP）の仕組み
       file: language-server-protocol.md
-      status: todo
+      status: done
     - title: デバッガの仕組み（ptrace, ブレークポイント, DWARF）
       file: debugger-internals.md
       status: todo
