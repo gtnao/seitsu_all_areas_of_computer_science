@@ -653,7 +653,7 @@ software-engineering:
       status: done
     - title: メトリクス設計（RED/USEメソッド, カスタムメトリクス）
       file: metrics-design.md
-      status: todo
+      status: done
 
   API設計:
     - title: REST API設計原則

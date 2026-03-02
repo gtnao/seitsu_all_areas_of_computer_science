@@ -351,6 +351,7 @@ export default withMermaid(
             { text: "秘密情報管理", link: "/secret-management" },
             { text: "インシデント管理とポストモーテム", link: "/incident-management" },
             { text: "オンコール設計とアラート戦略", link: "/oncall-alerting" },
+            { text: "メトリクス設計", link: "/metrics-design" },
           ],
         },
         {
