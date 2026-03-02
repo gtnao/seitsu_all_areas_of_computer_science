@@ -650,7 +650,7 @@ software-engineering:
       status: done
     - title: オンコール設計とアラート戦略
       file: oncall-alerting.md
-      status: todo
+      status: done
     - title: メトリクス設計（RED/USEメソッド, カスタムメトリクス）
       file: metrics-design.md
       status: todo
