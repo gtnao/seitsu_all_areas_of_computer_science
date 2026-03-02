@@ -30,13 +30,6 @@ security:
     - title: ポスト量子暗号
       file: post-quantum-cryptography.md
       status: done
-    - title: ゼロ知識証明（ZKP, zk-SNARK, zk-STARK）
-      file: zero-knowledge-proofs.md
-      status: todo
-    - title: 秘密分散（Shamirの秘密分散法）
-      file: secret-sharing.md
-      status: todo
-
   プロトコル・通信セキュリティ:
     - title: TLS 1.3ハンドシェイク
       file: tls-1-3.md
@@ -97,6 +90,9 @@ security:
     - title: ログインセキュリティ（ブルートフォース対策, Credential Stuffing防止）
       file: login-security.md
       status: todo
+    - title: TLS パフォーマンスチューニング（セッション再開, 0-RTT, OCSP Stapling）
+      file: tls-performance.md
+      status: todo
 
   システム・インフラセキュリティ:
     - title: ゼロトラストアーキテクチャ
@@ -153,6 +149,15 @@ operating-systems:
       status: done
     - title: プロセス間通信（IPC）
       file: ipc.md
+      status: todo
+    - title: Linux の cgroups v2 とリソース制御
+      file: cgroups.md
+      status: todo
+    - title: OOM Killer の仕組みとメモリオーバーコミット
+      file: oom-killer.md
+      status: todo
+    - title: ファイルディスクリプタの仕組みと上限設計
+      file: file-descriptors.md
       status: todo
 
   メモリ管理:
@@ -248,6 +253,12 @@ networking:
     - title: WebSocket
       file: websocket.md
       status: done
+    - title: HTTP/2 のフロー制御と HPACK 圧縮
+      file: http2-flow-control-hpack.md
+      status: todo
+    - title: DNS リゾルバの実装と最適化（再帰/反復, キャッシュ, Happy Eyeballs）
+      file: dns-resolver-internals.md
+      status: todo
     - title: gRPC と Protocol Buffers
       file: grpc.md
       status: done
@@ -329,6 +340,9 @@ databases:
       status: todo
     - title: デッドロック検出と回避
       file: deadlock.md
+      status: todo
+    - title: データベースのコスト推定と統計情報（カーディナリティ推定, ヒストグラム, ANALYZE）
+      file: query-cost-estimation.md
       status: todo
 
   クエリ処理:
@@ -413,9 +427,6 @@ distributed-systems:
     - title: 分散システムにおける時刻と順序（NTP, TrueTime, HLC）
       file: distributed-time.md
       status: todo
-    - title: 分散スナップショット（Chandy-Lamportアルゴリズム）
-      file: distributed-snapshot.md
-      status: todo
     - title: ビザンチン将軍問題
       file: byzantine-generals.md
       status: todo
@@ -462,7 +473,7 @@ distributed-systems:
       status: done
     - title: サーキットブレーカーとリトライ戦略
       file: circuit-breaker.md
-      status: todo
+      status: done
     - title: 分散トレーシング（OpenTelemetry）
       file: distributed-tracing.md
       status: todo
@@ -474,6 +485,12 @@ distributed-systems:
       status: todo
     - title: Outbox パターン（Transactional Outbox）
       file: outbox-pattern.md
+      status: todo
+    - title: Raft の実装における実務的課題（ログコンパクション, スナップショット, Pre-Vote）
+      file: raft-implementation-challenges.md
+      status: todo
+    - title: Kafka の内部設計（ログセグメント, ISR, Consumer Groupリバランシング）
+      file: kafka-internals.md
       status: todo
 
 # =============================================================================
@@ -496,13 +513,6 @@ programming-languages:
     - title: 依存型
       file: dependent-types.md
       status: done
-    - title: サブタイピングと変性（Variance）
-      file: subtyping-variance.md
-      status: todo
-    - title: エフェクトシステム（Koka, OCaml 5, 代数的エフェクト）
-      file: effect-systems.md
-      status: todo
-
   メモリ管理と所有権:
     - title: ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）
       file: garbage-collection.md
@@ -515,7 +525,7 @@ programming-languages:
       status: done
     - title: リージョンベースメモリ管理
       file: region-based-memory.md
-      status: todo
+      status: done
 
   言語の実行モデル:
     - title: クロージャとファーストクラス関数
@@ -530,10 +540,6 @@ programming-languages:
     - title: メタプログラミングとマクロ
       file: metaprogramming.md
       status: todo
-    - title: リアクティブプログラミングの原理（Observable, Backpressure, Scheduler）
-      file: reactive-programming.md
-      status: todo
-
   コンパイラとランタイム:
     - title: 字句解析と構文解析
       file: lexing-parsing.md
@@ -558,11 +564,16 @@ programming-languages:
     - title: 形式的意味論（操作的意味論, 表示的意味論）
       file: formal-semantics.md
       status: done
-    - title: カリー=ハワード対応（型と論理の同型）
-      file: curry-howard.md
+
+  ランタイム内部:
+    - title: Go のランタイム内部（goroutine スケジューラ, GC, channel）
+      file: go-runtime-internals.md
       status: todo
-    - title: 圏論とプログラミング（関手, 自然変換, モナドの数学的基盤）
-      file: category-theory-programming.md
+    - title: JVM の内部構造（クラスローダ, JIT階層コンパイル, GCチューニング）
+      file: jvm-internals.md
+      status: todo
+    - title: CPython の内部（GIL, 参照カウント, バイトコード実行）
+      file: cpython-internals.md
       status: todo
 
 # =============================================================================
@@ -723,17 +734,6 @@ concurrency:
       file: data-race.md
       status: done
 
-  並行性の理論:
-    - title: プロセス代数（π計算, CSP, CCS）と並行性の形式モデル
-      file: process-algebra.md
-      status: todo
-    - title: 合意数と待機自由性（Wait-Freedom, Lock-Freedom の階層）
-      file: consensus-number-wait-freedom.md
-      status: todo
-    - title: ペトリネットと並行システムのモデリング
-      file: petri-nets.md
-      status: todo
-
 # =============================================================================
 # ストレージ・I/O
 # =============================================================================
@@ -807,6 +807,9 @@ cloud-computing:
       status: todo
     - title: コンテナリソース管理（requests/limits, OOM, CPU throttling）
       file: container-resource-management.md
+      status: todo
+    - title: コンテナネットワーキングの実装（veth, bridge, iptables, CNI）
+      file: container-networking-internals.md
       status: todo
 
   サーバーレスとFaaS:
@@ -955,54 +958,17 @@ algorithms:
       file: floating-point.md
       status: todo
 
-  計算幾何学:
-    - title: 凸包アルゴリズム（Graham Scan, Andrew's Monotone Chain）
-      file: convex-hull.md
-      status: todo
-    - title: ボロノイ図とドロネー三角形分割
-      file: voronoi-delaunay.md
-      status: todo
-    - title: k-d Tree と空間探索
-      file: kd-tree.md
-      status: todo
-    - title: 線分交差とスイープライン法（Bentley-Ottmann）
-      file: line-sweep.md
-      status: todo
-
-  確率的データ構造:
-    - title: HyperLogLog — 基数推定
+  確率的データ構造と近似アルゴリズム:
+    - title: HyperLogLog — 基数推定の仕組み（Redis, BigQuery での活用）
       file: hyperloglog.md
       status: todo
     - title: Count-Min Sketch と頻度推定
       file: count-min-sketch.md
       status: todo
-    - title: Locality-Sensitive Hashing（LSH）
-      file: locality-sensitive-hashing.md
-      status: todo
-    - title: ストリームアルゴリズム（Reservoir Sampling, Flajolet-Martin）
-      file: streaming-algorithms.md
-      status: todo
 
-  組合せ最適化:
-    - title: 線形計画法とシンプレックス法
-      file: linear-programming.md
-      status: todo
-    - title: SATソルバの仕組み（DPLL, CDCL）
-      file: sat-solver.md
-      status: todo
-    - title: 制約充足問題（CSP）とバックトラッキング
-      file: constraint-satisfaction.md
-      status: todo
-
-  数値計算:
-    - title: 高速フーリエ変換（FFT）
-      file: fft.md
-      status: todo
-    - title: 乱数生成アルゴリズム（メルセンヌ・ツイスタ, xoshiro, CSPRNG）
-      file: random-number-generation.md
-      status: todo
-    - title: 数値線形代数（LU分解, QR分解, SVD）
-      file: numerical-linear-algebra.md
+  空間データ構造:
+    - title: k-d Tree と R-Tree — 空間インデックスの設計
+      file: spatial-index.md
       status: todo
 
 # =============================================================================
@@ -1099,36 +1065,6 @@ theory-of-computation:
       file: error-correcting-codes.md
       status: done
 
-  形式検証:
-    - title: モデル検査（CTL/LTL時相論理, SPIN）
-      file: model-checking.md
-      status: todo
-    - title: SMTソルバの原理と応用（Z3, DPLL(T)）
-      file: smt-solver.md
-      status: todo
-    - title: Hoare論理と分離論理
-      file: hoare-separation-logic.md
-      status: todo
-    - title: 定理証明支援系（Coq, Lean, Isabelle）
-      file: proof-assistants.md
-      status: todo
-
-  学習理論:
-    - title: PAC学習とVC次元
-      file: pac-learning-vc-dimension.md
-      status: todo
-    - title: 計算学習理論の限界（No Free Lunch, 次元の呪い）
-      file: computational-learning-limits.md
-      status: todo
-
-  ゲーム理論と計算:
-    - title: ナッシュ均衡とアルゴリズム的ゲーム理論
-      file: nash-equilibrium.md
-      status: todo
-    - title: メカニズムデザインとオークション理論
-      file: mechanism-design.md
-      status: todo
-
 # =============================================================================
 # 機械学習
 # =============================================================================
@@ -1146,16 +1082,6 @@ machine-learning:
     - title: 損失関数の設計
       file: loss-functions.md
       status: done
-    - title: カーネル法の数学的基盤（SVM, RKHS, カーネルトリック）
-      file: kernel-methods.md
-      status: todo
-    - title: 情報理論と機械学習（KLダイバージェンス, 変分推論, 情報ボトルネック）
-      file: information-theory-ml.md
-      status: todo
-    - title: ベイズ推論と確率的プログラミング
-      file: bayesian-inference.md
-      status: todo
-
   ニューラルネットワークアーキテクチャ:
     - title: ニューラルネットワーク基礎（パーセプトロンから多層NNへ）
       file: neural-network-basics.md
@@ -1189,6 +1115,9 @@ machine-learning:
     - title: 推論の効率化（量子化, 蒸留, スペキュレーティブデコーディング）
       file: inference-optimization.md
       status: todo
+    - title: Attention の最適化（Flash Attention, Multi-Query/Grouped-Query, KV Cache）
+      file: attention-optimization.md
+      status: todo
 
   MLシステム:
     - title: 分散学習（データ並列, モデル並列, パイプライン並列）
@@ -1199,7 +1128,7 @@ machine-learning:
       status: done
     - title: MLOps（実験管理, モデルサービング, A/Bテスト）
       file: mlops.md
-      status: todo
+      status: done
 
   強化学習:
     - title: 強化学習の基礎（MDP, Q-Learning, Policy Gradient）
@@ -1227,7 +1156,7 @@ information-retrieval:
   検索エンジンアーキテクチャ:
     - title: 検索エンジンの全体像（クロール、インデックス、ランキング）
       file: search-engine-architecture.md
-      status: todo
+      status: done
     - title: Elasticsearch / Lucene の内部構造
       file: elasticsearch-internals.md
       status: todo
@@ -1238,7 +1167,7 @@ information-retrieval:
       status: done
     - title: RAG（Retrieval-Augmented Generation）
       file: rag.md
-      status: todo
+      status: done
 
 # =============================================================================
 # Web技術の基礎
@@ -1250,6 +1179,12 @@ web-fundamentals:
       status: done
     - title: DOM とイベントモデル
       file: dom-events.md
+      status: todo
+    - title: JavaScript の非同期処理モデル（マイクロタスク, マクロタスク, イベントループ詳細）
+      file: js-async-model.md
+      status: todo
+    - title: ブラウザのネットワーク最適化（preconnect, prefetch, Priority Hints, Early Hints 103）
+      file: browser-network-optimization.md
       status: todo
     - title: V8エンジンの内部（Hidden Class, Inline Cache）
       file: v8-internals.md
@@ -1469,6 +1404,14 @@ backend:
       file: image-file-delivery.md
       status: todo
 
+  ミドルウェア内部:
+    - title: Redis の内部設計（データ構造実装, シングルスレッドモデル, 永続化, Cluster）
+      file: redis-internals.md
+      status: todo
+    - title: Nginx のアーキテクチャ（master-worker, イベント駆動I/O, 設定解析）
+      file: nginx-architecture.md
+      status: todo
+
   通知・外部連携:
     - title: 通知システムの設計（Push, Email, In-App, Fan-out）
       file: notification-system.md
@@ -1600,6 +1543,9 @@ data-engineering:
       status: todo
     - title: シリアライゼーション形式の設計思想（Protocol Buffers, Avro, MessagePack）
       file: serialization-formats.md
+      status: todo
+    - title: Apache Arrow と列指向インメモリフォーマット
+      file: apache-arrow.md
       status: todo
 
 # =============================================================================

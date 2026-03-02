@@ -198,6 +198,7 @@ export default withMermaid(
           text: "分散システムの実践",
           items: [
             { text: "分散システムにおける障害モデル", link: "/failure-models" },
+            { text: "サーキットブレーカーとリトライ戦略", link: "/circuit-breaker" },
           ],
         },
         {
@@ -213,6 +214,7 @@ export default withMermaid(
           items: [
             { text: "ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）", link: "/garbage-collection" },
             { text: "所有権と借用（Rustの所有権モデル）", link: "/ownership-borrowing" },
+            { text: "リージョンベースメモリ管理", link: "/region-based-memory" },
           ],
         },
         {
@@ -593,6 +595,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "MLエンジニアリング",
+          items: [
+            { text: "MLOps（実験管理, モデルサービング, A/Bテスト）", link: "/mlops" },
+          ],
+        },
+        {
           text: "情報検索",
           items: [
             { text: "転置インデックス", link: "/inverted-index" },
@@ -600,6 +608,13 @@ export default withMermaid(
             { text: "ベクトル検索と近似最近傍探索（HNSW, IVF）", link: "/vector-search" },
             { text: "PageRank とリンク解析", link: "/pagerank" },
             { text: "Embedding とセマンティック検索", link: "/semantic-search" },
+            { text: "RAG（Retrieval-Augmented Generation）", link: "/rag" },
+          ],
+        },
+        {
+          text: "検索エンジンアーキテクチャ",
+          items: [
+            { text: "検索エンジンの全体像（クロール、インデックス、ランキング）", link: "/search-engine-architecture" },
           ],
         },
         {
