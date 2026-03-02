@@ -1288,7 +1288,7 @@ frontend:
       status: done
     - title: Web Workers と Off-Main-Thread アーキテクチャ
       file: web-workers.md
-      status: todo
+      status: done
     - title: フロントエンドのエラー監視（Sentry, Error Boundary, RUM）
       file: frontend-error-monitoring.md
       status: todo
