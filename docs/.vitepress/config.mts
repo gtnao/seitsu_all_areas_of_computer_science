@@ -90,6 +90,7 @@ export default withMermaid(
           text: "セキュリティの実装と運用",
           items: [
             { text: "Webアプリケーションの認証実装パターン", link: "/web-auth-implementation" },
+            { text: "APIセキュリティの実践", link: "/api-security" },
           ],
         },
         {

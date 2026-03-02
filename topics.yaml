@@ -80,7 +80,7 @@ security:
       status: done
     - title: APIセキュリティの実践（API Key管理, Abuse Prevention, Bot対策）
       file: api-security.md
-      status: todo
+      status: done
     - title: Let's Encrypt と ACMEプロトコル
       file: lets-encrypt-acme.md
       status: todo
