@@ -807,7 +807,7 @@ cloud-computing:
       status: done
     - title: コンテナリソース管理（requests/limits, OOM, CPU throttling）
       file: container-resource-management.md
-      status: todo
+      status: done
     - title: コンテナネットワーキングの実装（veth, bridge, iptables, CNI）
       file: container-networking-internals.md
       status: todo

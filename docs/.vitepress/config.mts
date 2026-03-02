@@ -569,6 +569,7 @@ export default withMermaid(
             { text: "Kubernetesアーキテクチャ", link: "/kubernetes-architecture" },
             { text: "Kubernetes スケジューリング", link: "/kubernetes-scheduling" },
             { text: "Kubernetes Networking", link: "/kubernetes-networking" },
+            { text: "コンテナリソース管理", link: "/container-resource-management" },
           ],
         },
         {
