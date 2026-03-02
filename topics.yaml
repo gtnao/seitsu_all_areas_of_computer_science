@@ -804,7 +804,7 @@ cloud-computing:
       status: todo
     - title: Kubernetes Networking（CNI, Service, Ingress）
       file: kubernetes-networking.md
-      status: todo
+      status: done
     - title: コンテナリソース管理（requests/limits, OOM, CPU throttling）
       file: container-resource-management.md
       status: todo
