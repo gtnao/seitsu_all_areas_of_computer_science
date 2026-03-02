@@ -1282,7 +1282,7 @@ frontend:
       status: done
     - title: i18n/l10n の設計パターン
       file: i18n-l10n.md
-      status: todo
+      status: done
     - title: フォーム設計とバリデーション
       file: form-validation.md
       status: todo
