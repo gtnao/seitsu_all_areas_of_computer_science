@@ -34,7 +34,7 @@ jobs:
         run: pnpm install
       - name: Build with VitePress
         env:
-          NODE_OPTIONS: --max-old-space-size=4096
+          NODE_OPTIONS: --max-old-space-size=6144
         run: pnpm docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
