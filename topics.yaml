@@ -1303,7 +1303,7 @@ frontend:
       status: done
     - title: アクセシビリティテストの自動化（axe-core, WCAG準拠チェック）
       file: accessibility-testing.md
-      status: todo
+      status: done
 
 # =============================================================================
 # バックエンドフレームワークと設計

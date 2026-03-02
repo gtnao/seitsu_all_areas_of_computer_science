@@ -832,6 +832,7 @@ export default withMermaid(
             { text: "パフォーマンスバジェット", link: "/performance-budget" },
             { text: "SPA ルーティング設計", link: "/spa-routing" },
             { text: "CSS設計手法", link: "/css-architecture" },
+            { text: "アクセシビリティテスト", link: "/accessibility-testing" },
           ],
         },
       ],
