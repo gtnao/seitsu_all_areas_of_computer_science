@@ -1379,7 +1379,7 @@ backend:
       status: done
     - title: バルク処理・バッチAPI設計
       file: bulk-api-design.md
-      status: todo
+      status: done
     - title: APIエラーレスポンス設計（RFC 7807 Problem Details）
       file: api-error-response.md
       status: todo

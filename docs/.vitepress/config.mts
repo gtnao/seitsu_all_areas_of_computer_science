@@ -376,6 +376,7 @@ export default withMermaid(
             { text: "Rate Limiting の設計と実装", link: "/rate-limiting" },
             { text: "ページネーション設計", link: "/pagination-design" },
             { text: "Webhook の設計と信頼性", link: "/webhook-design" },
+            { text: "バルク処理・バッチAPI設計", link: "/bulk-api-design" },
           ],
         },
         {
