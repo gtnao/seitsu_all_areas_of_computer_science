@@ -1438,7 +1438,7 @@ backend:
       status: done
     - title: URL短縮サービスの設計（ハッシュ, Base62, リダイレクト戦略）
       file: url-shortener-design.md
-      status: todo
+      status: done
     - title: リーダーボード・ランキング設計（Redis Sorted Set, 近似カウント）
       file: leaderboard-design.md
       status: todo
