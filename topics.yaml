@@ -1327,7 +1327,7 @@ backend:
       status: done
     - title: バックプレッシャー制御
       file: backpressure.md
-      status: todo
+      status: done
     - title: イベントループの内部設計（libuv, tokio, Netty）
       file: event-loop-internals.md
       status: todo
