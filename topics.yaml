@@ -1294,7 +1294,7 @@ frontend:
       status: done
     - title: パフォーマンスバジェットと計測自動化
       file: performance-budget.md
-      status: todo
+      status: done
     - title: SPA のルーティング設計（History API, 遅延ロード, ガード）
       file: spa-routing.md
       status: todo
