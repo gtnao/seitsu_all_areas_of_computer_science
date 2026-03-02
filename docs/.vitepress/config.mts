@@ -471,6 +471,7 @@ export default withMermaid(
             { text: "通知システムの設計", link: "/notification-system" },
             { text: "メール配信の仕組み", link: "/email-delivery" },
             { text: "決済システムの設計", link: "/payment-system-design" },
+            { text: "タイムライン・フィード設計", link: "/timeline-feed-design" },
           ],
         },
         {

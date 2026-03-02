@@ -1435,7 +1435,7 @@ backend:
       status: done
     - title: タイムラインフィード設計（Fan-out on Write/Read）
       file: timeline-feed-design.md
-      status: todo
+      status: done
     - title: URL短縮サービスの設計（ハッシュ, Base62, リダイレクト戦略）
       file: url-shortener-design.md
       status: todo
