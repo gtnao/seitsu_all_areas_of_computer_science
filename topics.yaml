@@ -390,7 +390,7 @@ databases:
       status: todo
     - title: PostgreSQL の実践的機能（JSONB, パーティショニング, LISTEN/NOTIFY, RLS）
       file: postgresql-practical.md
-      status: todo
+      status: done
     - title: データベースのバックアップとリカバリ戦略
       file: database-backup-recovery.md
       status: todo

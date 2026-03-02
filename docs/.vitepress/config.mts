@@ -163,6 +163,12 @@ export default withMermaid(
           ],
         },
         {
+          text: "データベースの運用と最適化",
+          items: [
+            { text: "PostgreSQL の実践的機能", link: "/postgresql-practical" },
+          ],
+        },
+        {
           text: "分散システムの理論的基盤",
           items: [
             { text: "CAP定理とPACELC", link: "/cap-theorem" },
