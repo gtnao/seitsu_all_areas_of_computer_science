@@ -591,6 +591,7 @@ export default withMermaid(
           items: [
             { text: "Linuxコンテナの基盤（Namespace, cgroups）", link: "/linux-containers" },
             { text: "コンテナランタイム（runc, crun, containerd, CRI-O）", link: "/container-runtime" },
+            { text: "コンテナネットワーキングの内部", link: "/container-networking-internals" },
           ],
         },
         {
