@@ -346,10 +346,19 @@ export default withMermaid(
           ],
         },
         {
+          text: "計算可能性",
+          items: [
+            { text: "チューリングマシンと計算可能性", link: "/turing-machine" },
+            { text: "停止問題と決定不能性", link: "/halting-problem" },
+          ],
+        },
+        {
           text: "計算量理論",
           items: [
             { text: "P, NP, NP完全", link: "/p-np" },
             { text: "NP困難問題と代表例（TSP, SAT, Graph Coloring）", link: "/np-hard-problems" },
+            { text: "空間計算量と複雑性クラス", link: "/space-complexity" },
+            { text: "計算量の下界", link: "/lower-bounds" },
           ],
         },
         {
@@ -363,6 +372,7 @@ export default withMermaid(
           items: [
             { text: "エントロピーと情報量（Shannon）", link: "/information-entropy" },
             { text: "誤り訂正符号（Hamming, Reed-Solomon, LDPC）", link: "/error-correcting-codes" },
+            { text: "データ圧縮", link: "/data-compression" },
           ],
         },
         {
@@ -812,6 +822,7 @@ export default withMermaid(
           text: "大規模言語モデル",
           items: [
             { text: "大規模言語モデル（LLM）のアーキテクチャと学習", link: "/llm-architecture" },
+            { text: "トークナイゼーション", link: "/tokenization" },
           ],
         },
         {

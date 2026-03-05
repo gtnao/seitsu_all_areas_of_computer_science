@@ -1030,7 +1030,7 @@ theory-of-computation:
       status: done
     - title: チューリングマシンと計算可能性
       file: turing-machine.md
-      status: todo
+      status: done
 
   計算量理論:
     - title: P, NP, NP完全
@@ -1041,15 +1041,15 @@ theory-of-computation:
       status: done
     - title: 空間計算量（PSPACE, L, NL）
       file: space-complexity.md
-      status: todo
+      status: done
     - title: 計算量の下界と情報理論的限界
       file: lower-bounds.md
-      status: todo
+      status: done
 
   決定不能性と限界:
     - title: 停止問題と決定不能性
       file: halting-problem.md
-      status: todo
+      status: done
     - title: ゲーデルの不完全性定理
       file: godel-incompleteness.md
       status: done
@@ -1060,7 +1060,7 @@ theory-of-computation:
       status: done
     - title: データ圧縮（Huffman, LZ77/LZ78, zstd）
       file: data-compression.md
-      status: todo
+      status: done
     - title: 誤り訂正符号（Hamming, Reed-Solomon, LDPC）
       file: error-correcting-codes.md
       status: done
@@ -1108,7 +1108,7 @@ machine-learning:
       status: done
     - title: トークナイゼーション（BPE, SentencePiece）
       file: tokenization.md
-      status: todo
+      status: done
     - title: RLHF と Alignment
       file: rlhf.md
       status: todo
