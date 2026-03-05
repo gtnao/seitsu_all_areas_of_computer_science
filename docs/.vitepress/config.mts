@@ -172,6 +172,7 @@ export default withMermaid(
             { text: "インデックス設計戦略", link: "/index-design" },
             { text: "クエリコスト推定の仕組み", link: "/query-cost-estimation" },
             { text: "クエリ実行エンジン", link: "/query-execution" },
+            { text: "結合アルゴリズム", link: "/join-algorithms" },
           ],
         },
         {
@@ -179,12 +180,16 @@ export default withMermaid(
           items: [
             { text: "レプリケーション（同期/非同期/半同期）", link: "/replication" },
             { text: "シャーディングとパーティショニング", link: "/sharding" },
+            { text: "データベースの高可用性設計", link: "/database-ha" },
           ],
         },
         {
           text: "NoSQLとNewSQL",
           items: [
             { text: "キーバリューストア（Redis, DynamoDB）", link: "/key-value-store" },
+            { text: "ドキュメントデータベース", link: "/document-db" },
+            { text: "時系列データベース", link: "/time-series-db" },
+            { text: "NewSQLデータベース", link: "/newsql" },
           ],
         },
         {
@@ -224,6 +229,7 @@ export default withMermaid(
             { text: "Paxos", link: "/paxos" },
             { text: "Raftコンセンサス", link: "/raft-consensus" },
             { text: "Raft の実装上の課題", link: "/raft-implementation-challenges" },
+            { text: "ビザンチン将軍問題とBFTコンセンサス", link: "/byzantine-generals" },
           ],
         },
         {

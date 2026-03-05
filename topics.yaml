@@ -357,7 +357,7 @@ databases:
       status: done
     - title: 結合アルゴリズム（Nested Loop, Hash Join, Sort-Merge）
       file: join-algorithms.md
-      status: todo
+      status: done
 
   レプリケーションと可用性:
     - title: レプリケーション（同期/非同期/半同期）
@@ -368,7 +368,7 @@ databases:
       status: done
     - title: フェイルオーバーと高可用性構成
       file: database-ha.md
-      status: todo
+      status: done
 
   NoSQLとNewSQL:
     - title: キーバリューストア（Redis, DynamoDB）
@@ -376,13 +376,13 @@ databases:
       status: done
     - title: ドキュメントDB（MongoDB）
       file: document-db.md
-      status: todo
+      status: done
     - title: 時系列DB（InfluxDB, TimescaleDB）
       file: time-series-db.md
-      status: todo
+      status: done
     - title: NewSQL（Spanner, CockroachDB, TiDB）
       file: newsql.md
-      status: todo
+      status: done
 
   運用と最適化:
     - title: スロークエリ分析と最適化の実践
@@ -429,7 +429,7 @@ distributed-systems:
       status: done
     - title: ビザンチン将軍問題
       file: byzantine-generals.md
-      status: todo
+      status: done
 
   コンセンサスアルゴリズム:
     - title: Raftコンセンサス
