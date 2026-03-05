@@ -823,6 +823,14 @@ export default withMermaid(
           items: [
             { text: "大規模言語モデル（LLM）のアーキテクチャと学習", link: "/llm-architecture" },
             { text: "トークナイゼーション", link: "/tokenization" },
+            { text: "RLHF", link: "/rlhf" },
+            { text: "LLM推論の最適化", link: "/inference-optimization" },
+          ],
+        },
+        {
+          text: "強化学習",
+          items: [
+            { text: "強化学習", link: "/reinforcement-learning" },
           ],
         },
         {
@@ -859,6 +867,7 @@ export default withMermaid(
           text: "検索エンジンアーキテクチャ",
           items: [
             { text: "検索エンジンの全体像（クロール、インデックス、ランキング）", link: "/search-engine-architecture" },
+            { text: "Elasticsearchの内部構造", link: "/elasticsearch-internals" },
           ],
         },
         {
@@ -866,6 +875,8 @@ export default withMermaid(
           items: [
             { text: "ブラウザレンダリングパイプライン（DOM, CSSOM, Layout, Paint, Composite）", link: "/browser-rendering" },
             { text: "V8エンジンの内部（Hidden Class, Inline Cache）", link: "/v8-internals" },
+            { text: "DOMイベントモデル", link: "/dom-events" },
+            { text: "ブラウザのネットワーク最適化", link: "/browser-network-optimization" },
           ],
         },
         {

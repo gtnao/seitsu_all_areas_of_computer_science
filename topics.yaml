@@ -1111,10 +1111,10 @@ machine-learning:
       status: done
     - title: RLHF と Alignment
       file: rlhf.md
-      status: todo
+      status: done
     - title: 推論の効率化（量子化, 蒸留, スペキュレーティブデコーディング）
       file: inference-optimization.md
-      status: todo
+      status: done
     - title: Attention の最適化（Flash Attention, Multi-Query/Grouped-Query, KV Cache）
       file: attention-optimization.md
       status: done
@@ -1133,7 +1133,7 @@ machine-learning:
   強化学習:
     - title: 強化学習の基礎（MDP, Q-Learning, Policy Gradient）
       file: reinforcement-learning.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 情報検索
@@ -1159,7 +1159,7 @@ information-retrieval:
       status: done
     - title: Elasticsearch / Lucene の内部構造
       file: elasticsearch-internals.md
-      status: todo
+      status: done
 
   セマンティック検索:
     - title: Embedding と セマンティック検索
@@ -1179,13 +1179,13 @@ web-fundamentals:
       status: done
     - title: DOM とイベントモデル
       file: dom-events.md
-      status: todo
+      status: done
     - title: JavaScript の非同期処理モデル（マイクロタスク, マクロタスク, イベントループ詳細）
       file: js-async-model.md
       status: done
     - title: ブラウザのネットワーク最適化（preconnect, prefetch, Priority Hints, Early Hints 103）
       file: browser-network-optimization.md
-      status: todo
+      status: done
     - title: V8エンジンの内部（Hidden Class, Inline Cache）
       file: v8-internals.md
       status: done
