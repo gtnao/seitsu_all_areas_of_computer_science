@@ -524,6 +524,9 @@ export default withMermaid(
           items: [
             { text: "カーネルモジュールとデバイスドライバ", link: "/kernel-modules" },
             { text: "eBPF", link: "/ebpf" },
+            { text: "カーネルアーキテクチャ", link: "/kernel-architecture" },
+            { text: "システムコール", link: "/system-call" },
+            { text: "割り込みと例外", link: "/interrupts" },
           ],
         },
         {
@@ -533,6 +536,7 @@ export default withMermaid(
             { text: "スレッドとユーザースレッド（グリーンスレッド）", link: "/thread" },
             { text: "プロセススケジューリング（CFS, リアルタイム）", link: "/process-scheduling" },
             { text: "コンテキストスイッチ", link: "/context-switch" },
+            { text: "プロセス間通信（IPC）", link: "/ipc" },
           ],
         },
         {
@@ -549,6 +553,8 @@ export default withMermaid(
             { text: "仮想メモリとページング", link: "/virtual-memory" },
             { text: "TLB（Translation Lookaside Buffer）", link: "/tlb" },
             { text: "ページ置換アルゴリズム", link: "/page-replacement" },
+            { text: "メモリアロケータ", link: "/memory-allocator" },
+            { text: "mmap", link: "/mmap" },
           ],
         },
         {

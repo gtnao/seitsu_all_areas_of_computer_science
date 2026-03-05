@@ -149,7 +149,7 @@ operating-systems:
       status: done
     - title: プロセス間通信（IPC）
       file: ipc.md
-      status: todo
+      status: done
     - title: Linux の cgroups v2 とリソース制御
       file: cgroups.md
       status: done
@@ -169,27 +169,27 @@ operating-systems:
       status: done
     - title: メモリアロケータ（malloc, jemalloc, mimalloc）
       file: memory-allocator.md
-      status: todo
+      status: done
     - title: ページ置換アルゴリズム
       file: page-replacement.md
       status: done
     - title: メモリマップドI/O（mmap）
       file: mmap.md
-      status: todo
+      status: done
 
   カーネルと割り込み:
     - title: システムコールの仕組み
       file: system-call.md
-      status: todo
+      status: done
     - title: 割り込みと例外処理
       file: interrupts.md
-      status: todo
+      status: done
     - title: カーネルモジュールとデバイスドライバ
       file: kernel-modules.md
       status: done
     - title: モノリシックカーネル vs マイクロカーネル
       file: kernel-architecture.md
-      status: todo
+      status: done
     - title: eBPF
       file: ebpf.md
       status: done
