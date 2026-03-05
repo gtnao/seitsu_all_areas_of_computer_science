@@ -488,7 +488,7 @@ distributed-systems:
       status: done
     - title: Raft の実装における実務的課題（ログコンパクション, スナップショット, Pre-Vote）
       file: raft-implementation-challenges.md
-      status: todo
+      status: done
     - title: Kafka の内部設計（ログセグメント, ISR, Consumer Groupリバランシング）
       file: kafka-internals.md
       status: done

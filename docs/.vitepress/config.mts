@@ -220,6 +220,7 @@ export default withMermaid(
           items: [
             { text: "Paxos", link: "/paxos" },
             { text: "Raftコンセンサス", link: "/raft-consensus" },
+            { text: "Raft の実装上の課題", link: "/raft-implementation-challenges" },
           ],
         },
         {
