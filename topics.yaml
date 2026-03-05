@@ -200,7 +200,7 @@ operating-systems:
       status: done
     - title: ext4ファイルシステム
       file: ext4.md
-      status: todo
+      status: done
     - title: コピーオンライトファイルシステム（ZFS, Btrfs）
       file: cow-filesystem.md
       status: done
@@ -214,10 +214,10 @@ operating-systems:
       status: done
     - title: Linux ネットワークスタック
       file: linux-network-stack.md
-      status: todo
+      status: done
     - title: ゼロコピーI/O（sendfile, splice）
       file: zero-copy-io.md
-      status: todo
+      status: done
 
 # =============================================================================
 # コンピュータネットワーク
@@ -337,10 +337,10 @@ databases:
       status: done
     - title: 2PL（Two-Phase Locking）
       file: two-phase-locking.md
-      status: todo
+      status: done
     - title: デッドロック検出と回避
       file: deadlock.md
-      status: todo
+      status: done
     - title: データベースのコスト推定と統計情報（カーディナリティ推定, ヒストグラム, ANALYZE）
       file: query-cost-estimation.md
       status: done
@@ -351,7 +351,7 @@ databases:
       status: done
     - title: クエリ実行エンジン（Volcano Model, Vectorized）
       file: query-execution.md
-      status: todo
+      status: done
     - title: インデックス設計戦略
       file: index-design.md
       status: done

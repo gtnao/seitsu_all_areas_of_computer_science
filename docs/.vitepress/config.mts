@@ -161,6 +161,8 @@ export default withMermaid(
             { text: "ACID特性とトランザクション", link: "/acid-transactions" },
             { text: "MVCC（Multi-Version Concurrency Control）", link: "/mvcc" },
             { text: "トランザクション分離レベル", link: "/isolation-levels" },
+            { text: "2相ロック（2PL）", link: "/two-phase-locking" },
+            { text: "デッドロック", link: "/deadlock" },
           ],
         },
         {
@@ -169,6 +171,7 @@ export default withMermaid(
             { text: "クエリオプティマイザ", link: "/query-optimizer" },
             { text: "インデックス設計戦略", link: "/index-design" },
             { text: "クエリコスト推定の仕組み", link: "/query-cost-estimation" },
+            { text: "クエリ実行エンジン", link: "/query-execution" },
           ],
         },
         {
@@ -517,6 +520,8 @@ export default withMermaid(
           text: "I/Oとネットワークスタック",
           items: [
             { text: "I/O多重化（epoll, kqueue, io_uring）", link: "/io-multiplexing" },
+            { text: "Linuxネットワークスタック", link: "/linux-network-stack" },
+            { text: "ゼロコピーI/O", link: "/zero-copy-io" },
           ],
         },
         {
@@ -563,6 +568,7 @@ export default withMermaid(
             { text: "VFS（仮想ファイルシステム）", link: "/vfs" },
             { text: "コピーオンライトファイルシステム（ZFS, Btrfs）", link: "/cow-filesystem" },
             { text: "ジャーナリング", link: "/journaling" },
+            { text: "ext4ファイルシステム", link: "/ext4" },
           ],
         },
         {
