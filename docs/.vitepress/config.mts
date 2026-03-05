@@ -168,6 +168,7 @@ export default withMermaid(
           items: [
             { text: "クエリオプティマイザ", link: "/query-optimizer" },
             { text: "インデックス設計戦略", link: "/index-design" },
+            { text: "クエリコスト推定の仕組み", link: "/query-cost-estimation" },
           ],
         },
         {

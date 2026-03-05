@@ -343,7 +343,7 @@ databases:
       status: todo
     - title: データベースのコスト推定と統計情報（カーディナリティ推定, ヒストグラム, ANALYZE）
       file: query-cost-estimation.md
-      status: todo
+      status: done
 
   クエリ処理:
     - title: クエリオプティマイザ
