@@ -201,6 +201,7 @@ export default withMermaid(
             { text: "マルチテナントデータベース設計", link: "/multi-tenant-db" },
             { text: "全文検索の実装戦略", link: "/full-text-search-implementation" },
             { text: "データベースプロキシ", link: "/database-proxy" },
+            { text: "正規化と非正規化のトレードオフ", link: "/normalization-denormalization" },
           ],
         },
         {

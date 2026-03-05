@@ -405,7 +405,7 @@ databases:
       status: done
     - title: データの正規化と非正規化のトレードオフ
       file: normalization-denormalization.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 分散システム
