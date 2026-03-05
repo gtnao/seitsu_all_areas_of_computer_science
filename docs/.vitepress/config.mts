@@ -783,6 +783,7 @@ export default withMermaid(
             { text: "Server-Sent Events（SSE）", link: "/server-sent-events" },
             { text: "セキュリティヘッダー総合ガイド", link: "/security-headers" },
             { text: "Unicodeとテキスト処理", link: "/unicode-text-processing" },
+            { text: "JavaScriptの非同期モデル", link: "/js-async-model" },
           ],
         },
         {

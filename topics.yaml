@@ -1182,7 +1182,7 @@ web-fundamentals:
       status: todo
     - title: JavaScript の非同期処理モデル（マイクロタスク, マクロタスク, イベントループ詳細）
       file: js-async-model.md
-      status: todo
+      status: done
     - title: ブラウザのネットワーク最適化（preconnect, prefetch, Priority Hints, Early Hints 103）
       file: browser-network-optimization.md
       status: todo
