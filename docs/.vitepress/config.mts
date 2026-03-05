@@ -633,6 +633,7 @@ export default withMermaid(
           text: "クラウドインフラ運用",
           items: [
             { text: "イミュータブルインフラストラクチャ", link: "/immutable-infrastructure" },
+            { text: "コンテナオブザーバビリティパイプライン", link: "/container-observability-pipeline" },
           ],
         },
         {

@@ -834,7 +834,7 @@ cloud-computing:
   可観測性基盤:
     - title: コンテナのログ・メトリクス収集パイプライン（Prometheus, Grafana, Loki）
       file: container-observability-pipeline.md
-      status: todo
+      status: done
 
 # =============================================================================
 # 仮想化
