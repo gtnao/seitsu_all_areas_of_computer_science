@@ -940,18 +940,18 @@ algorithms:
       status: done
     - title: 乱択アルゴリズム
       file: randomized-algorithms.md
-      status: todo
+      status: done
     - title: 近似アルゴリズム
       file: approximation-algorithms.md
-      status: todo
+      status: done
 
   文字列アルゴリズム:
     - title: 文字列照合（KMP, Rabin-Karp, Aho-Corasick）
       file: string-matching.md
-      status: todo
+      status: done
     - title: Suffix Array と Suffix Tree
       file: suffix-structures.md
-      status: todo
+      status: done
 
   数値表現:
     - title: 浮動小数点数の落とし穴（IEEE 754, 丸め誤差, 金額計算）
@@ -981,10 +981,10 @@ computer-architecture:
       status: done
     - title: アウトオブオーダー実行とスーパースカラ
       file: out-of-order-execution.md
-      status: todo
+      status: done
     - title: 分岐予測
       file: branch-prediction.md
-      status: todo
+      status: done
     - title: RISC vs CISC — ISAの設計思想
       file: risc-cisc.md
       status: todo

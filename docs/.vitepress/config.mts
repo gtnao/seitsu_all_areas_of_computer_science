@@ -400,6 +400,8 @@ export default withMermaid(
             { text: "動的計画法", link: "/dynamic-programming" },
             { text: "分割統治法", link: "/divide-and-conquer" },
             { text: "貪欲法", link: "/greedy-algorithms" },
+            { text: "乱択アルゴリズム", link: "/randomized-algorithms" },
+            { text: "近似アルゴリズム", link: "/approximation-algorithms" },
           ],
         },
         {
@@ -409,6 +411,8 @@ export default withMermaid(
             { text: "HyperLogLog — 基数推定の仕組み", link: "/hyperloglog" },
             { text: "Count-Min Sketch と頻度推定", link: "/count-min-sketch" },
             { text: "空間インデックスの設計", link: "/spatial-index" },
+            { text: "文字列マッチング", link: "/string-matching" },
+            { text: "接尾辞配列と接尾辞木", link: "/suffix-structures" },
           ],
         },
         {
@@ -607,6 +611,8 @@ export default withMermaid(
           text: "CPUパイプライン",
           items: [
             { text: "命令パイプラインとハザード", link: "/cpu-pipeline" },
+            { text: "アウトオブオーダー実行", link: "/out-of-order-execution" },
+            { text: "分岐予測", link: "/branch-prediction" },
           ],
         },
         {
