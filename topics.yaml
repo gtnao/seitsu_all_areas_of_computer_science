@@ -898,7 +898,7 @@ algorithms:
       status: done
     - title: Trie（Prefix Tree）とRadix Tree
       file: trie.md
-      status: todo
+      status: done
 
   ソートと探索:
     - title: 比較ソートの理論と実践（QuickSort, MergeSort, TimSort）
@@ -909,7 +909,7 @@ algorithms:
       status: done
     - title: 二分探索とその応用
       file: binary-search.md
-      status: todo
+      status: done
 
   グラフアルゴリズム:
     - title: グラフ探索（BFS, DFS）と応用
@@ -920,13 +920,13 @@ algorithms:
       status: done
     - title: 最小全域木（Kruskal, Prim）
       file: minimum-spanning-tree.md
-      status: todo
+      status: done
     - title: トポロジカルソートと強連結成分
       file: topological-sort-scc.md
-      status: todo
+      status: done
     - title: ネットワークフロー（Ford-Fulkerson, 最大二部マッチング）
       file: network-flow.md
-      status: todo
+      status: done
 
   アルゴリズム設計手法:
     - title: 動的計画法
@@ -934,7 +934,7 @@ algorithms:
       status: done
     - title: 貪欲法と Matroid
       file: greedy-algorithms.md
-      status: todo
+      status: done
     - title: 分割統治法
       file: divide-and-conquer.md
       status: done

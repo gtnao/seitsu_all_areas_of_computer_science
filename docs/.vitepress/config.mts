@@ -373,6 +373,7 @@ export default withMermaid(
             { text: "赤黒木とAVL木 — 平衡二分探索木", link: "/balanced-bst" },
             { text: "Skip List", link: "/skip-list" },
             { text: "Bloom Filter と確率的データ構造", link: "/bloom-filter" },
+            { text: "Trie（トライ木）", link: "/trie" },
           ],
         },
         {
@@ -380,6 +381,7 @@ export default withMermaid(
           items: [
             { text: "比較ソートの理論と実践（QuickSort, MergeSort, TimSort）", link: "/sorting" },
             { text: "非比較ソート（Radix Sort, Counting Sort）", link: "/non-comparison-sort" },
+            { text: "二分探索の応用と実装テクニック", link: "/binary-search" },
           ],
         },
         {
@@ -387,6 +389,9 @@ export default withMermaid(
           items: [
             { text: "グラフ探索（BFS, DFS）と応用", link: "/graph-traversal" },
             { text: "最短経路（Dijkstra, Bellman-Ford, A*）", link: "/shortest-path" },
+            { text: "最小全域木（Kruskal, Prim）", link: "/minimum-spanning-tree" },
+            { text: "トポロジカルソートとSCC", link: "/topological-sort-scc" },
+            { text: "ネットワークフロー", link: "/network-flow" },
           ],
         },
         {
@@ -394,6 +399,7 @@ export default withMermaid(
           items: [
             { text: "動的計画法", link: "/dynamic-programming" },
             { text: "分割統治法", link: "/divide-and-conquer" },
+            { text: "貪欲法", link: "/greedy-algorithms" },
           ],
         },
         {
