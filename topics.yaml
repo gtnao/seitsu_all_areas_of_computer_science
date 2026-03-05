@@ -787,10 +787,10 @@ cloud-computing:
       status: done
     - title: マルチテナンシーの設計
       file: multi-tenancy.md
-      status: todo
+      status: done
     - title: オートスケーリング
       file: autoscaling.md
-      status: todo
+      status: done
 
   コンテナオーケストレーション:
     - title: Kubernetesアーキテクチャ
@@ -801,7 +801,7 @@ cloud-computing:
       status: done
     - title: Helmとマニフェスト管理
       file: helm.md
-      status: todo
+      status: done
     - title: Kubernetes Networking（CNI, Service, Ingress）
       file: kubernetes-networking.md
       status: done
@@ -818,15 +818,15 @@ cloud-computing:
       status: done
     - title: コールドスタート問題と最適化
       file: cold-start.md
-      status: todo
+      status: done
 
   Infrastructure as Code:
     - title: Infrastructure as Code（Terraform, Pulumi）
       file: iac.md
-      status: todo
+      status: done
     - title: GitOps（Argo CD, Flux）
       file: gitops.md
-      status: todo
+      status: done
     - title: Immutable Infrastructure
       file: immutable-infrastructure.md
       status: done

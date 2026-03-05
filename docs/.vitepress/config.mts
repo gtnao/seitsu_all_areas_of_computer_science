@@ -636,6 +636,7 @@ export default withMermaid(
           items: [
             { text: "Kubernetesアーキテクチャ", link: "/kubernetes-architecture" },
             { text: "Kubernetes スケジューリング", link: "/kubernetes-scheduling" },
+            { text: "Helmとマニフェスト管理", link: "/helm" },
             { text: "Kubernetes Networking", link: "/kubernetes-networking" },
             { text: "コンテナリソース管理", link: "/container-resource-management" },
           ],
@@ -650,12 +651,15 @@ export default withMermaid(
           text: "サーバーレスとFaaS",
           items: [
             { text: "サーバーレスアーキテクチャ（Lambda, Cloud Functions）", link: "/serverless" },
+            { text: "コールドスタート問題と最適化", link: "/cold-start" },
           ],
         },
         {
           text: "クラウドインフラサービス",
           items: [
             { text: "クラウドサービスモデル（IaaS, PaaS, SaaS）", link: "/cloud-service-models" },
+            { text: "マルチテナンシーの設計", link: "/multi-tenancy" },
+            { text: "オートスケーリング", link: "/autoscaling" },
             { text: "IaaSコンピュートの設計（EC2, GCE）", link: "/iaas-compute" },
             { text: "マネージドコンテナサービス（ECS, Cloud Run, Fargate）", link: "/managed-containers" },
             { text: "マネージドデータベースサービス（RDS, Cloud SQL, Aurora）", link: "/managed-database" },
@@ -673,6 +677,8 @@ export default withMermaid(
             { text: "イミュータブルインフラストラクチャ", link: "/immutable-infrastructure" },
             { text: "コンテナオブザーバビリティパイプライン", link: "/container-observability-pipeline" },
             { text: "オブザーバビリティ", link: "/observability" },
+            { text: "Infrastructure as Code", link: "/iac" },
+            { text: "GitOps（Argo CD, Flux）", link: "/gitops" },
           ],
         },
         {
