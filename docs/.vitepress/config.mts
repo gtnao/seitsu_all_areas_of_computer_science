@@ -608,6 +608,13 @@ export default withMermaid(
           ],
         },
         {
+          text: "命令セットアーキテクチャ",
+          items: [
+            { text: "RISC vs CISC", link: "/risc-cisc" },
+            { text: "RISC-V", link: "/risc-v" },
+          ],
+        },
+        {
           text: "CPUパイプライン",
           items: [
             { text: "命令パイプラインとハザード", link: "/cpu-pipeline" },
@@ -620,6 +627,8 @@ export default withMermaid(
           items: [
             { text: "CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）", link: "/cpu-cache" },
             { text: "NUMAアーキテクチャ", link: "/numa" },
+            { text: "DRAMとメモリ技術", link: "/dram" },
+            { text: "CXL（Compute Express Link）", link: "/cxl" },
           ],
         },
         {
@@ -627,6 +636,7 @@ export default withMermaid(
           items: [
             { text: "GPUアーキテクチャ（CUDA, 計算モデル）", link: "/gpu-architecture" },
             { text: "FPGA と再構成可能コンピューティング", link: "/fpga" },
+            { text: "SIMD命令セット", link: "/simd" },
           ],
         },
         {
@@ -760,6 +770,7 @@ export default withMermaid(
         {
           text: "構文解析",
           items: [
+            { text: "文脈自由文法と言語の階層", link: "/context-free-grammar" },
             { text: "文脈自由文法とパーサ（LL法, LR法, PEG）", link: "/parsing-techniques" },
             { text: "抽象構文木（AST）の設計と応用", link: "/abstract-syntax-tree" },
           ],

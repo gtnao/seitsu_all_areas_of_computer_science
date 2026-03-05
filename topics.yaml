@@ -987,10 +987,10 @@ computer-architecture:
       status: done
     - title: RISC vs CISC — ISAの設計思想
       file: risc-cisc.md
-      status: todo
+      status: done
     - title: RISC-V — オープンな命令セットアーキテクチャ
       file: risc-v.md
-      status: todo
+      status: done
 
   メモリ階層:
     - title: CPUキャッシュ（L1/L2/L3、キャッシュコヒーレンス）
@@ -998,18 +998,18 @@ computer-architecture:
       status: done
     - title: DRAM とメモリコントローラ
       file: dram.md
-      status: todo
+      status: done
     - title: NUMAアーキテクチャ
       file: numa.md
       status: done
     - title: CXL（Compute Express Link）
       file: cxl.md
-      status: todo
+      status: done
 
   並列処理ハードウェア:
     - title: SIMD / ベクトル演算
       file: simd.md
-      status: todo
+      status: done
     - title: GPUアーキテクチャ（CUDA, 計算モデル）
       file: gpu-architecture.md
       status: done
@@ -1027,7 +1027,7 @@ theory-of-computation:
       status: done
     - title: 文脈自由文法とプッシュダウンオートマトン
       file: context-free-grammar.md
-      status: todo
+      status: done
     - title: チューリングマシンと計算可能性
       file: turing-machine.md
       status: todo

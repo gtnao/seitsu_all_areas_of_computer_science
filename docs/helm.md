@@ -223,6 +223,8 @@ graph TD
 
 Helm のテンプレートエンジンは Go の `text/template` パッケージをベースにしている。加えて、**Sprig** ライブラリが提供する 70 以上のユーティリティ関数が利用可能だ。テンプレートの基本的な構文を以下に示す。
 
+<div v-pre>
+
 ```yaml
 # templates/deployment.yaml
 apiVersion: apps/v1
@@ -264,6 +266,8 @@ spec:
           {{- end }}
 ```
 
+</div>
+
 テンプレート内で利用できる主要なオブジェクトは以下のとおりだ。
 
 | オブジェクト | 説明 |
@@ -278,6 +282,8 @@ spec:
 ### 4.2 ヘルパーテンプレート（_helpers.tpl）
 
 `_helpers.tpl` は命名規約に過ぎず、ファイル名の先頭が `_` であるファイルは Kubernetes マニフェストとしてレンダリングされない。ここに共通のテンプレートスニペットを定義する。
+
+<div v-pre>
 
 ```yaml
 # templates/_helpers.tpl
@@ -327,6 +333,8 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 ```
 
+</div>
+
 `helm create` コマンドで生成されるスキャフォールドには、これらのヘルパーが自動的に含まれる。`mychart.fullname` のようなヘルパーが `trunc 63` を行っているのは、Kubernetes のリソース名が RFC 1123 に基づき 63 文字に制限されているためだ。
 
 ### 4.3 制御構造
@@ -334,6 +342,8 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 Go テンプレートは、条件分岐、ループ、スコープ制御といった制御構造を提供する。
 
 **条件分岐（if / else）**:
+
+<div v-pre>
 
 ```yaml
 {{- if .Values.ingress.enabled }}
@@ -374,6 +384,8 @@ spec:
 {{- end }}
 ```
 
+</div>
+
 **ループ（range）**: `range` は配列やマップに対してイテレーションを行う。上の例では `.Values.ingress.hosts` と `.paths` に対して二重ループが使われている。`range` のブロック内ではコンテキスト `.` がイテレーション中の要素を指すため、Chart レベルの値にアクセスするには `$`（ルートコンテキスト）を使う必要がある。
 
 **スコープ制御（with）**: `with` は `.` のスコープを指定したオブジェクトに変更する。値が空でないときだけブロックを実行するという条件分岐の役割も兼ねる。
@@ -382,15 +394,17 @@ spec:
 
 YAML はインデントに敏感なフォーマットであるため、テンプレートの空白制御は極めて重要だ。Helm テンプレートでは以下のテクニックが頻用される。
 
-- **`{{-` と `-}}`**: ハイフン付きのデリミタで前後の空白を除去する。`{{-` は前方の空白を、`-}}` は後方の空白を削除する。
+- **<code v-pre>{{-</code> と <code v-pre>-}}</code>**: ハイフン付きのデリミタで前後の空白を除去する。<code v-pre>{{-</code> は前方の空白を、<code v-pre>-}}</code> は後方の空白を削除する。
 - **`nindent N`**: 改行を挿入した後、N 文字分のインデントを付与する。`indent` は改行なしのインデントだ。
-- **パイプライン**: `|` でテンプレート関数をチェーンする。`{{ .Values.config | toYaml | nindent 4 }}` のように、値を YAML 文字列に変換してからインデントを適用するパターンが頻出する。
+- **パイプライン**: `|` でテンプレート関数をチェーンする。<code v-pre>{{ .Values.config | toYaml | nindent 4 }}</code> のように、値を YAML 文字列に変換してからインデントを適用するパターンが頻出する。
 
 空白制御のミスは、有効な YAML を生成できず `helm template` やインストール時にエラーとなる最も一般的な原因だ。テンプレートを書いたら `helm template` でレンダリング結果を確認する習慣が不可欠である。
 
 ### 4.5 lookup 関数とクラスタの状態参照
 
 Helm v3 では `lookup` 関数を使って、テンプレートレンダリング時にクラスタ内の既存リソースを参照できる。
+
+<div v-pre>
 
 ```yaml
 {{- $secret := lookup "v1" "Secret" .Release.Namespace "my-existing-secret" }}
@@ -402,6 +416,8 @@ secretName: my-existing-secret
 secretName: {{ include "mychart.fullname" . }}-secret
 {{- end }}
 ```
+
+</div>
 
 ただし、`helm template` コマンド（ローカルレンダリング）では `lookup` は常に空のオブジェクトを返す。CI/CD パイプラインで `helm template` を使う場合はこの挙動に注意が必要だ。
 
@@ -474,7 +490,7 @@ autoscaling:
 
 **enabled パターン**: オプショナルなリソース（Ingress、HPA、PDB など）は `enabled: false` をデフォルトにし、明示的に有効化する方式が標準的だ。
 
-**空オブジェクトのデフォルト**: annotations や labels のようなマップ型のフィールドは、空マップ `{}` をデフォルトにする。テンプレート側で `{{- with .Values.podAnnotations }}` を使えば、空のときはブロックごとスキップされる。
+**空オブジェクトのデフォルト**: annotations や labels のようなマップ型のフィールドは、空マップ `{}` をデフォルトにする。テンプレート側で <code v-pre>{{- with .Values.podAnnotations }}</code> を使えば、空のときはブロックごとスキップされる。
 
 **コメントによるドキュメント化**: values.yaml 内の各パラメータにはコメントで説明を記述する。`helm-docs` のようなツールを使うと、コメントから自動的にドキュメントを生成できる。
 
@@ -685,6 +701,8 @@ helm upgrade --install my-release ./mychart \
 
 Helm はリリースのライフサイクルにフックを挿入する仕組みを提供する。フックは annotation で定義された通常の Kubernetes リソース（主に Job や Pod）だ。
 
+<div v-pre>
+
 ```yaml
 # templates/post-upgrade-job.yaml
 apiVersion: batch/v1
@@ -704,6 +722,8 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           command: ["./migrate", "up"]
 ```
+
+</div>
 
 利用可能なフックポイントは以下のとおりだ。
 
@@ -812,7 +832,9 @@ commonLabels:
 
 ### 8.1 リソース命名規約
 
-Helm の公式ドキュメントでは、リソース名に `{{ include "mychart.fullname" . }}` を使うことが推奨されている。この名前はリリース名と Chart 名の組み合わせから生成され、同一 Namespace 内で複数のリリースが衝突しない命名を保証する。
+Helm の公式ドキュメントでは、リソース名に <code v-pre>{{ include "mychart.fullname" . }}</code> を使うことが推奨されている。この名前はリリース名と Chart 名の組み合わせから生成され、同一 Namespace 内で複数のリリースが衝突しない命名を保証する。
+
+<div v-pre>
 
 ```yaml
 # Good: uses fullname helper
@@ -824,9 +846,13 @@ metadata:
   name: my-app
 ```
 
+</div>
+
 ### 8.2 ラベル体系
 
 Kubernetes の推奨ラベル体系に従い、すべてのリソースに一貫したラベルを付与する。
+
+<div v-pre>
 
 ```yaml
 # Recommended labels
@@ -840,11 +866,15 @@ labels:
   helm.sh/chart: {{ include "mychart.chart" . }}
 ```
 
+</div>
+
 `app.kubernetes.io/name` と `app.kubernetes.io/instance` は **セレクターラベル** として使い、これらは Deployment 作成後に変更できない。その他のラベルはメタデータラベルとして、リソースの識別やフィルタリングに使用する。
 
 ### 8.3 セキュリティのデフォルト
 
 Chart はセキュアなデフォルトを提供すべきだ。
+
+<div v-pre>
 
 ```yaml
 # templates/deployment.yaml (security defaults)
@@ -867,6 +897,8 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
 ```
 
+</div>
+
 - **`runAsNonRoot: true`**: root ユーザーでのコンテナ実行を禁止する
 - **`readOnlyRootFilesystem: true`**: コンテナのルートファイルシステムを読み取り専用にする
 - **`allowPrivilegeEscalation: false`**: 権限昇格を禁止する
@@ -876,6 +908,8 @@ spec:
 ### 8.4 テスト
 
 Helm Chart にはテストを含めることができる。テストは `templates/tests/` ディレクトリに配置し、`helm.sh/hook: test` アノテーションを持つ Pod として定義する。
+
+<div v-pre>
 
 ```yaml
 # templates/tests/test-connection.yaml
@@ -895,6 +929,8 @@ spec:
       args: ['{{ include "mychart.fullname" . }}:{{ .Values.service.port }}']
   restartPolicy: Never
 ```
+
+</div>
 
 ```bash
 # Run tests after deployment
@@ -938,6 +974,8 @@ Chart のバージョンは **Semantic Versioning (SemVer)** に従う。
 
 `templates/NOTES.txt` はインストール後にユーザーに表示されるメッセージを定義する。アプリケーションへのアクセス方法、初期設定の手順、注意事項などを記載する。
 
+<div v-pre>
+
 ```
 {{- if .Values.ingress.enabled }}
 Application is available at:
@@ -955,6 +993,8 @@ Get the application URL by running:
   echo "Visit http://127.0.0.1:8080"
 {{- end }}
 ```
+
+</div>
 
 ---
 
