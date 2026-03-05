@@ -528,12 +528,17 @@ export default withMermaid(
           text: "I/Oスタックとキャッシュ",
           items: [
             { text: "Linux I/O スタック", link: "/linux-io-stack" },
+            { text: "ページキャッシュとダイレクトI/O", link: "/page-cache" },
+            { text: "I/Oスケジューラ", link: "/io-scheduler" },
+            { text: "io_uring — 次世代の非同期I/O", link: "/io-uring" },
           ],
         },
         {
           text: "分散ストレージ",
           items: [
             { text: "分散ファイルシステム（HDFS, Ceph, GlusterFS）", link: "/distributed-filesystem" },
+            { text: "オブジェクトストレージ", link: "/object-storage" },
+            { text: "ストレージの階層化とティアリング", link: "/storage-tiering" },
           ],
         },
         {
@@ -650,6 +655,7 @@ export default withMermaid(
         {
           text: "クラウドインフラサービス",
           items: [
+            { text: "クラウドサービスモデル（IaaS, PaaS, SaaS）", link: "/cloud-service-models" },
             { text: "IaaSコンピュートの設計（EC2, GCE）", link: "/iaas-compute" },
             { text: "マネージドコンテナサービス（ECS, Cloud Run, Fargate）", link: "/managed-containers" },
             { text: "マネージドデータベースサービス（RDS, Cloud SQL, Aurora）", link: "/managed-database" },

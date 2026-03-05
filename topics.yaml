@@ -758,13 +758,13 @@ storage-io:
       status: done
     - title: ページキャッシュとダイレクトI/O
       file: page-cache.md
-      status: todo
+      status: done
     - title: I/Oスケジューラ（mq-deadline, BFQ, none）
       file: io-scheduler.md
-      status: todo
+      status: done
     - title: io_uring — 次世代の非同期I/O
       file: io-uring.md
-      status: todo
+      status: done
 
   分散ストレージ:
     - title: 分散ファイルシステム（HDFS, Ceph, GlusterFS）
@@ -772,10 +772,10 @@ storage-io:
       status: done
     - title: オブジェクトストレージ（S3, MinIO）
       file: object-storage.md
-      status: todo
+      status: done
     - title: ストレージの階層化とティアリング
       file: storage-tiering.md
-      status: todo
+      status: done
 
 # =============================================================================
 # クラウドコンピューティング
@@ -784,7 +784,7 @@ cloud-computing:
   クラウドの基礎:
     - title: IaaS, PaaS, SaaS — クラウドサービスモデル
       file: cloud-service-models.md
-      status: todo
+      status: done
     - title: マルチテナンシーの設計
       file: multi-tenancy.md
       status: todo
