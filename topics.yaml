@@ -710,7 +710,7 @@ concurrency:
       status: done
     - title: Hazard Pointer と EBR（Epoch-Based Reclamation）
       file: hazard-pointer-ebr.md
-      status: todo
+      status: done
 
   並行プログラミングモデル:
     - title: アクターモデル（Erlang/OTP, Akka）
@@ -718,10 +718,10 @@ concurrency:
       status: done
     - title: CSP（Communicating Sequential Processes）とGoのgoroutine
       file: csp.md
-      status: todo
+      status: done
     - title: データ並列処理（SIMD, GPU, MapReduce）
       file: data-parallelism.md
-      status: todo
+      status: done
     - title: Fork-Join モデルとワークスティーリング
       file: fork-join.md
       status: done
@@ -744,13 +744,13 @@ storage-io:
       status: done
     - title: NVMe と ストレージインターフェース
       file: nvme.md
-      status: todo
+      status: done
     - title: RAID — 冗長化と性能
       file: raid.md
-      status: todo
+      status: done
     - title: 永続メモリ（Intel Optane, CXL）
       file: persistent-memory.md
-      status: todo
+      status: done
 
   I/Oスタックとキャッシュ:
     - title: Linux I/O スタック

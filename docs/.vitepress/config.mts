@@ -313,6 +313,7 @@ export default withMermaid(
           items: [
             { text: "ロックフリーデータ構造（キュー, スタック, リスト）", link: "/lock-free-data-structures" },
             { text: "CASとアトミック操作", link: "/cas-atomics" },
+            { text: "Hazard Pointer と EBR", link: "/hazard-pointer-ebr" },
           ],
         },
         {
@@ -320,6 +321,8 @@ export default withMermaid(
           items: [
             { text: "アクターモデル（Erlang/OTP, Akka）", link: "/actor-model" },
             { text: "Fork-Joinモデルとワークスティーリング", link: "/fork-join" },
+            { text: "CSP と Go の goroutine", link: "/csp" },
+            { text: "データ並列処理", link: "/data-parallelism" },
           ],
         },
         {
@@ -516,6 +519,9 @@ export default withMermaid(
           text: "ストレージデバイス",
           items: [
             { text: "SSD内部（FTL, ウェアレベリング, TRIM）", link: "/ssd-internals" },
+            { text: "NVMe とストレージインターフェース", link: "/nvme" },
+            { text: "RAID — 冗長化と性能", link: "/raid" },
+            { text: "永続メモリ", link: "/persistent-memory" },
           ],
         },
         {
