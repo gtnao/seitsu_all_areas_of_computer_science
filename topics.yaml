@@ -849,10 +849,10 @@ virtualization:
       status: done
     - title: 仮想マシンのメモリ管理（EPT, バルーニング）
       file: vm-memory.md
-      status: todo
+      status: done
     - title: SR-IOVとI/O仮想化
       file: sriov.md
-      status: todo
+      status: done
 
   コンテナ技術:
     - title: Linuxコンテナの基盤（Namespace, cgroups）
@@ -863,7 +863,7 @@ virtualization:
       status: done
     - title: OCIイメージ仕様
       file: oci-image.md
-      status: todo
+      status: done
 
   軽量仮想化:
     - title: マイクロVM（Firecracker, Cloud Hypervisor）
@@ -871,10 +871,10 @@ virtualization:
       status: done
     - title: gVisor — ユーザー空間カーネルによる隔離
       file: gvisor.md
-      status: todo
+      status: done
     - title: Unikernel
       file: unikernel.md
-      status: todo
+      status: done
 
 # =============================================================================
 # アルゴリズムとデータ構造
@@ -892,7 +892,7 @@ algorithms:
       status: done
     - title: Skip List
       file: skip-list.md
-      status: todo
+      status: done
     - title: Bloom Filter と確率的データ構造
       file: bloom-filter.md
       status: done

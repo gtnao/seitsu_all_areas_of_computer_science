@@ -371,6 +371,7 @@ export default withMermaid(
             { text: "ハッシュテーブル — 衝突解決とリサイズ戦略", link: "/hash-table" },
             { text: "B-Tree / B+Tree — ディスク指向のデータ構造", link: "/b-tree-data-structure" },
             { text: "赤黒木とAVL木 — 平衡二分探索木", link: "/balanced-bst" },
+            { text: "Skip List", link: "/skip-list" },
             { text: "Bloom Filter と確率的データ構造", link: "/bloom-filter" },
           ],
         },
@@ -621,6 +622,8 @@ export default withMermaid(
           items: [
             { text: "ハイパーバイザ（Type 1/Type 2, KVM, Xen）", link: "/hypervisor" },
             { text: "ハードウェア支援仮想化（VT-x, AMD-V）", link: "/hardware-virtualization" },
+            { text: "仮想マシンのメモリ管理", link: "/vm-memory" },
+            { text: "SR-IOVとI/O仮想化", link: "/sriov" },
           ],
         },
         {
@@ -629,6 +632,7 @@ export default withMermaid(
             { text: "Linuxコンテナの基盤（Namespace, cgroups）", link: "/linux-containers" },
             { text: "コンテナランタイム（runc, crun, containerd, CRI-O）", link: "/container-runtime" },
             { text: "コンテナネットワーキングの内部", link: "/container-networking-internals" },
+            { text: "OCIイメージ仕様", link: "/oci-image" },
           ],
         },
         {
@@ -645,6 +649,8 @@ export default withMermaid(
           text: "軽量仮想化",
           items: [
             { text: "マイクロVM（Firecracker, Cloud Hypervisor）", link: "/microvm" },
+            { text: "gVisor — ユーザー空間カーネル", link: "/gvisor" },
+            { text: "Unikernel", link: "/unikernel" },
           ],
         },
         {
