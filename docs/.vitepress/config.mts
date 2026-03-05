@@ -133,12 +133,15 @@ export default withMermaid(
             { text: "Ethernet と ARP", link: "/ethernet-arp" },
             { text: "VLAN と ネットワークセグメンテーション", link: "/vlan" },
             { text: "SDN（Software-Defined Networking）", link: "/sdn" },
+            { text: "DPDK と XDP", link: "/dpdk-xdp" },
           ],
         },
         {
           text: "高レイヤーネットワーク",
           items: [
             { text: "SSH の仕組みと応用", link: "/ssh" },
+            { text: "HTTP/2 フロー制御と HPACK", link: "/http2-flow-control-hpack" },
+            { text: "WireGuard VPN", link: "/wireguard-vpn" },
           ],
         },
         {

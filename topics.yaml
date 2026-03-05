@@ -255,7 +255,7 @@ networking:
       status: done
     - title: HTTP/2 のフロー制御と HPACK 圧縮
       file: http2-flow-control-hpack.md
-      status: todo
+      status: done
     - title: DNS リゾルバの実装と最適化（再帰/反復, キャッシュ, Happy Eyeballs）
       file: dns-resolver-internals.md
       status: todo
@@ -297,12 +297,12 @@ networking:
       status: done
     - title: WireGuard と現代のVPN設計
       file: wireguard-vpn.md
-      status: todo
+      status: done
 
   高性能ネットワーク:
     - title: DPDK / XDP — カーネルバイパスの高速パケット処理
       file: dpdk-xdp.md
-      status: todo
+      status: done
 
 # =============================================================================
 # データベース
