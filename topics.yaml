@@ -86,13 +86,13 @@ security:
       status: done
     - title: WAF（Web Application Firewall）の仕組みと設計
       file: waf.md
-      status: todo
+      status: done
     - title: ログインセキュリティ（ブルートフォース対策, Credential Stuffing防止）
       file: login-security.md
-      status: todo
+      status: done
     - title: TLS パフォーマンスチューニング（セッション再開, 0-RTT, OCSP Stapling）
       file: tls-performance.md
-      status: todo
+      status: done
 
   システム・インフラセキュリティ:
     - title: ゼロトラストアーキテクチャ
