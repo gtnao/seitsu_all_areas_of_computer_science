@@ -399,7 +399,7 @@ databases:
       status: done
     - title: データベースプロキシの仕組み（PgBouncer, ProxySQL, Vitess）
       file: database-proxy.md
-      status: todo
+      status: done
     - title: 楽観的ロック vs 悲観的ロック
       file: optimistic-pessimistic-locking.md
       status: done
