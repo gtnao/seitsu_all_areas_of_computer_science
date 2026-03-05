@@ -440,7 +440,7 @@ distributed-systems:
       status: done
     - title: ZAB（ZooKeeper Atomic Broadcast）
       file: zab.md
-      status: todo
+      status: done
 
   分散データ管理:
     - title: 分散トランザクション（2PC, 3PC, Saga）
@@ -465,7 +465,7 @@ distributed-systems:
       status: done
     - title: Exactly-Once セマンティクス
       file: exactly-once.md
-      status: todo
+      status: done
 
   分散システムの実践:
     - title: 分散システムにおける障害モデル
@@ -476,7 +476,7 @@ distributed-systems:
       status: done
     - title: 分散トレーシング（OpenTelemetry）
       file: distributed-tracing.md
-      status: todo
+      status: done
     - title: 分散ロック（Redlock, etcd, ZooKeeper）
       file: distributed-lock.md
       status: done
@@ -503,13 +503,13 @@ programming-languages:
       status: done
     - title: 型推論（Hindley-Milner）
       file: type-inference.md
-      status: todo
+      status: done
     - title: ジェネリクスとパラメトリック多相
       file: generics.md
       status: done
     - title: 代数的データ型とパターンマッチ
       file: algebraic-data-types.md
-      status: todo
+      status: done
     - title: 依存型
       file: dependent-types.md
       status: done
@@ -519,7 +519,7 @@ programming-languages:
       status: done
     - title: 参照カウント（ARC, Pythonの参照カウント+GC）
       file: reference-counting.md
-      status: todo
+      status: done
     - title: 所有権と借用（Rustの所有権モデル）
       file: ownership-borrowing.md
       status: done

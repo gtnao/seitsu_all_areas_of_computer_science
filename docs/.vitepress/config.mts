@@ -230,6 +230,7 @@ export default withMermaid(
             { text: "Raftコンセンサス", link: "/raft-consensus" },
             { text: "Raft の実装上の課題", link: "/raft-implementation-challenges" },
             { text: "ビザンチン将軍問題とBFTコンセンサス", link: "/byzantine-generals" },
+            { text: "ZAB（ZooKeeper Atomic Broadcast）", link: "/zab" },
           ],
         },
         {
@@ -247,6 +248,7 @@ export default withMermaid(
             { text: "メッセージキュー（Kafka, RabbitMQ, Pulsar）", link: "/message-queue" },
             { text: "イベントソーシングとCQRS", link: "/event-sourcing-cqrs" },
             { text: "Kafka の内部設計", link: "/kafka-internals" },
+            { text: "Exactly-Once セマンティクス", link: "/exactly-once" },
           ],
         },
         {
@@ -254,6 +256,7 @@ export default withMermaid(
           items: [
             { text: "分散システムにおける障害モデル", link: "/failure-models" },
             { text: "サーキットブレーカーとリトライ戦略", link: "/circuit-breaker" },
+            { text: "分散トレーシング（OpenTelemetry）", link: "/distributed-tracing" },
             { text: "分散ロック", link: "/distributed-lock" },
             { text: "分散ID生成", link: "/distributed-id-generation" },
             { text: "Outbox パターン", link: "/outbox-pattern" },
@@ -265,6 +268,8 @@ export default withMermaid(
             { text: "型システム入門 — 静的型付けと動的型付け", link: "/type-systems" },
             { text: "ジェネリクスとパラメトリック多相", link: "/generics" },
             { text: "依存型", link: "/dependent-types" },
+            { text: "型推論（Hindley-Milner）", link: "/type-inference" },
+            { text: "代数的データ型とパターンマッチ", link: "/algebraic-data-types" },
           ],
         },
         {
@@ -273,6 +278,7 @@ export default withMermaid(
             { text: "ガベージコレクション（Mark-Sweep, 世代別GC, ZGC）", link: "/garbage-collection" },
             { text: "所有権と借用（Rustの所有権モデル）", link: "/ownership-borrowing" },
             { text: "リージョンベースメモリ管理", link: "/region-based-memory" },
+            { text: "参照カウント", link: "/reference-counting" },
           ],
         },
         {
