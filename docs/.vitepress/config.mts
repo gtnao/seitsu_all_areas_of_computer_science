@@ -142,6 +142,7 @@ export default withMermaid(
             { text: "SSH の仕組みと応用", link: "/ssh" },
             { text: "HTTP/2 フロー制御と HPACK", link: "/http2-flow-control-hpack" },
             { text: "WireGuard VPN", link: "/wireguard-vpn" },
+            { text: "DNSリゾルバの内部設計", link: "/dns-resolver-internals" },
           ],
         },
         {

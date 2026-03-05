@@ -258,7 +258,7 @@ networking:
       status: done
     - title: DNS リゾルバの実装と最適化（再帰/反復, キャッシュ, Happy Eyeballs）
       file: dns-resolver-internals.md
-      status: todo
+      status: done
     - title: gRPC と Protocol Buffers
       file: grpc.md
       status: done
