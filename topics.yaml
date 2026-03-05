@@ -539,20 +539,20 @@ programming-languages:
       status: done
     - title: メタプログラミングとマクロ
       file: metaprogramming.md
-      status: todo
+      status: done
   コンパイラとランタイム:
     - title: 字句解析と構文解析
       file: lexing-parsing.md
       status: done
     - title: 中間表現とSSA形式
       file: intermediate-representation.md
-      status: todo
+      status: done
     - title: JITコンパイル（V8, HotSpot, LuaJIT）
       file: jit-compilation.md
-      status: todo
+      status: done
     - title: LLVM アーキテクチャ
       file: llvm.md
-      status: todo
+      status: done
     - title: WebAssembly
       file: webassembly.md
       status: done
@@ -629,7 +629,7 @@ software-engineering:
       status: done
     - title: オブザーバビリティ（メトリクス, ログ, トレース）
       file: observability.md
-      status: todo
+      status: done
     - title: SRE と SLI/SLO/SLA
       file: sre.md
       status: done
@@ -701,7 +701,7 @@ concurrency:
   ロックフリーと並行データ構造:
     - title: CASとアトミック操作
       file: cas-atomics.md
-      status: todo
+      status: done
     - title: ロックフリーデータ構造（キュー, スタック, リスト）
       file: lock-free-data-structures.md
       status: done
@@ -1619,7 +1619,7 @@ compilers:
   中間表現と最適化:
     - title: 中間表現（IR）の設計（SSA形式）
       file: intermediate-representation.md
-      status: todo
+      status: done
     - title: データフロー解析
       file: dataflow-analysis.md
       status: todo
@@ -1644,7 +1644,7 @@ compilers:
       status: done
     - title: JITコンパイルの原理と実装
       file: jit-compilation.md
-      status: todo
+      status: done
     - title: インタプリタの設計（ASTウォーク, バイトコードVM）
       file: interpreter-design.md
       status: todo

@@ -287,6 +287,7 @@ export default withMermaid(
             { text: "クロージャとファーストクラス関数", link: "/closures" },
             { text: "コルーチンとasync/await", link: "/coroutines-async-await" },
             { text: "継続（Continuation）と call/cc", link: "/continuations" },
+            { text: "メタプログラミングとマクロ", link: "/metaprogramming" },
           ],
         },
         {
@@ -311,6 +312,7 @@ export default withMermaid(
           text: "ロックフリーと並行データ構造",
           items: [
             { text: "ロックフリーデータ構造（キュー, スタック, リスト）", link: "/lock-free-data-structures" },
+            { text: "CASとアトミック操作", link: "/cas-atomics" },
           ],
         },
         {
@@ -658,6 +660,7 @@ export default withMermaid(
           items: [
             { text: "イミュータブルインフラストラクチャ", link: "/immutable-infrastructure" },
             { text: "コンテナオブザーバビリティパイプライン", link: "/container-observability-pipeline" },
+            { text: "オブザーバビリティ", link: "/observability" },
           ],
         },
         {
@@ -713,6 +716,8 @@ export default withMermaid(
           text: "コンパイラとランタイム",
           items: [
             { text: "字句解析と構文解析", link: "/lexing-parsing" },
+            { text: "中間表現とSSA形式", link: "/intermediate-representation" },
+            { text: "JITコンパイル", link: "/jit-compilation" },
             { text: "WebAssembly", link: "/webassembly" },
           ],
         },
@@ -733,6 +738,7 @@ export default withMermaid(
           text: "処理系の実例と設計思想",
           items: [
             { text: "LLVMアーキテクチャ", link: "/llvm-architecture" },
+            { text: "LLVM アーキテクチャ詳解", link: "/llvm" },
           ],
         },
         {
